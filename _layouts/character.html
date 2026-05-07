@@ -27,9 +27,26 @@ layout: default
       </div>
     </header>
 
+    {% assign birthday_event = nil %}
+    {% for event in site.data.events %}
+      {% if event.type == "birthday" and event.url == page.url %}
+        {% assign birthday_event = event %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
     <section class="character-meta">
       <dl>
         {% if page.age %}<div><dt>年齢</dt><dd>{{ page.age }}</dd></div>{% endif %}
+        {% if birthday_event %}
+          {% assign birthday_parts = birthday_event.date | split: "-" %}
+          <div>
+            <dt>誕生日</dt>
+            <dd>
+              {{ birthday_parts[0] | plus: 0 }}月{{ birthday_parts[1] | plus: 0 }}日{% if birthday_event.title contains "（仮）" %}（仮）{% endif %}
+            </dd>
+          </div>
+        {% endif %}
         {% if page.height %}<div><dt>身長</dt><dd>{{ page.height }}</dd></div>{% endif %}
         {% if page.position %}<div><dt>ポジション</dt><dd>{{ page.position }}</dd></div>{% endif %}
         {% if page.weapon %}<div><dt>得意武器</dt><dd>{{ page.weapon }}</dd></div>{% endif %}

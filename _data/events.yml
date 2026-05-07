@@ -1,0 +1,168 @@
+- title: 新年総会
+  date: "01-05"
+  type: organization
+  description: 全構成員集合。前年の任務評価・昇格発表・配置再編が行われる。
+
+- title: 調の誕生日
+  date: "01-16"
+  type: birthday
+  character: shirabe
+  character_name: 烏丸 調
+  url: /characters/shirabe/
+  description: 通常任務日。調のロッカーが毎年女子構成員からのプレゼントで埋まる。
+
+- title: 基礎座学総復習試験
+  date: "01-22"
+  type: organization
+  description: 薬学・物理・戦術・心理の筆記と口頭試験。成績不振者には一週間の補講への参加が義務付けられる。
+
+- title: 尋問耐性試験（模擬）
+  date: "02-10"
+  type: organization
+  description: 精神・疲労耐久テスト。脱落者は即再教育。
+
+- title: 雪中サバイバル試験
+  date: "02-21"
+  type: organization
+  description: 3F訓練場C区画で極寒地区の環境を再現し、最低限の装備のみで一定時間生存する試験。
+
+- title: 天城の誕生日
+  date: "02-27"
+  type: birthday
+  character: amagi
+  character_name: 天城 惺
+  url: /characters/amagi/
+  description: 天城惺の誕生日。
+
+- title: 失敗事例解剖会
+  date: "03-15"
+  type: organization
+  description: 過去のミスを徹底分析する会議。通称「黒歴史発表会」。
+
+- title: 他部署実習日
+  date: "04-14"
+  type: organization
+  description: 暗殺担当の構成員が一日限定で別部署へ配属される職場体験型の演習。
+
+- title: 白瀬の誕生日
+  date: "04-20"
+  type: birthday
+  character: shirose
+  character_name: 白瀬 八雲
+  url: /characters/shirose/
+  description: 白瀬八雲の誕生日。
+
+- title: 即興ロールプレイ試験
+  date: "04-28"
+  type: organization
+  description: 突発的な設定で役になりきる訓練。対応力重視。
+
+- title: 灼の誕生日
+  date: "05-07"
+  type: birthday
+  character: arata
+  character_name: 鍛炭 灼
+  url: /characters/arata/
+  description: 通常任務日。妙にソワソワしている灼が目撃される。
+
+- title: 近接戦闘大会
+  date: "05-12"
+  type: organization
+  description: 素手・トレーニング用ナイフによる制圧術の総合戦。順位は評価に直結する。
+
+- title: 健康診断・適性検査
+  date: "06-06"
+  type: organization
+  description: 身体・神経・精神の総合チェック。任務制限の判断材料になる。
+
+- title: 哩の命日
+  date: "06-17"
+  type: memorial
+  character: mairu
+  character_name: 漆野 哩
+  description: 漆野浬の妹・哩の命日。浬が自室に籠もり、一人で静かに過ごす日。
+
+- title: 暗所心理耐久訓練
+  date: "06-24"
+  type: organization
+  description: 廃工場迷路区を使用した夜間限定訓練。暗闇や不確定要素の中で冷静に行動し続ける精神力を試す。
+
+- title: 高温環境適応訓練
+  date: "07-03"
+  type: organization
+  description: 3F訓練場C区画で、最低限の装備のみで一定時間生存する訓練。
+
+- title: 遠泳試験（基礎）
+  date: "07-20"
+  type: organization
+  description: 湾岸に移動し、沖合まで10km遠泳する試験。制限時間あり。
+
+- title: 橘の誕生日（仮）
+  date: "08-12"
+  type: birthday
+  character: tachibana
+  character_name: 橘 縁
+  url: /characters/tachibana/
+  description: 橘縁の誕生日。人物ファイルでは仮日付として記載されている。
+
+- title: 慰安旅行
+  date: "08-24"
+  end_date: "08-26"
+  type: organization
+  description: 黒帳構成員に年一度だけ与えられる完全オフ扱いの行事。二泊三日。
+
+- title: 狙撃技術試験
+  date: "09-03"
+  type: organization
+  description: 距離・風・時間制限ありの精密射撃試験。
+
+- title: 体育大会
+  date: "09-09"
+  type: organization
+  description: 構成員の体力向上とストレス解消を目的とした大会。競技成績は評価にも反映される。
+
+- title: 浬の誕生日
+  date: "09-20"
+  type: birthday
+  character: kairi
+  character_name: 漆野 浬
+  url: /characters/kairi/
+  description: 通常任務日。この日に治療を頼むと、手間賃がいつもより割高に請求される。
+
+- title: 黒帳結成記念日
+  date: "10-10"
+  type: organization
+  description: 黒帳の創設を祝う年に一度の記念行事。ラウンジで立食形式のパーティーが開かれる。
+
+- title: 九条の誕生日
+  date: "10-28"
+  type: birthday
+  character: kujo
+  character_name: 九条 利侍
+  url: /characters/kujo/
+  description: 九条利侍の誕生日。
+
+- title: 心理戦トーナメント
+  date: "11-01"
+  type: organization
+  description: 対話のみで相手を追い詰める勝負。ディベート大会や口喧嘩大会に発展することも多い。
+
+- title: 再教育判定日
+  date: "11-29"
+  type: organization
+  description: 成績不振者の振り分けが行われる日。
+
+- title: 年間総括
+  date: "12-12"
+  type: organization
+  description: 昇格・降格・配置決定が行われる。
+
+- title: 忘年会
+  date: "12-28"
+  type: organization
+  description: 一年の締めくくりに行われる内部行事。構成員同士が肩の力を抜いて交流する数少ない機会。
+
+- title: 大掃除
+  date: "12-30"
+  type: organization
+  description: 年末に全構成員で行う自室および施設総点検兼清掃。
