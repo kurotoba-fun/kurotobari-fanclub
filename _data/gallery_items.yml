@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/amagi/HHk2NGMaMAAUGPd.jpg"
+  title: 儚げな天城
+  tags:
+  - 天城
+  date: '2026-05-06T03:28:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051730722449412385?s=20"
+- src: "/assets/images/gallery/arata/HHk2NGNagAAe0bY.jpg"
+  title: 儚げな灼
+  tags:
+  - 灼
+  date: '2026-05-06T03:28:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051730722449412385?s=20"
+- src: "/assets/images/gallery/kairi/HHk2NGMaEAAahDa.jpg"
+  title: 儚げな浬
+  tags:
+  - 浬
+  date: '2026-05-06T03:28:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051730722449412385?s=20"
+- src: "/assets/images/gallery/kujo/HHk2bEEaAAAVEL3.jpg"
+  title: 儚げな九条
+  tags:
+  - 九条
+  date: '2026-05-06T03:28:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051730722449412385?s=20"
+- src: "/assets/images/gallery/shirabe/HHk2NGOakAEKOgG.jpg"
+  title: 儚げな調
+  tags:
+  - 調
+  date: '2026-05-06T03:28:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051730722449412385?s=20"
+- src: "/assets/images/gallery/shirose/HHk2bEAbkAAx5fo.jpg"
+  title: 儚げな白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-06T03:28:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051730722449412385?s=20"
+- src: "/assets/images/gallery/susugaya/HHk2bD8aYAAdUDP.jpg"
+  title: 儚げな煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-06T03:28:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051730722449412385?s=20"
+- src: "/assets/images/gallery/tachibana/HHk2bEEbsAAQSSy.jpg"
+  title: 儚げな橘
+  tags:
+  - 橘
+  date: '2026-05-06T03:28:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051730722449412385?s=20"
 - src: "/assets/images/gallery/arata/HHkt4dbasAA164t.jpg"
   title: ほっぺぷくの副産物
   tags:
