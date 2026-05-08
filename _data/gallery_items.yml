@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/amagi/HHkosWnboAAPL0D.jpg"
+  title: ほっぺぷくの天城
+  tags:
+  - 天城
+  date: '2026-05-06T02:29:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051715888852959346?s=20"
+- src: "/assets/images/gallery/arata/HHkosWkbsAAVbZL.jpg"
+  title: ほっぺぷくの灼
+  tags:
+  - 灼
+  date: '2026-05-06T02:29:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051715888852959346?s=20"
+- src: "/assets/images/gallery/kairi/HHkosWvbMAAv7hr.jpg"
+  title: ほっぺぷくの浬
+  tags:
+  - 浬
+  date: '2026-05-06T02:29:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051715888852959346?s=20"
+- src: "/assets/images/gallery/kujo/HHkpI7UacAAKT7x.jpg"
+  title: ほっぺぷくの九条
+  tags:
+  - 九条
+  date: '2026-05-06T02:29:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051715888852959346?s=20"
+- src: "/assets/images/gallery/shirabe/HHkosWabkAE3_6g.jpg"
+  title: ほっぺぷくの調
+  tags:
+  - 調
+  date: '2026-05-06T02:29:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051715888852959346?s=20"
+- src: "/assets/images/gallery/shirose/HHkpI7ab0AAhJ17.jpg"
+  title: ほっぺぷくの白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-06T02:29:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051715888852959346?s=20"
+- src: "/assets/images/gallery/susugaya/HHkpI7RaUAA2y9B.jpg"
+  title: ほっぺぷくの煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-06T02:29:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051715888852959346?s=20"
+- src: "/assets/images/gallery/tachibana/HHkpI7UagAAwvQd.jpg"
+  title: ほっぺぷくの橘
+  tags:
+  - 橘
+  date: '2026-05-06T02:29:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051715888852959346?s=20"
 - src: "/assets/images/gallery/arata/HHkgolubcAASV16.jpg"
   title: モデル撮影の副産物灼
   tags:
