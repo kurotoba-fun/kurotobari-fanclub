@@ -1,4 +1,36 @@
 ---
+- src: "/assets/images/gallery/arata/HHkt4dbasAA164t.jpg"
+  title: ほっぺぷくの副産物
+  tags:
+  - 灼
+  - 副産物
+  date: '2026-05-06T02:51:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051721570075410917?s=20"
+- src: "/assets/images/gallery/shirabe/HHkt4ddbkAAgMR4.jpg"
+  title: ほっぺぷくの副産物
+  tags:
+  - 調
+  - 副産物
+  date: '2026-05-06T02:51:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051721570075410917?s=20"
+- src: "/assets/images/gallery/shirose/HHkt4dZboAAwF1t.jpg"
+  title: ほっぺぷくの副産物
+  tags:
+  - 白瀬
+  - 副産物
+  date: '2026-05-06T02:51:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051721570075410917?s=20"
+- src: "/assets/images/gallery/susugaya/HHkt4dYbQAE8T1Z.jpg"
+  title: ほっぺぷくの副産物
+  tags:
+  - 煤ヶ谷
+  - 副産物
+  date: '2026-05-06T02:51:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051721570075410917?s=20"
 - src: "/assets/images/gallery/amagi/HHksjEnbAAANbUR.jpg"
   title: 人魚姫天城
   tags:
