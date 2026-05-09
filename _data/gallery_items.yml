@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/amagi/HHzCdf9bgAAhJKI.jpg"
+  title: ひまわり畑と天城
+  tags:
+  - 天城
+  date: '2026-05-08T21:36:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052729355131089119?s=20"
+- src: "/assets/images/gallery/arata/HHzCdf9a8AAi1qK.jpg"
+  title: ひまわり畑と灼
+  tags:
+  - 灼
+  date: '2026-05-08T21:36:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052729355131089119?s=20"
+- src: "/assets/images/gallery/kairi/HHzCdgJbwAAoH-A.jpg"
+  title: ひまわり畑と浬
+  tags:
+  - 浬
+  date: '2026-05-08T21:36:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052729355131089119?s=20"
+- src: "/assets/images/gallery/kujo/HHzCmNbboAA-doW.jpg"
+  title: ひまわり畑と九条
+  tags:
+  - 九条
+  date: '2026-05-08T21:36:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052729355131089119?s=20"
+- src: "/assets/images/gallery/shirabe/HHzCdgMbAAA2YTQ.jpg"
+  title: ひまわり畑と調
+  tags:
+  - 調
+  date: '2026-05-08T21:36:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052729355131089119?s=20"
+- src: "/assets/images/gallery/shirose/HHzCmL5bcAArj_X.jpg"
+  title: ひまわり畑と白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-08T21:36:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052729355131089119?s=20"
+- src: "/assets/images/gallery/susugaya/HHzCmL_bIAEL6fC.jpg"
+  title: ひまわり畑と煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-08T21:36:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052729355131089119?s=20"
+- src: "/assets/images/gallery/tachibana/HHzCmL7a0AAikt2.jpg"
+  title: ひまわり畑と橘
+  tags:
+  - 橘
+  date: '2026-05-08T21:36:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052729355131089119?s=20"
 - src: "/assets/images/gallery/amagi/HHwip2cbkAA6ymX.jpg"
   title: バンド☆天城
   tags:
