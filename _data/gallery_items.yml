@@ -1,4 +1,81 @@
 ---
+- src: "/assets/images/gallery/amagi/HHv9-yCa0AAIwcz.jpg"
+  title: 地雷系☆天城
+  tags:
+  - 天城
+  date: '2026-05-08T07:19:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
+- src: "/assets/images/gallery/arata/HHv9-x4akAEIpUW.jpg"
+  title: 地雷系☆灼
+  tags:
+  - 灼
+  date: '2026-05-08T07:19:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
+- src: "/assets/images/gallery/kairi/HHv9-x9bIAAQzta.jpg"
+  title: 地雷系☆浬
+  tags:
+  - 浬
+  date: '2026-05-08T07:19:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
+- src: "/assets/images/gallery/kujo/HHv-SKSaYAALoxI.jpg"
+  title: 地雷系☆九条
+  tags:
+  - 九条
+  date: '2026-05-08T07:19:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
+- src: "/assets/images/gallery/mairu/HHv-a2-aAAAkw8O.jpg"
+  title: 地雷系☆哩
+  tags:
+  - 哩
+  date: '2026-05-08T07:19:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
+- src: "/assets/images/gallery/mairu/HHv-a4lbgAAsBdb.jpg"
+  title: 地雷系☆哩
+  tags:
+  - 哩
+  date: '2026-05-08T07:19:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
+- src: "/assets/images/gallery/shirabe/HHv9-yFbYAAjdYb.jpg"
+  title: 地雷系☆調
+  tags:
+  - 調
+  date: '2026-05-08T07:19:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
+- src: "/assets/images/gallery/shirose/HHv-SKEbUAASLuL.jpg"
+  title: 地雷系☆白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-08T07:19:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
+- src: "/assets/images/gallery/shirose/HHwAxxLbcAEIGB-.jpg"
+  title: 地雷系☆白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-08T07:19:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
+- src: "/assets/images/gallery/susugaya/HHv-SKabsAA3CdE.jpg"
+  title: 地雷系☆煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-08T07:19:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
+- src: "/assets/images/gallery/tachibana/HHv-SKHb0AAAuvD.jpg"
+  title: 地雷系☆橘
+  tags:
+  - 橘
+  date: '2026-05-08T07:19:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
 - src: "/assets/images/gallery/arata/HHq0nTVaIAAl4xt.jpg"
   title: 灼☆誕生日
   tags:
