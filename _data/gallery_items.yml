@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/amagi/HHm8nZaaUAAsnpo.jpg"
+  title: 天城とお祭り
+  tags:
+  - 天城
+  date: '2026-05-06T13:15:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051878499749966305?s=20"
+- src: "/assets/images/gallery/arata/HHm8nZcaMAAzZ-V.jpg"
+  title: 灼とお祭り
+  tags:
+  - 灼
+  date: '2026-05-06T13:15:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051878499749966305?s=20"
+- src: "/assets/images/gallery/kairi/HHm8nZYbAAAkMe-.jpg"
+  title: 浬とお祭り
+  tags:
+  - 浬
+  date: '2026-05-06T13:15:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051878499749966305?s=20"
+- src: "/assets/images/gallery/kujo/HHm831la0AA4WIj.jpg"
+  title: 九条とお祭り
+  tags:
+  - 九条
+  date: '2026-05-06T13:15:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051878499749966305?s=20"
+- src: "/assets/images/gallery/shirabe/HHm8nZaaAAAnkoI.jpg"
+  title: 調とお祭り
+  tags:
+  - 調
+  date: '2026-05-06T13:15:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051878499749966305?s=20"
+- src: "/assets/images/gallery/shirose/HHm831jbwAEVA76.jpg"
+  title: 白瀬とお祭り
+  tags:
+  - 白瀬
+  date: '2026-05-06T13:15:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051878499749966305?s=20"
+- src: "/assets/images/gallery/susugaya/HHm831jboAAKArZ.jpg"
+  title: 煤ヶ谷とお祭り
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-06T13:15:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051878499749966305?s=20"
+- src: "/assets/images/gallery/tachibana/HHm831laUAAxsn1.jpg"
+  title: 橘とお祭り
+  tags:
+  - 橘
+  date: '2026-05-06T13:15:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2051878499749966305?s=20"
 - src: "/assets/images/gallery/kairi/HHmjgvfboAAHydU.jpg"
   title: ガチャ浬
   tags:
