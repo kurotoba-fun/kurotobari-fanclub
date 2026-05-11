@@ -235,6 +235,13 @@
   sensitive: true
   thumb_position: '50% 24%'
   x_url: "https://x.com/KUROTOBA_KGM/status/2053396163991388450?s=20"
+- src: "/assets/images/gallery/arata/HH8Yqg9bIAARDMb.jpg"
+  title: パンク☆灼
+  tags:
+  - 灼
+  date: '2026-05-10T17:10:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2053387079418257894?s=20"
 - src: "/assets/images/gallery/shirabe/HH2Da8da8AElEeF.jpg"
   title: 300万トーク☆調
   tags:
