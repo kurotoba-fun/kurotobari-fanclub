@@ -1,4 +1,53 @@
 ---
+- src: "/assets/images/gallery/amagi/HIXH8rPa8AAo0H0.jpg"
+  title: 笑顔の天城
+  tags:
+  - 天城
+  date: '2026-05-15T21:46:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055268664459616467?s=20"
+- src: "/assets/images/gallery/arata/HIXH8rPbEAAbxuJ.jpg"
+  title: 笑顔の灼
+  tags:
+  - 灼
+  date: '2026-05-15T21:46:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055268664459616467?s=20"
+- src: "/assets/images/gallery/kairi/HIXH8rMaYAAW9H1.jpg"
+  title: 笑顔の浬
+  tags:
+  - 浬
+  date: '2026-05-15T21:46:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055268664459616467?s=20"
+- src: "/assets/images/gallery/kujo/HIXIMJ-awAEnA0M.jpg"
+  title: 笑顔の九条
+  tags:
+  - 九条
+  date: '2026-05-15T21:46:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055268664459616467?s=20"
+- src: "/assets/images/gallery/shirabe/HIXH8rRagAA34a8.jpg"
+  title: 笑顔の調
+  tags:
+  - 調
+  date: '2026-05-15T21:46:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055268664459616467?s=20"
+- src: "/assets/images/gallery/shirose/HIXIMLEbYAEel4l.jpg"
+  title: 笑顔の白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-15T21:46:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055268664459616467?s=20"
+- src: "/assets/images/gallery/tachibana/HIXIMJ_aEAAsRs1.jpg"
+  title: 笑顔の橘
+  tags:
+  - 橘
+  date: '2026-05-15T21:46:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055268664459616467?s=20"
 - src: "/assets/images/gallery/kujo/HIWEtzOaoAAehHF.jpg"
   title: 座りポーズの九条
   tags:
