@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/shirose/HILe0iOaIAANh8f.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-13T15:31:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2054449381685010629?s=20"
+- src: "/assets/images/gallery/kairi/HIKtVz7boAAsTZO.jpeg"
+  title: 褒めてくれる浬
+  tags:
+  - 浬
+  date: '2026-05-13T11:55:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2054394976331813283?s=20"
 - src: "/assets/images/gallery/tachibana/HIIe9NEbcAAT97C.jpg"
   title: 役者さんスイッチ入る前の橘
   tags:
@@ -20,6 +34,34 @@
   date: '2026-05-13T01:33:00+09:00'
   thumb_position: '50% 24%'
   x_url: "https://x.com/KUROTOBA_KGM/status/2054238423326884210?s=20"
+- src: "/assets/images/gallery/shirose/HIIfKxCaUAEMkB9.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-13T01:33:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2054238656995749954?s=20"
+- src: "/assets/images/gallery/shirose/HIIfKxDbgAA3HGn.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-13T01:33:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2054238656995749954?s=20"
+- src: "/assets/images/gallery/shirose/HIIfKxEbwAAv7bK.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-13T01:33:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2054238656995749954?s=20"
+- src: "/assets/images/gallery/shirose/HIIfKxFaUAAUbkX.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-13T01:33:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2054238656995749954?s=20"
 - src: "/assets/images/gallery/shirabe/HIIega9aUAM-7yH.jpg"
   title: フードの調
   tags:
