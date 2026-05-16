@@ -1,4 +1,32 @@
 ---
+- src: "/assets/images/gallery/kujo/HIWEtzOaoAAehHF.jpg"
+  title: 座りポーズの九条
+  tags:
+  - 九条
+  date: '2026-05-15T16:53:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055194734424125772?s=20"
+- src: "/assets/images/gallery/shirose/HIWEtzRaEAAWYxb.jpg"
+  title: 座りポーズの白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-15T16:53:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055194734424125772?s=20"
+- src: "/assets/images/gallery/susugaya/HIWEtzYakAEwCO-.jpg"
+  title: 座りポーズの煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-15T16:53:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055194734424125772?s=20"
+- src: "/assets/images/gallery/tachibana/HIWEtzNaYAAGW2C.jpg"
+  title: 座りポーズの橘
+  tags:
+  - 橘
+  date: '2026-05-15T16:53:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055194734424125772?s=20"
 - src: "/assets/images/gallery/amagi/HIRvEfUbYAEC0QF.jpg"
   title: 座りポーズの天城
   tags:
