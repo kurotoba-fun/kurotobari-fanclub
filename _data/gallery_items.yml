@@ -830,6 +830,7 @@
   x_url: "https://x.com/KUROTOBA_KGM/status/2052553641924726901?s=20"
 - src: "/assets/images/gallery/kairi/HHwP0aDaAAA6Yzo.jpg"
   title: キレ浬
+  sensitive: true
   tags:
   - 浬
   date: '2026-05-08T08:35:00+09:00'
@@ -837,6 +838,7 @@
   x_url: "https://x.com/KUROTOBA_KGM/status/2052532931906912748?s=20"
 - src: "/assets/images/gallery/amagi/HHv9-yCa0AAIwcz.jpg"
   title: 地雷系☆天城
+  sensitive: true
   tags:
   - 天城
   date: '2026-05-08T07:19:00+09:00'
@@ -844,6 +846,7 @@
   x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
 - src: "/assets/images/gallery/arata/HHv9-x4akAEIpUW.jpg"
   title: 地雷系☆灼
+  sensitive: true
   tags:
   - 灼
   date: '2026-05-08T07:19:00+09:00'
@@ -851,6 +854,7 @@
   x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
 - src: "/assets/images/gallery/kairi/HHv9-x9bIAAQzta.jpg"
   title: 地雷系☆浬
+  sensitive: true
   tags:
   - 浬
   date: '2026-05-08T07:19:00+09:00'
@@ -858,6 +862,7 @@
   x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
 - src: "/assets/images/gallery/kujo/HHv-SKSaYAALoxI.jpg"
   title: 地雷系☆九条
+  sensitive: true
   tags:
   - 九条
   date: '2026-05-08T07:19:00+09:00'
@@ -879,6 +884,7 @@
   x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
 - src: "/assets/images/gallery/shirabe/HHv9-yFbYAAjdYb.jpg"
   title: 地雷系☆調
+  sensitive: true
   tags:
   - 調
   date: '2026-05-08T07:19:00+09:00'
@@ -886,6 +892,7 @@
   x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
 - src: "/assets/images/gallery/shirose/HHv-SKEbUAASLuL.jpg"
   title: 地雷系☆白瀬
+  sensitive: true
   tags:
   - 白瀬
   date: '2026-05-08T07:19:00+09:00'
@@ -893,6 +900,7 @@
   x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
 - src: "/assets/images/gallery/shirose/HHwAxxLbcAEIGB-.jpg"
   title: 地雷系☆白瀬
+  sensitive: true
   tags:
   - 白瀬
   date: '2026-05-08T07:19:00+09:00'
@@ -900,6 +908,7 @@
   x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
 - src: "/assets/images/gallery/susugaya/HHv-SKabsAA3CdE.jpg"
   title: 地雷系☆煤ヶ谷
+  sensitive: true
   tags:
   - 煤ヶ谷
   date: '2026-05-08T07:19:00+09:00'
@@ -907,6 +916,7 @@
   x_url: "https://x.com/KUROTOBA_KGM/status/2052513329474846860?s=20"
 - src: "/assets/images/gallery/tachibana/HHv-SKHb0AAAuvD.jpg"
   title: 地雷系☆橘
+  sensitive: true
   tags:
   - 橘
   date: '2026-05-08T07:19:00+09:00'
@@ -3779,6 +3789,7 @@
   thumb_position: '50% 16%'
 - src: "/assets/images/gallery/amagi/HGlj6P_aEAA95lp.jpg"
   title: 副産物の天城
+  sensitive: true
   tags:
   - 副産物
   - 天城
@@ -3786,6 +3797,7 @@
   thumb_position: '50% 16%'
 - src: "/assets/images/gallery/arata/HGlj6P_aQAAh1Yy.jpg"
   title: 副産物の灼
+  sensitive: true
   tags:
   - 副産物
   - 灼
@@ -3800,6 +3812,7 @@
   thumb_position: '42% 16%'
 - src: "/assets/images/gallery/susugaya/HGlj6QAbsAAFwyE.jpg"
   title: 副産物の煤ヶ谷
+  sensitive: true
   tags:
   - 副産物
   - 煤ヶ谷
@@ -3807,18 +3820,21 @@
   thumb_position: '50% 16%'
 - src: "/assets/images/gallery/amagi/HGlidvUbgAAstxB.jpg"
   title: シスターの天城
+  sensitive: true
   tags:
   - 天城
   date: '2026-04-23T20:22:00+09:00'
   thumb_position: '50% 16%'
 - src: "/assets/images/gallery/arata/HGlhXp8aQAAMG82.jpg"
   title: シスターの灼
+  sensitive: true
   tags:
   - 灼
   date: '2026-04-23T20:22:00+09:00'
   thumb_position: '48% 16%'
 - src: "/assets/images/gallery/kairi/HGlhXqLbMAArsEr.jpg"
   title: シスターの浬
+  sensitive: true
   tags:
   - 浬
   date: '2026-04-23T20:22:00+09:00'
@@ -3831,18 +3847,21 @@
   thumb_position: '50% 16%'
 - src: "/assets/images/gallery/shirabe/HGlhXqPbkAAyuYK.jpg"
   title: シスターの調
+  sensitive: true
   tags:
   - 調
   date: '2026-04-23T20:22:00+09:00'
   thumb_position: '42% 16%'
 - src: "/assets/images/gallery/shirose/HGlidvTaUAARKSN.jpg"
   title: シスターの白瀬
+  sensitive: true
   tags:
   - 白瀬
   date: '2026-04-23T20:22:00+09:00'
   thumb_position: '42% 16%'
 - src: "/assets/images/gallery/susugaya/HGlidveaMAA0Wpd.jpg"
   title: シスターの煤ヶ谷
+  sensitive: true
   tags:
   - 煤ヶ谷
   date: '2026-04-23T20:22:00+09:00'
