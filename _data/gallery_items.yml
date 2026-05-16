@@ -1,4 +1,21 @@
 ---
+- src: "/assets/images/gallery/amagi/HIc41SKaYAAIwB3.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-05-17T00:38:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055674249910927540?s=20"
+- src: "/assets/images/gallery/amagi/HIc1c65bkAElzEF.jpg"
+  title: 天城
+  tags:
+  - 天城
+  - セリフ付き
+  date: '2026-05-17T00:23:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055670531345813644?s=20"
+  description: |-
+    「目、見ろよ。」
 - src: "/assets/images/gallery/tachibana/HIczR-UbEAAdBCA.jpg"
   title: ちょっと幼い橘
   tags:
