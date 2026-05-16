@@ -1,4 +1,22 @@
 ---
+- src: "/assets/images/gallery/amagi/HIZdsX2bsAEYkvM.jpg"
+  title: 天城
+  tags:
+  - 天城
+  - 副産物
+  date: '2026-05-16T08:41:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055433303315058918?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/shirose/HIZdsXvbcAAttN-.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  - 副産物
+  date: '2026-05-16T08:41:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055433303315058918?s=20"
+  sensitive: true
 - src: "/assets/images/gallery/arata/HIZXAvraIAA3veF.jpg"
   title: 風呂上がりの灼
   tags:
