@@ -1,4 +1,11 @@
 ---
+- src: "/assets/images/gallery/tachibana/HIczR-UbEAAdBCA.jpg"
+  title: ちょっと幼い橘
+  tags:
+  - 橘
+  date: '2026-05-17T00:14:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2055668143792824669?s=20"
 - src: "/assets/images/gallery/amagi/HIcrHfbbYAAEBTx.jpg"
   title: 記憶を消した後の天城
   tags:
