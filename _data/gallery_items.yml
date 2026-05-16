@@ -1,4 +1,32 @@
 ---
+- src: "/assets/images/gallery/arata/HIG-hR1acAEdZMw.jpg"
+  title: いっぱい食べる灼
+  tags:
+  - 灼
+  date: '2026-05-12T18:31:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2054132389602005216?s=20"
+- src: "/assets/images/gallery/amagi/HIGyu1fbAAArW4s.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-05-12T17:40:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2054119428640657879?s=20"
+- src: "/assets/images/gallery/amagi/HIGyu1gakAAV5jP.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-05-12T17:40:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2054119428640657879?s=20"
+- src: "/assets/images/gallery/amagi/HIGyu1kaUAAilDL.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-05-12T17:40:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2054119428640657879?s=20"
 - src: "/assets/images/gallery/amagi/HIGvihkbAAAQKTE.jpg"
   title: 天城
   tags:
