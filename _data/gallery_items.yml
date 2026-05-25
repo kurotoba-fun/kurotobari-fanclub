@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/kairi/HJAOMenboAAbsLB.jpg"
+  title: 浴衣の浬
+  tags:
+  - 浬
+  date: '2026-05-23T21:18:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058160642176258265?s=20"
+- src: "/assets/images/gallery/tachibana/HJANyicbAAAuO1f.jpg"
+  title: 浴衣の橘
+  tags:
+  - 橘
+  date: '2026-05-23T21:16:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058160199350067233?s=20"
+- src: "/assets/images/gallery/tachibana/HJANyidbMAAg0lR.jpg"
+  title: 浴衣の橘
+  tags:
+  - 橘
+  date: '2026-05-23T21:16:00+09:00'
+  thumb_position: '45% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058160199350067233?s=20"
+- src: "/assets/images/gallery/amagi/HJANYN_b0AEbbjF.jpg"
+  title: 浴衣の天城
+  tags:
+  - 天城
+  date: '2026-05-23T21:14:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058159756800610717?s=20"
+- src: "/assets/images/gallery/amagi/HJANYOGacAAOPM4.jpg"
+  title: 浴衣の天城
+  tags:
+  - 天城
+  date: '2026-05-23T21:14:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058159756800610717?s=20"
+- src: "/assets/images/gallery/amagi/HJANYOLbkAA8XWl.jpg"
+  title: 浴衣の天城
+  tags:
+  - 天城
+  date: '2026-05-23T21:14:00+09:00'
+  thumb_position: '45% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058159756800610717?s=20"
+- src: "/assets/images/gallery/shirabe/HJAIGIiaIAAK2Nm.jpg"
+  title: 浴衣の調
+  tags:
+  - 調
+  date: '2026-05-23T20:51:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058153936310378761?s=20"
+- src: "/assets/images/gallery/shirabe/HJAIGIjbkAAhTTB.jpg"
+  title: 浴衣の調
+  tags:
+  - 調
+  date: '2026-05-23T20:51:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058153936310378761?s=20"
 - src: "/assets/images/gallery/shirabe/HJAGIe7bIAABxRd.jpg"
   title: 調と浴衣デート
   tags:
