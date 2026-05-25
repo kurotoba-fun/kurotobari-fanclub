@@ -1,4 +1,84 @@
 ---
+- src: "/assets/images/gallery/shirabe/HI_aihNaQAAjSxp.jpg"
+  title: ラブレター貰った時の調
+  tags:
+  - 調
+  date: '2026-05-23T17:32:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058103848313704572?s=20"
+  description: |-
+    「…お…俺、すか？………マジで？」
+- src: "/assets/images/gallery/arata/HI_aihUbkAEHdaG.jpg"
+  title: ラブレター貰った時の灼
+  tags:
+  - 灼
+  date: '2026-05-23T17:32:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058103848313704572?s=20"
+  description: |-
+    「あ？手紙だぁ？言いてぇことあんなら直接言や良いだろうが。」
+- src: "/assets/images/gallery/kairi/HI_aihIbwAE9VQW.jpg"
+  title: ラブレター貰った時の浬
+  tags:
+  - 浬
+  date: '2026-05-23T17:32:00+09:00'
+  thumb_position: '55% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058103848313704572?s=20"
+  description: |-
+    「…まぁ…読んどくわ。」
+- src: "/assets/images/gallery/amagi/HI_aihJbUAA7zkY.jpg"
+  title: ラブレター貰った時の天城
+  tags:
+  - 天城
+  date: '2026-05-23T17:32:00+09:00'
+  thumb_position: '55% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058103848313704572?s=20"
+  description: |-
+    「いらない。（突き返す）」
+- src: "/assets/images/gallery/shirose/HI_blJ3bIAAWsej.jpg"
+  title: ラブレター貰った時の白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-23T17:32:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058103848313704572?s=20"
+  description: |-
+    「ありがとう。大切に読むね。」
+- src: "/assets/images/gallery/kujo/HI_blJ3bIAEbL4b.jpg"
+  title: ラブレター貰った時の九条
+  tags:
+  - 九条
+  date: '2026-05-23T17:32:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058103848313704572?s=20"
+  description: |-
+    「………恩に着る。」
+- src: "/assets/images/gallery/tachibana/HI_blJ4bcAA4B3-.jpg"
+  title: ラブレター貰った時の橘
+  tags:
+  - 橘
+  date: '2026-05-23T17:32:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058103848313704572?s=20"
+  description: |-
+    「俺に？何故だ？」
+- src: "/assets/images/gallery/susugaya/HI_blJ7a0AAQUsi.jpg"
+  title: ラブレター貰った時の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-23T17:32:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058103848313704572?s=20"
+  description: |-
+    「おーきに♡ファンレターやなんて、おにーさん感動して泣いてまうわぁ♪」
+- src: "/assets/images/gallery/kairi/HI_Q7Z0bwAANwcg.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-05-23T16:50:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058093279007343079?s=20"
+  sensitive: true
 - src: "/assets/images/gallery/shirabe/HI_G7DxbIAA6YzZ.jpg"
   title: 調
   tags:
