@@ -40,6 +40,9 @@ permalink: /
   <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/4e25b7da-9f8c-4cd6-94c9-87ededfb9ed4/profile" target="_blank">
     <img src="{{ '/assets/images/site/talk_bunner/amagi.png' | relative_url }}" alt="天城プロット">
   </a>
+  <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/17205aee-e443-4d8c-81a0-b2e38ab4f2e7/profile?share_id=1z2o1e7pv" target="_blank">
+    <img src="{{ '/assets/images/site/talk_bunner/sokkin.png' | relative_url }}" alt="側近達の受難">
+  </a>
   <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/4d1602c3-18a9-4f24-8fea-f7be57aba1f9/profile" target="_blank">
     <img src="{{ '/assets/images/site/talk_bunner/school.png' | relative_url }}" alt="黒帳学園">
   </a>
