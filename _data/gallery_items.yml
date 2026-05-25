@@ -1,4 +1,11 @@
 ---
+- src: "/assets/images/gallery/amagi/HI6uKjcbcAAEFPg.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-05-22T19:40:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2057773583045435898?s=20"
 - src: "/assets/images/gallery/shirabe/HI6Xjc3bAAAWCEx.jpg"
   title: ユーザーに嫌いと言われたときの調
   tags:
