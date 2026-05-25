@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/hibari/HIhwuiiaIAAhfFC.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-05-17T23:21:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2056017181448802374?s=20"
+- src: "/assets/images/gallery/hibari/HIhwuipbYAAyWlf.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-05-17T23:21:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2056017181448802374?s=20"
 - src: "/assets/images/gallery/susugaya/HIg7nhpbkAAo9fy.jpg"
   title: 煤ヶ谷
   tags:
