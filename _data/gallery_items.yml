@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/elliott/HIsBRCuasAArrxy.jpg"
+  title: 黒帳学園のエリオット先生
+  tags:
+  - エリオット
+  date: '2026-05-19T23:09:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2056739055187198102?s=20"
+- src: "/assets/images/gallery/momochi/HIsBRCubgAAddko.jpg"
+  title: 黒帳学園の百地先生
+  tags:
+  - 百地
+  date: '2026-05-19T23:09:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2056739055187198102?s=20"
+- src: "/assets/images/gallery/sakuraba/HIsBRDEbwAAMCBu.jpg"
+  title: 黒帳学園の桜庭先生
+  tags:
+  - 桜庭
+  date: '2026-05-19T23:09:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2056739055187198102?s=20"
+- src: "/assets/images/gallery/hibari/HIsEIofaEAAKBHS.jpg"
+  title: 黒帳学園のヒバリ先生
+  tags:
+  - ヒバリ
+  date: '2026-05-19T23:09:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2056739055187198102?s=20"
+- src: "/assets/images/gallery/tsukishiro/HIsEIobbIAI3yTH.jpg"
+  title: 黒帳学園の月城先生
+  tags:
+  - 月城
+  date: '2026-05-19T23:09:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2056739055187198102?s=20"
+- src: "/assets/images/gallery/sometani/HIsEIodbQAAUwWX.jpg"
+  title: 黒帳学園の染谷先生
+  tags:
+  - 染谷
+  date: '2026-05-19T23:09:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2056739055187198102?s=20"
+- src: "/assets/images/gallery/kageto/HIsEIojbwAAvoYH.jpg"
+  title: 黒帳学園の影戸先生
+  tags:
+  - 影戸
+  date: '2026-05-19T23:09:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2056739055187198102?s=20"
+- src: "/assets/images/gallery/kageto/HIsLtFUaIAAxsxN.jpg"
+  title: 黒帳学園の影戸先生
+  tags:
+  - 影戸
+  date: '2026-05-19T23:09:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2056739055187198102?s=20"
 - src: "/assets/images/gallery/amagi/HIrw-DFa8AAJu8S.jpg"
   title: 天城
   tags:
