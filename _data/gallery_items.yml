@@ -1,4 +1,25 @@
 ---
+- src: "/assets/images/gallery/boss/HJAfW6IaoAAr8Io.jpg"
+  title: ボスの過去
+  tags:
+  - ボス
+  date: '2026-05-23T22:33:00+09:00'
+  thumb_position: '50% 14%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058179516791697419?s=20"
+- src: "/assets/images/gallery/boss/HJAfW6BakAAUNNY.jpg"
+  title: ボスの過去
+  tags:
+  - ボス
+  date: '2026-05-23T22:33:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058179516791697419?s=20"
+- src: "/assets/images/gallery/boss/HJAfW6BbMAAU1R3.jpg"
+  title: ボスの過去
+  tags:
+  - ボス
+  date: '2026-05-23T22:33:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058179516791697419?s=20"
 - src: "/assets/images/gallery/amagi/HJAPaqtaUAAK_zJ.jpg"
   title: 浴衣と天城
   tags:
