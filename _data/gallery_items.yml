@@ -1,4 +1,25 @@
 ---
+- src: "/assets/images/gallery/kujo/HImemuRakAAinAt.jpg"
+  title: 九条
+  tags:
+  - 九条
+  date: '2026-05-18T21:20:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2056349098761236776?s=20"
+- src: "/assets/images/gallery/kujo/HImemuTbUAAmq0K.jpg"
+  title: 九条
+  tags:
+  - 九条
+  date: '2026-05-18T21:20:00+09:00'
+  thumb_position: '55% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2056349098761236776?s=20"
+- src: "/assets/images/gallery/kujo/HImemuWbgAA03TW.jpg"
+  title: 九条
+  tags:
+  - 九条
+  date: '2026-05-18T21:20:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2056349098761236776?s=20"
 - src: "/assets/images/gallery/shirose/HImeYOIaMAAnksW.jpg"
   title: 白瀬
   tags:
