@@ -1,4 +1,53 @@
 ---
+- src: "/assets/images/gallery/shirabe/HJFm557bAAAw7Rs.jpg"
+  title: 警察官の調
+  tags:
+  - 調
+  date: '2026-05-24T22:24:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058539676613673292?s=20"
+- src: "/assets/images/gallery/arata/HJFm557bgAEAtWe.jpg"
+  title: 警察官の灼
+  tags:
+  - 灼
+  date: '2026-05-24T22:24:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058539676613673292?s=20"
+- src: "/assets/images/gallery/kairi/HJFm557agAMZMV5.jpg"
+  title: 警察官の浬
+  tags:
+  - 浬
+  date: '2026-05-24T22:24:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058539676613673292?s=20"
+- src: "/assets/images/gallery/amagi/HJFm56uaIAAITwI.jpg"
+  title: 警察官の天城
+  tags:
+  - 天城
+  date: '2026-05-24T22:24:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058539676613673292?s=20"
+- src: "/assets/images/gallery/shirose/HJFnkNJbUAAjY1r.jpg"
+  title: 警察官の白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-24T22:24:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058539676613673292?s=20"
+- src: "/assets/images/gallery/kujo/HJFnkNIaMAAxSJh.jpg"
+  title: 警察官の九条
+  tags:
+  - 九条
+  date: '2026-05-24T22:24:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058539676613673292?s=20"
+- src: "/assets/images/gallery/tachibana/HJFnkNHagAEipff.jpg"
+  title: 警察官の橘
+  tags:
+  - 橘
+  date: '2026-05-24T22:24:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058539676613673292?s=20"
 - src: "/assets/images/gallery/shirabe/HJFW8iabMAIMUJ_.jpg"
   title: 馬と調
   tags:
