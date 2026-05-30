@@ -1,4 +1,28 @@
 ---
+- src: "/assets/images/gallery/arata/HJFEQAwawAAQ_h7.jpg"
+  title: 灼
+  tags:
+  - 灼
+  date: '2026-05-24T19:53:00+09:00'
+  thumb_position: '50% 16%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058501552416129331?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/arata/HJFEQAxaIAAOmwB.jpg"
+  title: 灼
+  tags:
+  - 灼
+  date: '2026-05-24T19:53:00+09:00'
+  thumb_position: '50% 16%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058501552416129331?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/arata/HJFEQAybsAAqYjf.jpg"
+  title: 灼
+  tags:
+  - 灼
+  date: '2026-05-24T19:53:00+09:00'
+  thumb_position: '45% 16%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058501552416129331?s=20"
+  sensitive: true
 - src: "/assets/images/gallery/arata/HJFBcbwbgAE3Y9J.jpg"
   title: 灼
   tags:
