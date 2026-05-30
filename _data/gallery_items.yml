@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/kairi/HJFyxEiboAAOPmF.jpg"
+  title: 見下ろす浬
+  tags:
+  - 浬
+  date: '2026-05-24T23:16:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058552700518982068?s=20"
+- src: "/assets/images/gallery/mairu/HJFyxDYbwAEL3oO.jpg"
+  title: 見下ろす哩
+  tags:
+  - 哩
+  date: '2026-05-24T23:16:00+09:00'
+  thumb_position: '48% 16%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058552700518982068?s=20"
 - src: "/assets/images/gallery/shirabe/HJFm557bAAAw7Rs.jpg"
   title: 警察官の調
   tags:
