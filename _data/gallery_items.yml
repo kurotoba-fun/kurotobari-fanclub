@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/shirabe/HJJ6PjNboAADDfJ.jpg"
+  title: 調
+  tags:
+  - 調
+  date: '2026-05-25T18:27:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058842392279867426?s=20"
+- src: "/assets/images/gallery/amagi/HJJ6PjRaMAASZW1.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-05-25T18:27:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058842392279867426?s=20"
 - src: "/assets/images/gallery/tachibana/HJI0r7QakAA18n0.jpg"
   title: 添い寝の橘
   tags:
