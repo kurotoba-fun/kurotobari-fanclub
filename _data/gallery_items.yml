@@ -1,4 +1,11 @@
 ---
+- src: "/assets/images/gallery/shirose/HJK0iBGbAAA00UA.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-25T22:42:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2058906480200573062?s=20"
 - src: "/assets/images/gallery/susugaya/HJKO7zBaQAAKsta.jpg"
   title: 煤ヶ谷
   tags:
