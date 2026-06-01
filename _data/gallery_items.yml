@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/amagi/HJMgR6MaAAETMWj.jpg"
+  title: 天城の泣き顔
+  tags:
+  - 天城
+  date: '2026-05-26T06:33:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059025018517180604?s=20"
+- src: "/assets/images/gallery/arata/HJMgR6NaEAATaW7.jpg"
+  title: 灼の泣き顔
+  tags:
+  - 灼
+  date: '2026-05-26T06:33:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059025018517180604?s=20"
+- src: "/assets/images/gallery/kairi/HJMgR6LboAAVNSR.jpg"
+  title: 浬の泣き顔
+  tags:
+  - 浬
+  date: '2026-05-26T06:33:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059025018517180604?s=20"
+- src: "/assets/images/gallery/kujo/HJMhKr7aAAAs1t-.jpg"
+  title: 九条の泣き顔
+  tags:
+  - 九条
+  date: '2026-05-26T06:33:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059025018517180604?s=20"
+- src: "/assets/images/gallery/shirabe/HJMgR6MaEAAuWZW.jpg"
+  title: 調の泣き顔
+  tags:
+  - 調
+  date: '2026-05-26T06:33:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059025018517180604?s=20"
+- src: "/assets/images/gallery/shirose/HJMhKr6bsAAywFQ.jpg"
+  title: 白瀬の泣き顔
+  tags:
+  - 白瀬
+  date: '2026-05-26T06:33:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059025018517180604?s=20"
+- src: "/assets/images/gallery/susugaya/HJMhKr6agAADxLk.jpg"
+  title: 煤ヶ谷の泣き顔
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-26T06:33:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059025018517180604?s=20"
+- src: "/assets/images/gallery/tachibana/HJMhKr8aoAAzVPs.jpg"
+  title: 橘の泣き顔
+  tags:
+  - 橘
+  date: '2026-05-26T06:33:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059025018517180604?s=20"
 - src: "/assets/images/gallery/shirabe/HJMcjCYbMAAhAFT.jpg"
   title: 調
   tags:
