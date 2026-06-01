@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/shirabe/HJMcjCYbMAAhAFT.jpg"
+  title: 調
+  tags:
+  - 調
+  date: '2026-05-26T06:16:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059020851023134741?s=20"
+- src: "/assets/images/gallery/tsukishiro/HJMcjCaagAAggbv.jpg"
+  title: 月城先生
+  tags:
+  - 月城
+  date: '2026-05-26T06:16:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059020851023134741?s=20"
 - src: "/assets/images/gallery/shirose/HJK0iBGbAAA00UA.jpg"
   title: 白瀬
   tags:
