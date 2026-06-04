@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/amagi/HJasAg_bYAA1C71.jpg"
+  title: ポンパドール天城
+  tags:
+  - 天城
+  date: '2026-05-29T00:38:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060023019356271024?s=20"
+- src: "/assets/images/gallery/arata/HJasAg9aMAAGF9V.jpg"
+  title: ポンパドール灼
+  tags:
+  - 灼
+  date: '2026-05-29T00:38:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060023019356271024?s=20"
+- src: "/assets/images/gallery/kairi/HJasAg-aAAAEQyx.jpg"
+  title: ポンパドール浬
+  tags:
+  - 浬
+  date: '2026-05-29T00:38:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060023019356271024?s=20"
+- src: "/assets/images/gallery/kujo/HJatT4vbwAENpqX.jpg"
+  title: ポンパドール九条
+  tags:
+  - 九条
+  date: '2026-05-29T00:38:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060023019356271024?s=20"
+- src: "/assets/images/gallery/shirabe/HJasAg9bMAAfhds.jpg"
+  title: ポンパドール調
+  tags:
+  - 調
+  date: '2026-05-29T00:38:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060023019356271024?s=20"
+- src: "/assets/images/gallery/shirose/HJatT4ubYAAOHeH.jpg"
+  title: ポンパドール白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-29T00:38:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060023019356271024?s=20"
+- src: "/assets/images/gallery/susugaya/HJatT5IasAA-_TB.jpg"
+  title: ポンパドール煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-29T00:38:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060023019356271024?s=20"
+- src: "/assets/images/gallery/tachibana/HJatT4taoAAc90p.jpg"
+  title: ポンパドール橘
+  tags:
+  - 橘
+  date: '2026-05-29T00:38:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060023019356271024?s=20"
 - src: "/assets/images/gallery/kujo/HJaVhtDaUAAbvJ6.jpg"
   title: 九条
   tags:
