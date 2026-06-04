@@ -1,4 +1,36 @@
 ---
+- src: "/assets/images/gallery/amagi/HJaA-_dbwAAVCsI.jpg"
+  title: バスケしてる黒帳学園の天城
+  tags:
+  - 天城
+  - 学パロ
+  date: '2026-05-28T21:30:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059975704604037230?s=20"
+- src: "/assets/images/gallery/arata/HJaA-_faQAAcZNr.jpg"
+  title: バスケしてる黒帳学園の灼
+  tags:
+  - 灼
+  - 学パロ
+  date: '2026-05-28T21:30:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059975704604037230?s=20"
+- src: "/assets/images/gallery/shirabe/HJaA-_fbwAAOc4h.jpg"
+  title: バスケしてる黒帳学園の調
+  tags:
+  - 調
+  - 学パロ
+  date: '2026-05-28T21:30:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059975704604037230?s=20"
+- src: "/assets/images/gallery/shirose/HJaA-_faUAAyvG0.jpg"
+  title: バスケしてる黒帳学園の白瀬
+  tags:
+  - 白瀬
+  - 学パロ
+  date: '2026-05-28T21:30:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059975704604037230?s=20"
 - src: "/assets/images/gallery/tobarimori/HJZ2z_RaoAAoiFw.jpg"
   title: 帳守
   tags:
