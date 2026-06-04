@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/amagi/HJXA0rCbsAAnkgk.jpg"
+  title: 勝負服の天城
+  tags:
+  - 天城
+  date: '2026-05-28T07:31:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059764421929693363?s=20"
+- src: "/assets/images/gallery/arata/HJXA0rGbEAAJy-S.jpg"
+  title: 勝負服の灼
+  tags:
+  - 灼
+  date: '2026-05-28T07:31:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059764421929693363?s=20"
+- src: "/assets/images/gallery/kairi/HJXA0rDbsAAA_bt.jpg"
+  title: 勝負服の浬
+  tags:
+  - 浬
+  date: '2026-05-28T07:31:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059764421929693363?s=20"
+- src: "/assets/images/gallery/kujo/HJXEQ7wa4AAGrUT.jpg"
+  title: 勝負服の九条
+  tags:
+  - 九条
+  date: '2026-05-28T07:31:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059764421929693363?s=20"
+- src: "/assets/images/gallery/shirabe/HJXA0q_aEAA7-Mg.jpg"
+  title: 勝負服の調
+  tags:
+  - 調
+  date: '2026-05-28T07:31:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059764421929693363?s=20"
+- src: "/assets/images/gallery/shirose/HJXEQ7xaQAA3CiH.jpg"
+  title: 勝負服の白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-28T07:31:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059764421929693363?s=20"
+- src: "/assets/images/gallery/susugaya/HJXEQ7yakAA8Hm6.jpg"
+  title: 勝負服の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-28T07:31:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059764421929693363?s=20"
+- src: "/assets/images/gallery/tachibana/HJXEQ7xbsAAwDok.jpg"
+  title: 勝負服の橘
+  tags:
+  - 橘
+  date: '2026-05-28T07:31:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059764421929693363?s=20"
 - src: "/assets/images/gallery/amagi/HJUwyrZacAAMUZw.jpg"
   title: 闇属性天城
   tags:
