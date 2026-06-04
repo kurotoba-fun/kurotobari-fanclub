@@ -1,4 +1,12 @@
 ---
+- src: "/assets/images/gallery/kujo/HJaVhtDaUAAbvJ6.jpg"
+  title: 九条
+  tags:
+  - 九条
+  date: '2026-05-28T23:00:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059998290088001716?s=20"
+  sensitive: true
 - src: "/assets/images/gallery/amagi/HJaA-_dbwAAVCsI.jpg"
   title: バスケしてる黒帳学園の天城
   tags:
