@@ -1,4 +1,28 @@
 ---
+- src: "/assets/images/gallery/kujo/HJawGugbgAAQvFG.jpg"
+  title: 九条
+  tags:
+  - 九条
+  - 副産物
+  date: '2026-05-29T00:56:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060027513796284721?s=20"
+- src: "/assets/images/gallery/susugaya/HJawGugbwAA234c.jpg"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  - 副産物
+  date: '2026-05-29T00:56:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060027513796284721?s=20"
+- src: "/assets/images/gallery/tachibana/HJawGuhb0AERenv.jpg"
+  title: 橘
+  tags:
+  - 橘
+  - 副産物
+  date: '2026-05-29T00:56:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060027513796284721?s=20"
 - src: "/assets/images/gallery/kairi/HJaumk2awAA9eew.jpg"
   title: 浬
   tags:
