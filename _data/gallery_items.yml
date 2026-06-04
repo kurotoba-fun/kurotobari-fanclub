@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/amagi/HJN3JEzbMAAbSI0.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-05-26T12:52:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059120460013740445?s=20"
+- src: "/assets/images/gallery/susugaya/HJMp59xaQAAfIG-.jpg"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-26T07:15:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059035534811631797?s=20"
 - src: "/assets/images/gallery/hibari/HJMkU-eaQAA-8Ts.jpg"
   title: ヒバリ
   tags:
