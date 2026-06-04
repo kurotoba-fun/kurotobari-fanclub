@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/amagi/HJYZZJgbIAA04o8.jpg"
+  title: 電話してる天城
+  tags:
+  - 天城
+  date: '2026-05-28T13:58:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059861810384339362?s=20"
+- src: "/assets/images/gallery/arata/HJYZZJha4AALSuo.jpg"
+  title: 電話してる灼
+  tags:
+  - 灼
+  date: '2026-05-28T13:58:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059861810384339362?s=20"
+- src: "/assets/images/gallery/kairi/HJYZZJebsAAgmUv.jpg"
+  title: 電話してる浬
+  tags:
+  - 浬
+  date: '2026-05-28T13:58:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059861810384339362?s=20"
+- src: "/assets/images/gallery/kujo/HJYZtrcaUAASz64.jpg"
+  title: 電話してる九条
+  tags:
+  - 九条
+  date: '2026-05-28T13:58:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059861810384339362?s=20"
+- src: "/assets/images/gallery/shirabe/HJYZZJmbAAE2n-4.jpg"
+  title: 電話してる調
+  tags:
+  - 調
+  date: '2026-05-28T13:58:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059861810384339362?s=20"
+- src: "/assets/images/gallery/shirose/HJYZtrcaMAA8voM.jpg"
+  title: 電話してる白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-28T13:58:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059861810384339362?s=20"
+- src: "/assets/images/gallery/susugaya/HJYZtrfaMAA51PW.jpg"
+  title: 電話してる煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-28T13:58:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059861810384339362?s=20"
+- src: "/assets/images/gallery/tachibana/HJYZtrfboAAheJh.jpg"
+  title: 電話してる橘
+  tags:
+  - 橘
+  date: '2026-05-28T13:58:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059861810384339362?s=20"
 - src: "/assets/images/gallery/amagi/HJXA0rCbsAAnkgk.jpg"
   title: 勝負服の天城
   tags:
