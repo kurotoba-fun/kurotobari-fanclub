@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/amagi/HJRl_xHaYAAgwW3.jpg"
+  title: 神社と天城
+  tags:
+  - 天城
+  date: '2026-05-27T06:16:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059383082105684052?s=20"
+- src: "/assets/images/gallery/arata/HJRl_xKakAADXwG.jpg"
+  title: 神社と灼
+  tags:
+  - 灼
+  date: '2026-05-27T06:16:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059383082105684052?s=20"
+- src: "/assets/images/gallery/kairi/HJRl_xGbUAA98Ji.jpg"
+  title: 神社と浬
+  tags:
+  - 浬
+  date: '2026-05-27T06:16:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059383082105684052?s=20"
+- src: "/assets/images/gallery/kujo/HJRo-BBbIAAfynh.jpg"
+  title: 神社と九条
+  tags:
+  - 九条
+  date: '2026-05-27T06:16:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059383082105684052?s=20"
+- src: "/assets/images/gallery/shirabe/HJRl_xHaUAANB1h.jpg"
+  title: 神社と調
+  tags:
+  - 調
+  date: '2026-05-27T06:16:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059383082105684052?s=20"
+- src: "/assets/images/gallery/shirose/HJRo-BBbEAA8a_L.jpg"
+  title: 神社と白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-27T06:16:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059383082105684052?s=20"
+- src: "/assets/images/gallery/susugaya/HJRo-A-aoAE4Spz.jpg"
+  title: 神社と煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-27T06:16:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059383082105684052?s=20"
+- src: "/assets/images/gallery/tachibana/HJRo-BBb0AEa4TS.jpg"
+  title: 神社と橘
+  tags:
+  - 橘
+  date: '2026-05-27T06:16:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059383082105684052?s=20"
 - src: "/assets/images/gallery/kujo/HJP0SbLbQAAsXB5.jpg"
   title: 九条の剣道
   tags:
