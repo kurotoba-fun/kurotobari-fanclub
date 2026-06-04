@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/hibari/HJMj5libAAE49_c.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-05-26T06:48:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059028933937602934?s=20"
+- src: "/assets/images/gallery/hibari/HJMj5lkacAAvoj7.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-05-26T06:48:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059028933937602934?s=20"
 - src: "/assets/images/gallery/amagi/HJMgR6MaAAETMWj.jpg"
   title: 天城の泣き顔
   tags:
