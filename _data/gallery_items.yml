@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/amagi/HJZZFrqaoAAzA3Z.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-05-28T18:36:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059931839704531226?s=20"
+- src: "/assets/images/gallery/amagi/HJZZFrrbMAAenAl.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-05-28T18:36:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059931839704531226?s=20"
 - src: "/assets/images/gallery/amagi/HJYZZJgbIAA04o8.jpg"
   title: 電話してる天城
   tags:
