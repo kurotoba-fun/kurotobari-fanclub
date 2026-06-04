@@ -1,4 +1,124 @@
 ---
+- src: "/assets/images/gallery/kairi/HJnBDTwbEAAHYL7.jpg"
+  title: もふもふの浬
+  tags:
+  - 浬
+  - 副産物
+  date: '2026-05-31T10:06:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060890572395811312?s=20"
+- src: "/assets/images/gallery/kairi/HJnBDTwbYAAUR3b.jpg"
+  title: もふもふの浬
+  tags:
+  - 浬
+  - 副産物
+  date: '2026-05-31T10:06:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060890572395811312?s=20"
+- src: "/assets/images/gallery/kairi/HJnBDTxbUAAWg8o.jpg"
+  title: もふもふの浬
+  tags:
+  - 浬
+  - 副産物
+  date: '2026-05-31T10:06:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060890572395811312?s=20"
+- src: "/assets/images/gallery/kairi/HJnBDTybEAAw2Un.jpg"
+  title: もふもふの浬
+  tags:
+  - 浬
+  - 副産物
+  date: '2026-05-31T10:06:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060890572395811312?s=20"
+- src: "/assets/images/gallery/amagi/HJnAbBsaMAAeiUZ.jpg"
+  title: もふもふの天城
+  tags:
+  - 天城
+  - 副産物
+  date: '2026-05-31T10:03:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060889886077722628?s=20"
+- src: "/assets/images/gallery/arata/HJnAbBtawAAFB0f.jpg"
+  title: もふもふの灼
+  tags:
+  - 灼
+  - 副産物
+  date: '2026-05-31T10:03:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060889886077722628?s=20"
+- src: "/assets/images/gallery/shirabe/HJnAbBrboAAN0Bo.jpg"
+  title: もふもふの調
+  tags:
+  - 調
+  - 副産物
+  date: '2026-05-31T10:03:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060889886077722628?s=20"
+- src: "/assets/images/gallery/shirabe/HJnAbDNbkAAAayb.jpg"
+  title: もふもふの調
+  tags:
+  - 調
+  - 副産物
+  date: '2026-05-31T10:03:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060889886077722628?s=20"
+- src: "/assets/images/gallery/amagi/HJm6amsbIAAAm1w.jpg"
+  title: もふもふの天城
+  tags:
+  - 天城
+  date: '2026-05-31T09:37:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060883276248805398?s=20"
+- src: "/assets/images/gallery/arata/HJm6amqagAAOccb.jpg"
+  title: もふもふの灼
+  tags:
+  - 灼
+  date: '2026-05-31T09:37:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060883276248805398?s=20"
+- src: "/assets/images/gallery/kairi/HJm6amrbEAAFCQF.jpg"
+  title: もふもふの浬
+  tags:
+  - 浬
+  date: '2026-05-31T09:37:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060883276248805398?s=20"
+- src: "/assets/images/gallery/kujo/HJm7U0GaoAAhPGd.jpg"
+  title: もふもふの九条
+  tags:
+  - 九条
+  date: '2026-05-31T09:37:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060883276248805398?s=20"
+- src: "/assets/images/gallery/shirabe/HJm6amqbIAAexM6.jpg"
+  title: もふもふの調
+  tags:
+  - 調
+  date: '2026-05-31T09:37:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060883276248805398?s=20"
+- src: "/assets/images/gallery/shirose/HJm7U0HbEAAoees.jpg"
+  title: もふもふの白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-31T09:37:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060883276248805398?s=20"
+- src: "/assets/images/gallery/susugaya/HJm7U0HaMAAXcWO.jpg"
+  title: もふもふの煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-31T09:37:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060883276248805398?s=20"
+- src: "/assets/images/gallery/tachibana/HJm7U0GbwAAA5_c.jpg"
+  title: もふもふの橘
+  tags:
+  - 橘
+  date: '2026-05-31T09:37:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060883276248805398?s=20"
 - src: "/assets/images/gallery/mairu/HJl22rFa0AEpS8v.jpg"
   title: 魔法少女哩
   tags:
