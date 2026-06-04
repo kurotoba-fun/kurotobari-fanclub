@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/amagi/HJfwRbvaoAAHVYY.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-05-30T00:15:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060379541365985623?s=20"
+- src: "/assets/images/gallery/shirabe/HJfwRbubUAAMt64.jpg"
+  title: 調
+  tags:
+  - 調
+  date: '2026-05-30T00:15:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060379541365985623?s=20"
 - src: "/assets/images/gallery/amagi/HJfqGRsbwAE_3TD.jpg"
   title: 天城
   tags:
