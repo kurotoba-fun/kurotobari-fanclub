@@ -1,4 +1,11 @@
 ---
+- src: "/assets/images/gallery/hibari/HJUGDixbEAANdUs.jpg"
+  title: ヒバリさんから誕生日祝い
+  tags:
+  - ヒバリ
+  date: '2026-05-27T17:55:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059559067232948344?s=20"
 - src: "/assets/images/gallery/shirose/HJT4i50aoAAaiet.jpg"
   title: 子ども白瀬
   tags:
