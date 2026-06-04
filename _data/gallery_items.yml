@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/kujo/HJP0SbLbQAAsXB5.jpg"
+  title: 九条の剣道
+  tags:
+  - 九条
+  date: '2026-05-26T21:59:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059258060405960756?s=20"
+- src: "/assets/images/gallery/tachibana/HJP0SbKaAAAbbuz.jpg"
+  title: 橘の弓道
+  tags:
+  - 橘
+  date: '2026-05-26T21:59:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2059258060405960756?s=20"
 - src: "/assets/images/gallery/arata/HJOeIDmaIAA40LV.jpg"
   title: 灼
   tags:
