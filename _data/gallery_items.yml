@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/amagi/HJfmFlfaQAAD-i2.jpg"
+  title: 恐怖の天城
+  tags:
+  - 天城
+  date: '2026-05-29T23:24:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060366732947304807?s=20"
+- src: "/assets/images/gallery/arata/HJfkm8PaIAAnmAA.jpg"
+  title: 恐怖の灼
+  tags:
+  - 灼
+  date: '2026-05-29T23:24:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060366732947304807?s=20"
+- src: "/assets/images/gallery/kairi/HJfkm8Oa8AAmKIW.jpg"
+  title: 恐怖の浬
+  tags:
+  - 浬
+  date: '2026-05-29T23:24:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060366732947304807?s=20"
+- src: "/assets/images/gallery/kujo/HJfmFldaQAE-qbH.jpg"
+  title: 恐怖の九条
+  tags:
+  - 九条
+  date: '2026-05-29T23:24:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060366732947304807?s=20"
+- src: "/assets/images/gallery/shirabe/HJfkm8IbwAApdnO.jpg"
+  title: 恐怖の調
+  tags:
+  - 調
+  date: '2026-05-29T23:24:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060366732947304807?s=20"
+- src: "/assets/images/gallery/shirose/HJfmFlebAAA5Lg_.jpg"
+  title: 恐怖の白瀬
+  tags:
+  - 白瀬
+  date: '2026-05-29T23:24:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060366732947304807?s=20"
+- src: "/assets/images/gallery/susugaya/HJfoarGbwAAvJnm.jpg"
+  title: 恐怖の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-05-29T23:24:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060366732947304807?s=20"
+- src: "/assets/images/gallery/tachibana/HJfoarCawAAYLx7.jpg"
+  title: 恐怖の橘
+  tags:
+  - 橘
+  date: '2026-05-29T23:24:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060366732947304807?s=20"
 - src: "/assets/images/gallery/susugaya/HJfjvK4aUAAYtxq.jpg"
   title: 煤ヶ谷
   tags:
