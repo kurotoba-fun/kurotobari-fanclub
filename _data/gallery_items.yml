@@ -1,4 +1,20 @@
 ---
+- src: "/assets/images/gallery/kujo/HJnWcVmbkAA80s0.jpg"
+  title: 捕まった九条
+  tags:
+  - 九条
+  date: '2026-05-31T11:39:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060914092882481482?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/tachibana/HJnWcVnbUAA_OTT.jpg"
+  title: 捕まった橘
+  tags:
+  - 橘
+  date: '2026-05-31T11:39:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2060914092882481482?s=20"
+  sensitive: true
 - src: "/assets/images/gallery/kairi/HJnBDTwbEAAHYL7.jpg"
   title: もふもふの浬
   tags:
