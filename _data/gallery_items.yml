@@ -1,4 +1,196 @@
 ---
+- src: "/assets/images/gallery/hibari/HKEZq-GboAEp75p.jpg"
+  title: 王女のヒバリ
+  tags:
+  - ヒバリ
+  - 王子版
+  date: '2026-06-06T03:02:00+09:00'
+  thumb_position: '58% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062958337558520150?s=20"
+- src: "/assets/images/gallery/hibari/HKEZq92acAAMPtc.jpg"
+  title: 王女のヒバリ
+  tags:
+  - ヒバリ
+  - 王子版
+  date: '2026-06-06T03:02:00+09:00'
+  thumb_position: '50% 22%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062958337558520150?s=20"
+- src: "/assets/images/gallery/tsukishiro/HKEZq94aAAAwd1x.jpg"
+  title: 王子の月城
+  tags:
+  - 月城
+  - 王子版
+  date: '2026-06-06T03:02:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062958337558520150?s=20"
+- src: "/assets/images/gallery/tsukishiro/HKEZq95b0AA5zLq.jpg"
+  title: 王子の月城
+  tags:
+  - 月城
+  - 王子版
+  date: '2026-06-06T03:02:00+09:00'
+  thumb_position: '48% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062958337558520150?s=20"
+- src: "/assets/images/gallery/shirose/HKEZjl8bAAA3W_M.jpg"
+  title: 王子の白瀬
+  tags:
+  - 白瀬
+  - 王子版
+  date: '2026-06-06T03:02:00+09:00'
+  thumb_position: '66% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062958210169069739?s=20"
+- src: "/assets/images/gallery/shirose/HKEZjlvbEAAIXsr.jpg"
+  title: 王子の白瀬
+  tags:
+  - 白瀬
+  - 王子版
+  date: '2026-06-06T03:02:00+09:00'
+  thumb_position: '42% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062958210169069739?s=20"
+- src: "/assets/images/gallery/susugaya/HKEX3P2aMAAU3Mw.jpg"
+  title: 王子の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  - 王子版
+  date: '2026-06-06T02:54:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062956349320012264?s=20"
+- src: "/assets/images/gallery/susugaya/HKEX3P2bYAADzBe.jpg"
+  title: 王子の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  - 王子版
+  date: '2026-06-06T02:54:00+09:00'
+  thumb_position: '56% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062956349320012264?s=20"
+- src: "/assets/images/gallery/tobarimori/HKEX3P0akAA301w.jpg"
+  title: 王子の帳守
+  tags:
+  - 帳守
+  - 王子版
+  date: '2026-06-06T02:54:00+09:00'
+  thumb_position: '42% 22%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062956349320012264?s=20"
+- src: "/assets/images/gallery/tobarimori/HKEX3P3aMAAaiai.jpg"
+  title: 王子の帳守
+  tags:
+  - 帳守
+  - 王子版
+  date: '2026-06-06T02:54:00+09:00'
+  thumb_position: '50% 22%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062956349320012264?s=20"
+- src: "/assets/images/gallery/kujo/HKEUeACasAAm5Re.jpg"
+  title: 王子の九条
+  tags:
+  - 九条
+  - 王子版
+  date: '2026-06-06T02:40:00+09:00'
+  thumb_position: '52% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062952618281054294?s=20"
+- src: "/assets/images/gallery/kujo/HKEUeAraMAAPzey.jpg"
+  title: 王子の九条
+  tags:
+  - 九条
+  - 王子版
+  date: '2026-06-06T02:40:00+09:00'
+  thumb_position: '58% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062952618281054294?s=20"
+- src: "/assets/images/gallery/tachibana/HKEUeABbIAAkYqc.jpg"
+  title: 王子の橘
+  tags:
+  - 橘
+  - 王子版
+  date: '2026-06-06T02:40:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062952618281054294?s=20"
+- src: "/assets/images/gallery/tachibana/HKEUeAiagAAOhU7.jpg"
+  title: 王子の橘
+  tags:
+  - 橘
+  - 王子版
+  date: '2026-06-06T02:40:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062952618281054294?s=20"
+- src: "/assets/images/gallery/amagi/HKES2aObYAEcTDs.jpg"
+  title: 王子の天城
+  tags:
+  - 天城
+  - 王子版
+  date: '2026-06-06T02:34:00+09:00'
+  thumb_position: '48% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062951329061073045?s=20"
+- src: "/assets/images/gallery/amagi/HKETTIdb0AAp--K.jpg"
+  title: 王子の天城
+  tags:
+  - 天城
+  - 王子版
+  date: '2026-06-06T02:34:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062951329061073045?s=20"
+- src: "/assets/images/gallery/shirose/HKES2aOakAA33BN.jpg"
+  title: 王子の白瀬
+  tags:
+  - 白瀬
+  - 王子版
+  date: '2026-06-06T02:34:00+09:00'
+  thumb_position: '62% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062951329061073045?s=20"
+- src: "/assets/images/gallery/shirose/HKES2aRbAAAGJvs.jpg"
+  title: 王子の白瀬
+  tags:
+  - 白瀬
+  - 王子版
+  date: '2026-06-06T02:34:00+09:00'
+  thumb_position: '42% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062951329061073045?s=20"
+- src: "/assets/images/gallery/arata/HKESQDnbgAAHkQw.jpg"
+  title: 王子の灼
+  tags:
+  - 灼
+  - 王子版
+  date: '2026-06-06T02:30:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062950177594654912?s=20"
+- src: "/assets/images/gallery/arata/HKESQDtaUAA_BkF.jpg"
+  title: 王子の灼
+  tags:
+  - 王子版
+  - 灼
+  date: '2026-06-06T02:30:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062950177594654912?s=20"
+- src: "/assets/images/gallery/kairi/HKESQDoakAACg6I.jpg"
+  title: 王子の浬
+  tags:
+  - 王子版
+  - 浬
+  date: '2026-06-06T02:30:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062950177594654912?s=20"
+- src: "/assets/images/gallery/kairi/HKESQDuaYAAukDB.jpg"
+  title: 王子の浬
+  tags:
+  - 王子版
+  - 浬
+  date: '2026-06-06T02:30:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062950177594654912?s=20"
+- src: "/assets/images/gallery/shirabe/HKERxXOb0AA6kTR.jpg"
+  title: 王子の調
+  tags:
+  - 王子版
+  - 調
+  date: '2026-06-06T02:28:00+09:00'
+  thumb_position: '44% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062949650743865848?s=20"
+- src: "/assets/images/gallery/shirabe/HKERxXPaIAAMFTx.jpg"
+  title: 王子の調
+  tags:
+  - 王子版
+  - 調
+  date: '2026-06-06T02:28:00+09:00'
+  thumb_position: '46% 22%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062949650743865848?s=20"
 - src: "/assets/images/gallery/amagi/HKDFk0-aIAAalhC.jpg"
   title: 旦那っぽい天城
   tags:
