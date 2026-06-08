@@ -1,4 +1,20 @@
 ---
+- src: "/assets/images/gallery/kairi/HJ5q54abgAATyCJ.jpg"
+  title: 浬のセーラー服
+  tags:
+  - 浬
+  date: '2026-06-04T01:02:00+09:00'
+  thumb_position: '44% 22%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062203229384139219?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/kairi/HJ5q54caEAA2Ae0.jpg"
+  title: 浬のセーラー服
+  tags:
+  - 浬
+  date: '2026-06-04T01:02:00+09:00'
+  thumb_position: '42% 22%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062203229384139219?s=20"
+  sensitive: true
 - src: "/assets/images/gallery/shirabe/HJ4XKbRaQAAhaNx.jpg"
   title: ゲームともだち
   tags:
