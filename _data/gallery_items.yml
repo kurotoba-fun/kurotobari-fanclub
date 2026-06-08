@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/amagi/HJ_LDiUbYAEJFTK.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-06-05T02:40:00+09:00'
+  thumb_position: '42% 34%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062590420115399126?s=20"
+- src: "/assets/images/gallery/amagi/HJ_MKdoaEAAJkVk.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-06-05T02:40:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062590420115399126?s=20"
 - src: "/assets/images/gallery/kujo/HJ9RpX2bsAAEJCI.jpg"
   title: 近い九条
   tags:
