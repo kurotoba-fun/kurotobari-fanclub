@@ -1,4 +1,63 @@
 ---
+- src: "/assets/images/gallery/amagi/HKDFk0-aIAAalhC.jpg"
+  title: 旦那っぽい天城
+  tags:
+  - 天城
+  - 10年後
+  date: '2026-06-05T20:56:00+09:00'
+  thumb_position: '56% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062866186791186638?s=20"
+- src: "/assets/images/gallery/arata/HKDFk1ObwAADjyY.jpg"
+  title: 旦那っぽい灼
+  tags:
+  - 灼
+  - 10年後
+  date: '2026-06-05T20:56:00+09:00'
+  thumb_position: '34% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062866186791186638?s=20"
+- src: "/assets/images/gallery/kairi/HKDF3LZaQAATVK1.jpg"
+  title: 旦那っぽい浬
+  tags:
+  - 浬
+  date: '2026-06-05T20:56:00+09:00'
+  thumb_position: '50% 22%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062866186791186638?s=20"
+- src: "/assets/images/gallery/kujo/HKDIr8uaMAA4WZB.jpg"
+  title: 旦那っぽい九条
+  tags:
+  - 九条
+  date: '2026-06-05T20:56:00+09:00'
+  thumb_position: '45% 26%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062866186791186638?s=20"
+- src: "/assets/images/gallery/shirabe/HKDFk1CawAAHv_V.jpg"
+  title: 旦那っぽい調
+  tags:
+  - 調
+  - 10年後
+  date: '2026-06-05T20:56:00+09:00'
+  thumb_position: '62% 26%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062866186791186638?s=20"
+- src: "/assets/images/gallery/shirose/HKDIr8xakAAjPmp.jpg"
+  title: 旦那っぽい白瀬
+  tags:
+  - 白瀬
+  date: '2026-06-05T20:56:00+09:00'
+  thumb_position: '62% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062866186791186638?s=20"
+- src: "/assets/images/gallery/susugaya/HKDIr8wasAAIFND.jpg"
+  title: 旦那っぽい煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-06-05T20:56:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062866186791186638?s=20"
+- src: "/assets/images/gallery/tachibana/HKDIr87asAAW4Hd.jpg"
+  title: 旦那っぽい橘
+  tags:
+  - 橘
+  date: '2026-06-05T20:56:00+09:00'
+  thumb_position: '38% 28%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2062866186791186638?s=20"
 - src: "/assets/images/gallery/kairi/HKCZLBFboAAIqNT.jpg"
   title: 浬
   tags:
