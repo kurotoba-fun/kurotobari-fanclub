@@ -1,4 +1,20 @@
 ---
+- src: "/assets/images/gallery/arata/HKdUnTZbQAAPcaG.jpg"
+  title: 舌出し灼
+  tags:
+  - 灼
+  date: '2026-06-10T23:11:00+09:00'
+  thumb_position: '62% 24%'
+  sensitive: true
+  x_url: "https://x.com/KUROTOBA_KGM/status/2064711993802776682?s=20"
+- src: "/assets/images/gallery/shirabe/HKdWWfZacAA8bol.jpg"
+  title: 舌出し調
+  tags:
+  - 調
+  date: '2026-06-10T23:18:00+09:00'
+  thumb_position: '62% 24%'
+  sensitive: true
+  x_url: "https://x.com/KUROTOBA_KGM/status/2064713904450834566?s=20"
 - src: "/assets/images/gallery/tachibana/HKdUVyJaYAAeqcG.jpg"
   title: 橘
   tags:
