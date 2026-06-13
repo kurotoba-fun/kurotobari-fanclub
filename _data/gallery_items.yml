@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/tachibana/HKQaWRkagAAXsMM.jpg"
+  title: 橘
+  tags:
+  - 橘
+  date: '2026-06-08T11:01:00+09:00'
+  thumb_position: '38% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2063803509905244658?s=20"
+- src: "/assets/images/gallery/tachibana/HKQaWRrbEAAYeA-.jpg"
+  title: 橘
+  tags:
+  - 橘
+  date: '2026-06-08T11:01:00+09:00'
+  thumb_position: '44% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2063803509905244658?s=20"
 - src: "/assets/images/gallery/shirose/HKQXgtHaYAAvDRp.jpg"
   title: チャイニーズ白瀬
   tags:
