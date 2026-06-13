@@ -1,4 +1,40 @@
 ---
+- src: "/assets/images/gallery/hibari/HKQ1-MiasAA5zBH.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  - 子ども
+  date: '2026-06-08T13:01:00+09:00'
+  thumb_position: '50% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2063833877303714214?s=20"
+- src: "/assets/images/gallery/hibari/HKQca9SbQAAZ_R5.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-08T11:10:00+09:00'
+  thumb_position: '52% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2063805799089213726?s=20"
+- src: "/assets/images/gallery/hibari/HKQca9TbgAAnPXR.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-08T11:10:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2063805799089213726?s=20"
+- src: "/assets/images/gallery/hibari/HKQca9cbsAAyniU.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-08T11:10:00+09:00'
+  thumb_position: '56% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2063805799089213726?s=20"
+- src: "/assets/images/gallery/hibari/HKQca9fa0AAnx04.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-08T11:10:00+09:00'
+  thumb_position: '54% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2063805799089213726?s=20"
 - src: "/assets/images/gallery/tachibana/HKQaWRkagAAXsMM.jpg"
   title: 橘
   tags:
