@@ -1,4 +1,27 @@
 ---
+- src: "/assets/images/gallery/amagi/HKdcnoEboAA5fEK.jpg"
+  title: 舌出し天城
+  tags:
+  - 天城
+  date: '2026-06-10T23:46:00+09:00'
+  thumb_position: '50% 28%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2064720796199899321?s=20"
+- src: "/assets/images/gallery/kujo/HKdeGU_bMAAKOil.jpg"
+  title: 舌出し九条
+  tags:
+  - 九条
+  date: '2026-06-10T23:52:00+09:00'
+  thumb_position: '50% 24%'
+  sensitive: true
+  x_url: "https://x.com/KUROTOBA_KGM/status/2064722421907951819?s=20"
+- src: "/assets/images/gallery/shirose/HKdZuL7aAAAXHGB.jpg"
+  title: 舌出し白瀬
+  tags:
+  - 白瀬
+  date: '2026-06-10T23:33:00+09:00'
+  thumb_position: '60% 24%'
+  sensitive: true
+  x_url: "https://x.com/KUROTOBA_KGM/status/2064717609682251845?s=20"
 - src: "/assets/images/gallery/kairi/HKdZVZcboAAIZ7h.jpg"
   title: 浬
   tags:
