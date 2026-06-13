@@ -1,4 +1,44 @@
 ---
+- src: "/assets/images/gallery/arata/HKbB8DIbEAA2SVL.jpg"
+  title: 獣耳の灼
+  tags:
+  - 灼
+  - 副産物
+  date: '2026-06-10T12:30:00+09:00'
+  thumb_position: '58% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2064550726580555884?s=20"
+- src: "/assets/images/gallery/arata/HKbB8DLbAAAvMyy.jpg"
+  title: 獣耳の灼
+  tags:
+  - 灼
+  - 副産物
+  date: '2026-06-10T12:30:00+09:00'
+  thumb_position: '50% 22%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2064550726580555884?s=20"
+- src: "/assets/images/gallery/shirabe/HKbB8DIb0AAaYc9.jpg"
+  title: 獣耳の調
+  tags:
+  - 調
+  - 副産物
+  date: '2026-06-10T12:30:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2064550726580555884?s=20"
+- src: "/assets/images/gallery/shirabe/HKbB8DJagAAeYtA.jpg"
+  title: 獣耳の調
+  tags:
+  - 調
+  - 副産物
+  date: '2026-06-10T12:30:00+09:00'
+  thumb_position: '48% 23%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2064550726580555884?s=20"
+- src: "/assets/images/gallery/tachibana/HKbCLrJa4AAin2f.jpg"
+  title: 獣耳の橘
+  tags:
+  - 橘
+  - 副産物
+  date: '2026-06-10T12:31:00+09:00'
+  thumb_position: '48% 22%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2064550991153017052?s=20"
 - src: "/assets/images/gallery/amagi/HKalteKbMAAIR-1.jpg"
   title: 口輪獣耳の天城
   tags:
