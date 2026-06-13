@@ -1,4 +1,34 @@
 ---
+- src: "/assets/images/gallery/kairi/HKQUy3nbUAA0AtN.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-06-08T10:37:00+09:00'
+  thumb_position: '66% 34%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2063797413924770061?s=20"
+- src: "/assets/images/gallery/kairi/HKQUy3obQAAxMNv.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-06-08T10:37:00+09:00'
+  thumb_position: '58% 24%'
+  sensitive: true
+  x_url: "https://x.com/KUROTOBA_KGM/status/2063797413924770061?s=20"
+- src: "/assets/images/gallery/kairi/HKQUy3qbIAAq6xu.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-06-08T10:37:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2063797413924770061?s=20"
+- src: "/assets/images/gallery/kairi/HKQUy3qbwAAkJrl.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-06-08T10:37:00+09:00'
+  thumb_position: '58% 28%'
+  sensitive: true
+  x_url: "https://x.com/KUROTOBA_KGM/status/2063797413924770061?s=20"
 - src: "/assets/images/gallery/shirabe/HKQT3yHaMAA94VH.jpg"
   title: 調
   tags:
