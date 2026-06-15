@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/tobarimori/HKdf7cbbYAEP0ir.jpg"
+  title: 軍服帳守
+  tags:
+  - 帳守
+  date: '2026-06-11T00:00:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2064724434246930550?s=20"
+- src: "/assets/images/gallery/tobarimori/HKdf7chbYAEA2be.jpg"
+  title: 軍服帳守
+  tags:
+  - 帳守
+  date: '2026-06-11T00:00:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2064724434246930550?s=20"
 - src: "/assets/images/gallery/amagi/HKdcnoEboAA5fEK.jpg"
   title: 舌出し天城
   tags:
@@ -1554,6 +1568,34 @@
   - 帳守
   date: '2026-06-02T23:56:00+09:00'
   x_url: "https://x.com/KUROTOBA_KGM/status/2061824360630059166?s=20"
+- src: "/assets/images/gallery/shirabe/HJ0NMS_bUAAlRqS.jpg"
+  title: キメラべ
+  tags:
+  - 調
+  date: '2026-06-02T23:34:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2061818718775304627?s=20"
+- src: "/assets/images/gallery/shirabe/HJ0NMTBboAAlhy_.jpg"
+  title: キメラべ
+  tags:
+  - 調
+  date: '2026-06-02T23:34:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2061818718775304627?s=20"
+- src: "/assets/images/gallery/shirabe/HJ0NMTDaIAA_tS1.jpg"
+  title: キメラべ
+  tags:
+  - 調
+  date: '2026-06-02T23:34:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2061818718775304627?s=20"
+- src: "/assets/images/gallery/shirabe/HJ0NMTLbIAASWag.jpg"
+  title: キメラべ
+  tags:
+  - 調
+  date: '2026-06-02T23:34:00+09:00'
+  thumb_position: '50% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2061818718775304627?s=20"
 - src: "/assets/images/gallery/shirose/HJ0HejWaEAAbZqw.jpg"
   title: 白瀬
   tags:
