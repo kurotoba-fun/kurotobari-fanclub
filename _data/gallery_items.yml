@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/kairi/HKkSLWfawAAugUl.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-06-12T07:37:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2065201896202379329?s=20"
+- src: "/assets/images/gallery/shirose/HKkSLWebsAAGoS_.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-06-12T07:37:00+09:00'
+  thumb_position: '50% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2065201896202379329?s=20"
 - src: "/assets/images/gallery/susugaya/HKintV6a4AIdqUf.jpg"
   title: 煤ヶ谷
   tags:
