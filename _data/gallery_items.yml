@@ -1,4 +1,11 @@
 ---
+- src: "/assets/images/gallery/hibari/HKxN9vpacAABXDZ.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-14T19:54:00+09:00'
+  thumb_position: '56% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066112058102624607?s=20"
 - src: "/assets/images/gallery/shirose/HKxMuNBakAAht-z.jpg"
   title: 白瀬
   tags:
