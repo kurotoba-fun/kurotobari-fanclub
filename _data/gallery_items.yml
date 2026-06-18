@@ -1,4 +1,11 @@
 ---
+- src: "/assets/images/gallery/kujo/HKmm7ZFboAENCnt.jpg"
+  title: 九条
+  tags:
+  - 九条
+  date: '2026-06-12T18:27:00+09:00'
+  thumb_position: '62% 22%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2065365448842150289?s=20"
 - src: "/assets/images/gallery/amagi/HKlqoxlbEAA8LEm.jpg"
   title: 天城
   tags:
