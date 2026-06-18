@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/mairu/HKnt_XObsAA8wjV.jpg"
+  title: 哩
+  tags:
+  - 哩
+  date: '2026-06-12T23:38:00+09:00'
+  thumb_position: '70% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2065443583243718945?s=20"
+- src: "/assets/images/gallery/mairu/HKntITyaQAANQ11.jpg"
+  title: 哩
+  tags:
+  - 哩
+  date: '2026-06-12T23:34:00+09:00'
+  thumb_position: '50% 28%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2065442636903927990?s=20"
 - src: "/assets/images/gallery/kujo/HKmm7ZFboAENCnt.jpg"
   title: 九条
   tags:
