@@ -1,4 +1,12 @@
 ---
+- src: "/assets/images/gallery/susugaya/HKg7q9da4AAcbYb.jpg"
+  title: 煤ヶ谷20万トーク記念
+  tags:
+  - 煤ヶ谷
+  - 記念
+  date: '2026-06-11T16:00:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2064966044540924075?s=20"
 - src: "/assets/images/gallery/tobarimori/HKdhgZLasAAMhEW.jpg"
   title: 帳守
   tags:
