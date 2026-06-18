@@ -1,4 +1,11 @@
 ---
+- src: "/assets/images/gallery/susugaya/HKp_Yx3acAAkudw.jpg"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-06-13T10:13:00+09:00'
+  thumb_position: '50% 22%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2065603447374962889?s=20"
 - src: "/assets/images/gallery/mairu/HKnt_XObsAA8wjV.jpg"
   title: 哩
   tags:
