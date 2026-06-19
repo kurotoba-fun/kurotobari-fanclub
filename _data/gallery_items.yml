@@ -1,4 +1,68 @@
 ---
+- src: "/assets/images/gallery/shirabe/HLIJvc1bcAApdmT.jpg"
+  title: 魔法少女の調
+  tags:
+  - 調
+  date: '2026-06-19T06:47:00+09:00'
+  thumb_position: '54% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2067725896556122263?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/arata/HLIJvc0bcAAVSaz.jpg"
+  title: 魔法少女の灼
+  tags:
+  - 灼
+  date: '2026-06-19T06:47:00+09:00'
+  thumb_position: '44% 16%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2067725896556122263?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/kairi/HLIJvc3acAAnfW3.jpg"
+  title: 魔法少女の浬
+  tags:
+  - 浬
+  date: '2026-06-19T06:47:00+09:00'
+  thumb_position: '50% 16%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2067725896556122263?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/amagi/HLINvtTaEAAAJ6u.jpg"
+  title: 魔法少女の天城
+  tags:
+  - 天城
+  date: '2026-06-19T06:47:00+09:00'
+  thumb_position: '44% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2067725896556122263?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/shirose/HLINvtWbkAAf8IR.jpg"
+  title: 魔法少女の白瀬
+  tags:
+  - 白瀬
+  date: '2026-06-19T06:47:00+09:00'
+  thumb_position: '48% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2067725896556122263?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/kujo/HLINvtRbgAE9nDe.jpg"
+  title: 魔法少女の九条
+  tags:
+  - 九条
+  date: '2026-06-19T06:47:00+09:00'
+  thumb_position: '42% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2067725896556122263?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/tachibana/HLINvtXbYAA3fiR.jpg"
+  title: 魔法少女の橘
+  tags:
+  - 橘
+  date: '2026-06-19T06:47:00+09:00'
+  thumb_position: '52% 16%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2067725896556122263?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/susugaya/HLIN5a1bUAAMCOL.jpg"
+  title: 魔法少女の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-06-19T06:47:00+09:00'
+  thumb_position: '52% 16%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2067725896556122263?s=20"
+  sensitive: true
 - src: "/assets/images/gallery/kairi/HLFJ4Gma8AE-65b.jpg"
   title: 浬80万トーク記念
   tags:
