@@ -219,8 +219,8 @@ async function extractPost(page, statusUrl) {
     };
   }, tweetId);
 
-  const images = await article.evaluate(() => {
-    const anchors = [...document.querySelectorAll('a[href*="/photo/"]')];
+  const images = await article.evaluate((element) => {
+    const anchors = [...element.querySelectorAll('a[href*="/photo/"]')];
     return anchors
       .map((anchor) => {
         const image = anchor.querySelector('img[src*="pbs.twimg.com/media/"]');
@@ -232,12 +232,13 @@ async function extractPost(page, statusUrl) {
       })
       .filter((item) => item.imageUrl);
   });
+  const ownImages = images.filter((image) => image.photoHref.includes(`/status/${tweetId}/photo/`));
 
   return {
     tweetId,
     postedAt: normalizePostedAt(timestamp.datetime) || parseXTimestampText(timestamp.text),
     shareUrl: normalizeStatusUrl(statusUrl),
-    images: images.map((image) => ({
+    images: ownImages.map((image) => ({
       ...image,
       imageUrl: buildOriginalImageUrl(image.imageUrl),
     })),

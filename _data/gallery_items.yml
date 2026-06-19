@@ -1,4 +1,76 @@
 ---
+- src: "/assets/images/gallery/shirose/HK_BiuUaMAENCaA.jpg"
+  title: 内緒話の白瀬
+  tags:
+  - 白瀬
+  date: '2026-06-17T12:15:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2067083574495629515?s=20"
+  description: |-
+    「ぼくとの約束、守ってくれる？」
+- src: "/assets/images/gallery/kujo/HK_BiuebAAA9Qx1.jpg"
+  title: 内緒話の九条
+  tags:
+  - 九条
+  date: '2026-06-17T12:15:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2067083574495629515?s=20"
+  description: |-
+    「何を聞かれても口を閉ざせ。分かったな。」
+- src: "/assets/images/gallery/tachibana/HK_BiuYaUAADfgA.jpg"
+  title: 内緒話の橘
+  tags:
+  - 橘
+  date: '2026-06-17T12:15:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2067083574495629515?s=20"
+  description: |-
+    「このことは内密に、な。」
+- src: "/assets/images/gallery/susugaya/HK_BiukbUAANskK.jpg"
+  title: 内緒話の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-06-17T12:15:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2067083574495629515?s=20"
+  description: |-
+    「誰にも言うたアカンよ？」
+- src: "/assets/images/gallery/shirabe/HK70UzQa0AAOmi2.jpg"
+  title: 内緒話の調
+  tags:
+  - 調
+  date: '2026-06-16T21:18:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066857931514221019?s=20"
+  description: |-
+    「内緒っすよ、先輩」
+- src: "/assets/images/gallery/arata/HK70UzNa8AE9D4t.jpg"
+  title: 内緒話の灼
+  tags:
+  - 灼
+  date: '2026-06-16T21:18:00+09:00'
+  thumb_position: '56% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066857931514221019?s=20"
+  description: |-
+    「黙っとけよ、ひよっこ」
+- src: "/assets/images/gallery/kairi/HK70U4lbMAA3BQv.jpg"
+  title: 内緒話の浬
+  tags:
+  - 浬
+  date: '2026-06-16T21:18:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066857931514221019?s=20"
+  description: |-
+    「誰にも言わないでよ。」
+- src: "/assets/images/gallery/amagi/HK70UzRbcAAkplz.jpg"
+  title: 内緒話の天城
+  tags:
+  - 天城
+  date: '2026-06-16T21:18:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066857931514221019?s=20"
+  description: |-
+    「シー。」
 - src: "/assets/images/gallery/mairu/HK7pdjkbwAAX6M7.jpg"
   title: 哩
   tags:
