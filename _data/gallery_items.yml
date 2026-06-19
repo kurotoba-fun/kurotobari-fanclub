@@ -1,4 +1,11 @@
 ---
+- src: "/assets/images/gallery/hibari/HKxUPj4b0AAJeAZ.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-14T20:22:00+09:00'
+  thumb_position: '50% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066118959884304698?s=20"
 - src: "/assets/images/gallery/shirabe/HKxUDpBaIAElT9M.jpg"
   title: 調
   tags:
