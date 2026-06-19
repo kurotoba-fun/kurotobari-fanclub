@@ -1,4 +1,20 @@
 ---
+- src: "/assets/images/gallery/kairi/HK7ByF5bMAAG2aQ.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-06-16T17:37:00+09:00'
+  thumb_position: '50% 14%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066802351378436409?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/kairi/HK6agSyb0AAGkTW.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-06-16T14:45:00+09:00'
+  thumb_position: '50% 16%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066759164479848597?s=20"
+  sensitive: true
 - src: "/assets/images/gallery/tachibana/HK6VtGrbsAAFhTI.jpg"
   title: 橘
   tags:
