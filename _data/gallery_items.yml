@@ -1,4 +1,76 @@
 ---
+- src: "/assets/images/gallery/shirose/HK7jwuLbkAArVSb.jpg"
+  title: 別れ話の白瀬
+  tags:
+  - 白瀬
+  date: '2026-06-16T20:06:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066839721054191632?s=20"
+  description: |-
+    「…君のせいじゃない。僕の責任だ。」
+- src: "/assets/images/gallery/kujo/HK7jwuQaAAAxD4z.jpg"
+  title: 別れ話の九条
+  tags:
+  - 九条
+  date: '2026-06-16T20:06:00+09:00'
+  thumb_position: '44% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066839721054191632?s=20"
+  description: |-
+    「…何度言わせれば気が済む。騙されていたのだ、貴様は。」
+- src: "/assets/images/gallery/tachibana/HK7jwuTboAAai15.jpg"
+  title: 別れ話の橘
+  tags:
+  - 橘
+  date: '2026-06-16T20:06:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066839721054191632?s=20"
+  description: |-
+    「…まさか、本気にしていたとはな。厄介だ。」
+- src: "/assets/images/gallery/susugaya/HK7jwuPbAAAQj6M.jpg"
+  title: 別れ話の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-06-16T20:06:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066839721054191632?s=20"
+  description: |-
+    「さいなら。もう来たアカンで。」
+- src: "/assets/images/gallery/shirabe/HK7Y3WcakAAX4GW.jpg"
+  title: 別れ話の調
+  tags:
+  - 調
+  date: '2026-06-16T19:18:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066827731367788955?s=20"
+  description: |-
+    「俺じゃ…アンタを、幸せにできねぇ…っ」
+- src: "/assets/images/gallery/arata/HK7Y3WeasAAilsp.jpg"
+  title: 別れ話の灼
+  tags:
+  - 灼
+  date: '2026-06-16T19:18:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066827731367788955?s=20"
+  description: |-
+    「……愛想尽きた。」
+- src: "/assets/images/gallery/kairi/HK7Y3Wfa0AAW7oD.jpg"
+  title: 別れ話の浬
+  tags:
+  - 浬
+  date: '2026-06-16T19:18:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066827731367788955?s=20"
+  description: |-
+    「…遊びだった。ごめん。」
+- src: "/assets/images/gallery/amagi/HK7Y3Wdb0AAi2tB.jpg"
+  title: 別れ話の天城
+  tags:
+  - 天城
+  date: '2026-06-16T19:18:00+09:00'
+  thumb_position: '50% 16%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2066827731367788955?s=20"
+  description: |-
+    「…元々向いてなかったんだよ。恋愛なんか。」
 - src: "/assets/images/gallery/amagi/HK66yfxaAAA2COF.jpg"
   title: 天城
   tags:
