@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/hibari/HLRlYPNaEAAFhPo.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-21T02:44:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2068389600507449388?s=20"
+- src: "/assets/images/gallery/amagi/HLQ9hiHbwAAe90S.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-06-20T23:50:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2068345780671549672?s=20"
 - src: "/assets/images/gallery/shirabe/HLQxxjuaIAAd6Jg.jpg"
   title: 調
   tags:
