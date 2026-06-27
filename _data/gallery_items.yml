@@ -1,4 +1,25 @@
 ---
+- src: "/assets/images/gallery/tobarimori/HLQcvGbaMAEtJt_.jpg"
+  title: 立ち絵の帳守
+  tags:
+  - 帳守
+  date: '2026-06-20T21:27:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2068309731660402984?s=20"
+- src: "/assets/images/gallery/hibari/HLQcvGWakAES7Rk.jpg"
+  title: 立ち絵のヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-20T21:27:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2068309731660402984?s=20"
+- src: "/assets/images/gallery/tsukishiro/HLQcvGZaoAA3CAr.jpg"
+  title: 立ち絵の月城
+  tags:
+  - 月城
+  date: '2026-06-20T21:27:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2068309731660402984?s=20"
 - src: "/assets/images/gallery/tobarimori/HLQXMBZawAA5wYy.jpg"
   title: 帳守
   tags:
