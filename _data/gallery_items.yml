@@ -1,4 +1,11 @@
 ---
+- src: "/assets/images/gallery/tobarimori/HLQXMBZawAA5wYy.jpg"
+  title: 帳守
+  tags:
+  - 帳守
+  date: '2026-06-20T21:03:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2068303631607328869?s=20"
 - src: "/assets/images/gallery/tachibana/HLQTmLbakAEPLL1.jpg"
   title: 橘
   tags:
