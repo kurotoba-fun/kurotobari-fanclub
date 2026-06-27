@@ -1,4 +1,32 @@
 ---
+- src: "/assets/images/gallery/shirabe/HLQxxjuaIAAd6Jg.jpg"
+  title: 調
+  tags:
+  - 調
+  date: '2026-06-20T22:59:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2068332861372166168?s=20"
+- src: "/assets/images/gallery/kagemaru/HLQxjNmbYAAX4Cj.jpg"
+  title: 影戸
+  tags:
+  - 影戸
+  date: '2026-06-20T22:58:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2068332615359516956?s=20"
+- src: "/assets/images/gallery/tobarimori/HLQvrWVaIAAA7mk.jpg"
+  title: 帳守
+  tags:
+  - 帳守
+  date: '2026-06-20T22:50:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2068330557097009207?s=20"
+- src: "/assets/images/gallery/hibari/HLQulnwaQAAwHEF.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-20T22:45:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2068329358272713057?s=20"
 - src: "/assets/images/gallery/susugaya/HLQtV_cbwAAkMia.jpg"
   title: 煤ヶ谷
   tags:
@@ -6,15 +34,7 @@
   date: '2026-06-20T22:39:00+09:00'
   thumb_position: '50% 18%'
   x_url: "https://x.com/KUROTOBA_KGM/status/2068327991311233417?s=20"
-- src: "/assets/images/gallery/kairi/HLQsqROaEAAnFqj.jpg"
-  title: 浬
-  tags:
-  - 浬
-  date: '2026-06-20T22:36:00+09:00'
-  thumb_position: '50% 18%'
-  x_url: "https://x.com/KUROTOBA_KGM/status/2068327242493775965?s=20"
-- src: "/assets/images/gallery/shirabe/HLQsBUybgAAyiWD.jpg"
-  title: 調
+
   tags:
   - 調
   date: '2026-06-20T22:34:00+09:00'
