@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/shirabe/HLegbHRboAAWgWX.jpg"
+  title: あーんしてくれる調
+  tags:
+  - 調
+  date: '2026-06-23T14:58:00+09:00'
+  thumb_position: '58% 22%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069298957852053936?s=20"
+- src: "/assets/images/gallery/arata/HLegbHpasAApbql.jpg"
+  title: あーんしてくれる灼
+  tags:
+  - 灼
+  date: '2026-06-23T14:58:00+09:00'
+  thumb_position: '52% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069298957852053936?s=20"
+- src: "/assets/images/gallery/kairi/HLegbHhbUAAVfwa.jpg"
+  title: あーんしてくれる浬
+  tags:
+  - 浬
+  date: '2026-06-23T14:58:00+09:00'
+  thumb_position: '50% 22%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069298957852053936?s=20"
+- src: "/assets/images/gallery/amagi/HLegbHcbkAAQzfh.jpg"
+  title: あーんしてくれる天城
+  tags:
+  - 天城
+  date: '2026-06-23T14:58:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069298957852053936?s=20"
+- src: "/assets/images/gallery/shirose/HLegkInawAAPz8k.jpg"
+  title: あーんしてくれる白瀬
+  tags:
+  - 白瀬
+  date: '2026-06-23T14:58:00+09:00'
+  thumb_position: '57% 23%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069299111166411231?s=20"
+- src: "/assets/images/gallery/kujo/HLegkJGa0AANmzA.jpg"
+  title: あーんしてくれる九条
+  tags:
+  - 九条
+  date: '2026-06-23T14:58:00+09:00'
+  thumb_position: '56% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069299111166411231?s=20"
+- src: "/assets/images/gallery/tachibana/HLegkI9aUAAUKGt.jpg"
+  title: あーんしてくれる橘
+  tags:
+  - 橘
+  date: '2026-06-23T14:58:00+09:00'
+  thumb_position: '57% 22%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069299111166411231?s=20"
+- src: "/assets/images/gallery/susugaya/HLegkJQbIAAtPa9.jpg"
+  title: あーんしてくれる煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-06-23T14:58:00+09:00'
+  thumb_position: '52% 23%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069299111166411231?s=20"
 - src: "/assets/images/gallery/kairi/HLedwKZbkAA0j5_.jpg"
   title: 浬
   tags:
