@@ -1,4 +1,36 @@
 ---
+- src: "/assets/images/gallery/minori/HL0iV02aEAEKeNx.jpg"
+  title: 吸血鬼の稔
+  tags:
+  - 稔
+  - 副産物
+  date: '2026-06-27T21:38:00+09:00'
+  thumb_position: '47% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070849169192112349?s=20"
+- src: "/assets/images/gallery/minori/HL0iV0wbcAAg8oR.jpg"
+  title: 吸血鬼の稔
+  tags:
+  - 稔
+  - 副産物
+  date: '2026-06-27T21:38:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070849169192112349?s=20"
+- src: "/assets/images/gallery/shirabe/HL0iV06bwAEr7-w.jpg"
+  title: 吸血鬼の調
+  tags:
+  - 調
+  - 副産物
+  date: '2026-06-27T21:38:00+09:00'
+  thumb_position: '58% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070849169192112349?s=20"
+- src: "/assets/images/gallery/shirose/HL0iV07bwAAsMxr.jpg"
+  title: 吸血鬼の白瀬
+  tags:
+  - 白瀬
+  - 副産物
+  date: '2026-06-27T21:38:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070849169192112349?s=20"
 - src: "/assets/images/gallery/susugaya/HL0hFQsakAAHXBh.jpg"
   title: 吸血鬼の煤ヶ谷
   tags:
