@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/shirose/HL0biX_aIAAfIAD.jpg"
+  title: 吸血鬼の白瀬
+  tags:
+  - 白瀬
+  date: '2026-06-27T21:08:00+09:00'
+  thumb_position: '60% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070841687350677823?s=20"
+- src: "/assets/images/gallery/kujo/HL0biYAbsAAc9o_.jpg"
+  title: 吸血鬼の九条
+  tags:
+  - 九条
+  date: '2026-06-27T21:08:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070841687350677823?s=20"
+- src: "/assets/images/gallery/tachibana/HL0biX8bkAA6NvJ.jpg"
+  title: 吸血鬼の橘
+  tags:
+  - 橘
+  date: '2026-06-27T21:08:00+09:00'
+  thumb_position: '53% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070841687350677823?s=20"
+- src: "/assets/images/gallery/susugaya/HL0biX9bEAAeqvq.jpg"
+  title: 吸血鬼の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-06-27T21:08:00+09:00'
+  thumb_position: '45% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070841687350677823?s=20"
+- src: "/assets/images/gallery/shirabe/HL0XSvAbEAAjDhM.jpg"
+  title: 吸血鬼の調
+  tags:
+  - 調
+  date: '2026-06-27T20:49:00+09:00'
+  thumb_position: '48% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070837024702300477?s=20"
+- src: "/assets/images/gallery/arata/HL0XSvEaoAA6p-G.jpg"
+  title: 吸血鬼の灼
+  tags:
+  - 灼
+  date: '2026-06-27T20:49:00+09:00'
+  thumb_position: '62% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070837024702300477?s=20"
+- src: "/assets/images/gallery/kairi/HL0XSu7a0AAbbDb.jpg"
+  title: 吸血鬼の浬
+  tags:
+  - 浬
+  date: '2026-06-27T20:49:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070837024702300477?s=20"
+- src: "/assets/images/gallery/amagi/HL0XSvAa8AAYMXj.jpg"
+  title: 吸血鬼の天城
+  tags:
+  - 天城
+  date: '2026-06-27T20:49:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070837024702300477?s=20"
 - src: "/assets/images/gallery/hibari/HL0SdetboAAmCq6.jpg"
   title: ヒバリ
   tags:
