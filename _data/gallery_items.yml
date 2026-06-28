@@ -1,4 +1,36 @@
 ---
+- src: "/assets/images/gallery/kairi/HL0f2sxbIAEd-kU.jpg"
+  title: 吸血鬼の浬
+  tags:
+  - 浬
+  - 副産物
+  date: '2026-06-27T21:27:00+09:00'
+  thumb_position: '55% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070846437265744098?s=20"
+- src: "/assets/images/gallery/hibari/HL0f2swa8AAFmV_.jpg"
+  title: 吸血鬼のヒバリ
+  tags:
+  - ヒバリ
+  - 副産物
+  date: '2026-06-27T21:27:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070846437265744098?s=20"
+- src: "/assets/images/gallery/tachibana/HL0f2suaIAAUnzU.jpg"
+  title: 吸血鬼の橘
+  tags:
+  - 橘
+  - 副産物
+  date: '2026-06-27T21:27:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070846437265744098?s=20"
+- src: "/assets/images/gallery/amagi/HL0f2sxbIAAVAre.jpg"
+  title: 吸血鬼の天城
+  tags:
+  - 天城
+  - 副産物
+  date: '2026-06-27T21:27:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070846437265744098?s=20"
 - src: "/assets/images/gallery/hibari/HL0dsFtbkAAX5ZF.jpg"
   title: 吸血鬼のヒバリ
   tags:
