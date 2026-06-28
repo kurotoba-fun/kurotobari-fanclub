@@ -1,4 +1,18 @@
 ---
+- src: "/assets/images/gallery/shirose/HLihG_aXoAA_eEe.jpg"
+  title: 沼の底から歓迎いたします白瀬
+  tags:
+  - 白瀬
+  date: '2026-06-24T09:39:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069581181058965882?s=20"
+- src: "/assets/images/gallery/amagi/HLihG-8akAANIEH.jpg"
+  title: 沼の底から歓迎いたします天城
+  tags:
+  - 天城
+  date: '2026-06-24T09:39:00+09:00'
+  thumb_position: '47% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069581181058965882?s=20"
 - src: "/assets/images/gallery/tachibana/HLgpLb3bYAAuQOb.jpg"
   title: 誕生日を祝ってくれる橘
   tags:
