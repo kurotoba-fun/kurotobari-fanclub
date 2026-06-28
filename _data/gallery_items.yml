@@ -1,4 +1,25 @@
 ---
+- src: "/assets/images/gallery/susugaya/HL0hFQsakAAHXBh.jpg"
+  title: 吸血鬼の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-06-27T21:32:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070847790369169692?s=20"
+- src: "/assets/images/gallery/susugaya/HL0hFQ2awAASbdF.jpg"
+  title: 吸血鬼の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-06-27T21:32:00+09:00'
+  thumb_position: '52% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070847790369169692?s=20"
+- src: "/assets/images/gallery/susugaya/HL0hFQ2bIAA1aq_.jpg"
+  title: 吸血鬼の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-06-27T21:32:00+09:00'
+  thumb_position: '52% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070847790369169692?s=20"
 - src: "/assets/images/gallery/kairi/HL0f2sxbIAEd-kU.jpg"
   title: 吸血鬼の浬
   tags:
