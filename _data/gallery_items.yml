@@ -1,4 +1,25 @@
 ---
+- src: "/assets/images/gallery/hibari/HL0Kja8acAAqneo.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-27T19:54:00+09:00'
+  thumb_position: '60% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070823014510600576?s=20"
+- src: "/assets/images/gallery/hibari/HL0Kja6asAA_Upu.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-27T19:54:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070823014510600576?s=20"
+- src: "/assets/images/gallery/hibari/HL0Kja8bkAEG3nY.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-27T19:54:00+09:00'
+  thumb_position: '57% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070823014510600576?s=20"
 - src: "/assets/images/gallery/arata/HL0HT8Ua8AAX6Ql.jpg"
   title: 灼
   tags:
