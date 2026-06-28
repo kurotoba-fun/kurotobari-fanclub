@@ -1,4 +1,32 @@
 ---
+- src: "/assets/images/gallery/hibari/HL0dsFtbkAAX5ZF.jpg"
+  title: 吸血鬼のヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-27T21:17:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070844062517604602?s=20"
+- src: "/assets/images/gallery/tobarimori/HL0dsFva0AAxlqS.jpg"
+  title: 吸血鬼の帳守
+  tags:
+  - 帳守
+  date: '2026-06-27T21:17:00+09:00'
+  thumb_position: '62% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070844062517604602?s=20"
+- src: "/assets/images/gallery/kageto/HL0dsFxbkAAtuqG.jpg"
+  title: 吸血鬼の影戸
+  tags:
+  - 影戸
+  date: '2026-06-27T21:17:00+09:00'
+  thumb_position: '58% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070844062517604602?s=20"
+- src: "/assets/images/gallery/minori/HL0dsFmacAAHxJB.jpg"
+  title: 吸血鬼の稔
+  tags:
+  - 稔
+  date: '2026-06-27T21:17:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070844062517604602?s=20"
 - src: "/assets/images/gallery/shirose/HL0biX_aIAAfIAD.jpg"
   title: 吸血鬼の白瀬
   tags:
