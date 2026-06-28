@@ -1,4 +1,67 @@
 ---
+- src: "/assets/images/gallery/amagi/HLa0eukboAAqtmS.jpg"
+  title: 不思議の国の天城
+  tags:
+  - 天城
+  date: '2026-06-22T21:44:00+09:00'
+  thumb_position: '46% 16%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069038878745612645?s=20"
+- src: "/assets/images/gallery/arata/HLaz41AbMAAiiVj.jpg"
+  title: 不思議の国の灼
+  tags:
+  - 灼
+  date: '2026-06-22T21:44:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069038878745612645?s=20"
+- src: "/assets/images/gallery/kairi/HLaz409bwAANnJC.jpg"
+  title: 不思議の国の浬
+  tags:
+  - 浬
+  date: '2026-06-22T21:44:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069038878745612645?s=20"
+- src: "/assets/images/gallery/kujo/HLa0euvbIAA4if7.jpg"
+  title: 不思議の国の九条
+  tags:
+  - 九条
+  date: '2026-06-22T21:44:00+09:00'
+  thumb_position: '54% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069038878745612645?s=20"
+- src: "/assets/images/gallery/mairu/HLa0xlqaAAEEW55.jpg"
+  title: 不思議の国の哩
+  tags:
+  - 哩
+  date: '2026-06-22T21:44:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069038878745612645?s=20"
+- src: "/assets/images/gallery/shirabe/HLaz409a0AEY7ot.jpg"
+  title: 不思議の国の調
+  tags:
+  - 調
+  date: '2026-06-22T21:44:00+09:00'
+  thumb_position: '50% 14%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069038878745612645?s=20"
+- src: "/assets/images/gallery/shirose/HLa0euka4AA4Hw-.jpg"
+  title: 不思議の国の白瀬
+  tags:
+  - 白瀬
+  date: '2026-06-22T21:44:00+09:00'
+  thumb_position: '50% 16%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069038878745612645?s=20"
+- src: "/assets/images/gallery/susugaya/HLa0xlrbYAA6g-x.jpg"
+  title: 不思議の国の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-06-22T21:44:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069038878745612645?s=20"
+- src: "/assets/images/gallery/tachibana/HLa0eukaMAAnP76.jpg"
+  title: 不思議の国の橘
+  tags:
+  - 橘
+  date: '2026-06-22T21:44:00+09:00'
+  thumb_position: '48% 16%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069038878745612645?s=20"
 - src: "/assets/images/gallery/amagi/HLaB0sXb0AA4Ou-.jpg"
   title: 天城
   tags:
