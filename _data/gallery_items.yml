@@ -1,4 +1,12 @@
 ---
+- src: "/assets/images/gallery/arata/HLZIIRjaAAAfJ6p.jpg"
+  title: 灼
+  tags:
+  - 灼
+  date: '2026-06-22T13:54:00+09:00'
+  thumb_position: '34% 16%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2068920513389621715?s=20"
+  sensitive: true
 - src: "/assets/images/gallery/tsukishiro/HLZFYvWaMAA0W96.jpg"
   title: 月城
   tags:
