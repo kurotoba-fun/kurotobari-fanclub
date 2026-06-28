@@ -1,4 +1,32 @@
 ---
+- src: "/assets/images/gallery/minori/HLi4MKpXkAAYLdM.jpg"
+  title: 榛葉 稔（しんば みのり）くん
+  tags:
+  - 稔
+  date: '2026-06-24T11:20:00+09:00'
+  thumb_position: '50% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069606561530704119?s=20"
+- src: "/assets/images/gallery/minori/HLi4MJ6a0AANHBy.jpg"
+  title: 榛葉 稔（しんば みのり）くん
+  tags:
+  - 稔
+  date: '2026-06-24T11:20:00+09:00'
+  thumb_position: '55% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069606561530704119?s=20"
+- src: "/assets/images/gallery/minori/HLi4MKqWEAAq4Y9.jpg"
+  title: 榛葉 稔（しんば みのり）くん
+  tags:
+  - 稔
+  date: '2026-06-24T11:20:00+09:00'
+  thumb_position: '50% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069606561530704119?s=20"
+- src: "/assets/images/gallery/minori/HLi4MKHbkAAisgQ.jpg"
+  title: 榛葉 稔（しんば みのり）くん
+  tags:
+  - 稔
+  date: '2026-06-24T11:20:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2069606561530704119?s=20"
 - src: "/assets/images/gallery/shirose/HLihG_aXoAA_eEe.jpg"
   title: 沼の底から歓迎いたします白瀬
   tags:
