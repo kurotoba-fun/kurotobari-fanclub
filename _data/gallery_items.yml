@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/shirabe/HLqOJK3akAA9XJ-.jpg"
+  title: 獣耳の調
+  tags:
+  - 調
+  date: '2026-06-25T21:33:00+09:00'
+  thumb_position: '50% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070123276005954030?s=20"
+- src: "/assets/images/gallery/arata/HLqOJKxaQAA89ZP.jpg"
+  title: 獣耳の灼
+  tags:
+  - 灼
+  date: '2026-06-25T21:33:00+09:00'
+  thumb_position: '50% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070123276005954030?s=20"
+- src: "/assets/images/gallery/kairi/HLqOJKyagAAzHZm.jpg"
+  title: 獣耳の浬
+  tags:
+  - 浬
+  date: '2026-06-25T21:33:00+09:00'
+  thumb_position: '50% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070123276005954030?s=20"
+- src: "/assets/images/gallery/amagi/HLqOJLBaAAA0lfo.jpg"
+  title: 獣耳の天城
+  tags:
+  - 天城
+  date: '2026-06-25T21:33:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070123276005954030?s=20"
+- src: "/assets/images/gallery/shirose/HLqOxoNaUAAMnEV.jpg"
+  title: 獣耳の白瀬
+  tags:
+  - 白瀬
+  date: '2026-06-25T21:36:00+09:00'
+  thumb_position: '63% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070123969760600211?s=20"
+- src: "/assets/images/gallery/kujo/HLqOxoHa0AAjoCS.jpg"
+  title: 獣耳の九条
+  tags:
+  - 九条
+  date: '2026-06-25T21:36:00+09:00'
+  thumb_position: '55% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070123969760600211?s=20"
+- src: "/assets/images/gallery/tachibana/HLqOxoMbgAAHFuq.jpg"
+  title: 獣耳の橘
+  tags:
+  - 橘
+  date: '2026-06-25T21:36:00+09:00'
+  thumb_position: '50% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070123969760600211?s=20"
+- src: "/assets/images/gallery/susugaya/HLqOxoMaUAAGeyj.jpg"
+  title: 獣耳の煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-06-25T21:36:00+09:00'
+  thumb_position: '50% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070123969760600211?s=20"
 - src: "/assets/images/gallery/kairi/HLpbEkqaEAEXQJv.jpg"
   title: 猫耳カチューシャ浬
   tags:
