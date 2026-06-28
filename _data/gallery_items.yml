@@ -1,4 +1,11 @@
 ---
+- src: "/assets/images/gallery/amagi/HLwbnTxacAEw4En.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-06-27T02:30:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070560295538622956?s=20"
 - src: "/assets/images/gallery/shirabe/HLv8acsbMAAWLBo.jpg"
   title: 調
   tags:
