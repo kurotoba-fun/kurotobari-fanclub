@@ -1,4 +1,11 @@
 ---
+- src: "/assets/images/gallery/tachibana/HLpVJ5qbQAAqhZA.jpg"
+  title: 橘
+  tags:
+  - 橘
+  date: '2026-06-25T17:24:00+09:00'
+  thumb_position: '50% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070060614836465849?s=20"
 - src: "/assets/images/gallery/minori/HLlBriXWQAAXuKE.jpg"
   title: 稔
   tags:
