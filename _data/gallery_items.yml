@@ -1,4 +1,60 @@
 ---
+- src: "/assets/images/gallery/shirose/HLzIK-ibAAAFN5J.jpg"
+  title: 寝癖の白瀬
+  tags:
+  - 白瀬
+  - 寝癖
+  date: '2026-06-27T15:04:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070750026431975602?s=20"
+- src: "/assets/images/gallery/kujo/HLzIK-kbgAAhxK1.jpg"
+  title: 寝癖の九条
+  tags:
+  - 九条
+  - 寝癖
+  date: '2026-06-27T15:04:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070750026431975602?s=20"
+- src: "/assets/images/gallery/tachibana/HLzIK-ebcAARY1S.jpg"
+  title: 寝癖の橘
+  tags:
+  - 橘
+  - 寝癖
+  date: '2026-06-27T15:04:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070750026431975602?s=20"
+- src: "/assets/images/gallery/shirabe/HLy6M6daAAEXxCV.jpg"
+  title: 寝癖の調
+  tags:
+  - 調
+  - 寝癖
+  date: '2026-06-27T14:03:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070734667301724426?s=20"
+- src: "/assets/images/gallery/arata/HLy6M6bbUAA58ke.jpg"
+  title: 寝癖の灼
+  tags:
+  - 灼
+  - 寝癖
+  date: '2026-06-27T14:03:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070734667301724426?s=20"
+- src: "/assets/images/gallery/kairi/HLy6M6bbAAA-9pr.jpg"
+  title: 寝癖の浬
+  tags:
+  - 浬
+  - 寝癖
+  date: '2026-06-27T14:03:00+09:00'
+  thumb_position: '55% 20%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070734667301724426?s=20"
+- src: "/assets/images/gallery/amagi/HLy6M6fbAAApPNV.jpg"
+  title: 寝癖の天城
+  tags:
+  - 天城
+  - 寝癖
+  date: '2026-06-27T14:03:00+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070734667301724426?s=20"
 - src: "/assets/images/gallery/amagi/HLwbnTxacAEw4En.jpg"
   title: 天城
   tags:
