@@ -1,4 +1,102 @@
 ---
+- src: "/assets/images/gallery/hibari/HL1ZVCQaoAAFfgJ.jpg"
+  title: ２Pのヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-28T01:38:25+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070909626833621399?s=20"
+- src: "/assets/images/gallery/hibari/HL1ZVCMbUAAWlWv.jpg"
+  title: ２Pのヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-06-28T01:38:25+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070909626833621399?s=20"
+- src: "/assets/images/gallery/minori/HL1WvshawAACr7S.jpg"
+  title: ２Pの稔
+  tags:
+  - 稔
+  date: '2026-06-28T01:27:10+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070906795351044404?s=20"
+- src: "/assets/images/gallery/minori/HL1WvsYa4AA_G0a.jpg"
+  title: ２Pの稔
+  tags:
+  - 稔
+  date: '2026-06-28T01:27:10+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070906795351044404?s=20"
+- src: "/assets/images/gallery/minori/HL1WvshbsAETdXS.jpg"
+  title: ２Pの稔
+  tags:
+  - 稔
+  date: '2026-06-28T01:27:10+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070906795351044404?s=20"
+- src: "/assets/images/gallery/minori/HL1WvscbIAAxZS5.jpg"
+  title: ２Pの稔
+  tags:
+  - 稔
+  date: '2026-06-28T01:27:10+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070906795351044404?s=20"
+- src: "/assets/images/gallery/shirose/HL1TBxYboAABRkK.jpg"
+  title: ２Pの白瀬
+  tags:
+  - 白瀬
+  date: '2026-06-28T01:10:53+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070902700036821170?s=20"
+- src: "/assets/images/gallery/kujo/HL1TBxZbAAA5m1v.jpg"
+  title: ２Pの九条
+  tags:
+  - 九条
+  date: '2026-06-28T01:10:53+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070902700036821170?s=20"
+- src: "/assets/images/gallery/tachibana/HL1TBxaa4AEGTJA.jpg"
+  title: ２Pの橘
+  tags:
+  - 橘
+  date: '2026-06-28T01:10:53+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070902700036821170?s=20"
+- src: "/assets/images/gallery/susugaya/HL1TBxbbwAA8c4P.jpg"
+  title: ２Pの煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-06-28T01:10:53+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070902700036821170?s=20"
+- src: "/assets/images/gallery/shirabe/HL1OWIabgAA-3jW.jpg"
+  title: ２Pの調
+  tags:
+  - 調
+  date: '2026-06-28T00:50:26+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070897553089130507?s=20"
+- src: "/assets/images/gallery/arata/HL1OWIoaEAA4FHG.jpg"
+  title: ２Pの灼
+  tags:
+  - 灼
+  date: '2026-06-28T00:50:26+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070897553089130507?s=20"
+- src: "/assets/images/gallery/kairi/HL1OWIgbYAA5qc-.jpg"
+  title: ２Pの浬
+  tags:
+  - 浬
+  date: '2026-06-28T00:50:26+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070897553089130507?s=20"
+- src: "/assets/images/gallery/amagi/HL1OWIlbMAA0aIw.jpg"
+  title: ２Pの天城
+  tags:
+  - 天城
+  date: '2026-06-28T00:50:26+09:00'
+  thumb_position: '50% 18%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2070897553089130507?s=20"
 - src: "/assets/images/gallery/shirabe/HL0-_inawAEvZEC.jpg"
   title: 調
   tags:
