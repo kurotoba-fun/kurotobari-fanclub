@@ -192,6 +192,13 @@ npm run post -- --url https://x.com/KUROTOBA_KGM/status/2066116349324390911 --ou
 
 `postedAt` を `_data/gallery_items.yml` の `date` に使い、`shareUrl` を `x_url` に使います。画像ファイル名は X の画像IDをもとに保存されます。
 
+#### 投稿単体取得がうまくいかない時の補足
+
+- `npm run post` が `HTTP 404 for https://pbs.twimg.com/media/<media-id>?format=webp&name=orig` で失敗した場合は、X の画面上の `currentSrc` が `webp` でも原寸取得は `jpg` のことがあります。同じ `<media-id>` で `https://pbs.twimg.com/media/<media-id>?format=jpg&name=orig` を Playwright の request context から確認し、200 が返る場合は `<media-id>.jpg` として保存してください。
+- サンドボックス内で Playwright/Chromium が `MachPortRendezvousServer ... Permission denied` や DNS 関連のエラーで起動できない場合は、承認を取ってサンドボックス外で再実行してください。ログインプロファイルや Cookie の中身は表示しないでください。
+- `postedAt` が空で返る場合は、まず X 画面上の投稿時刻を確認してください。それも取れない場合の最終手段として、X の status ID から Snowflake 時刻を復元できます。計算式は `created_ms = (BigInt(tweetId) >> 22n) + 1288834974657n` です。UTC の `created_ms` を JST ISO 形式（例: `YYYY-MM-DDTHH:MM:SS+09:00`）へ変換して `date` に使います。
+- 重複確認では、既存データに過去からの重複 `src` が残っている場合があります。全体重複で止めるのではなく、今回追加した `src` が `_data/gallery_items.yml` 内で 1 件だけかを必ず確認してください。
+
 ### ギャラリー登録までの流れ
 
 1. ユーザーから X 投稿URLとキャラクター名を受け取る。
