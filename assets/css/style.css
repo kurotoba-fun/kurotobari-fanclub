@@ -271,6 +271,81 @@ img { max-width: 100%; display: block; }
   border-radius: 6px;
 }
 
+.about-profile-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 28px 0;
+}
+.about-profile-card,
+.about-contact-card {
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.04);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+}
+.about-profile-card {
+  padding: 20px;
+}
+.about-profile-card__label {
+  margin: 0 0 8px;
+  color: var(--accent-soft);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+.prose .about-profile-card h2 {
+  margin: 0 0 10px;
+}
+.prose .about-profile-card p {
+  margin: 0 0 16px;
+}
+.about-link-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.about-link-list a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 14px;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.05);
+  color: #ffd7e1;
+  font-weight: 700;
+}
+.about-link-list a:hover {
+  border-color: rgba(255,255,255,0.28);
+  color: white;
+}
+.about-contact-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+.about-contact-card {
+  display: grid;
+  gap: 4px;
+  padding: 16px 18px;
+  color: inherit;
+  transition: transform 0.18s ease, border-color 0.18s ease;
+}
+.about-contact-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,0.2);
+}
+.about-contact-card__title {
+  color: #ffd7e1;
+  font-weight: 800;
+}
+.about-contact-card__text {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .plot-link-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -418,6 +493,11 @@ img { max-width: 100%; display: block; }
 }
 
 @media (max-width: 640px) {
+  .about-profile-grid,
+  .about-contact-list {
+    grid-template-columns: 1fr;
+  }
+
   .plot-link-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
