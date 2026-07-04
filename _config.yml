@@ -37,6 +37,7 @@ defaults:
       layout: page
 
 exclude:
+  - AGENTS.md
   - README.md
   - Gemfile
   - Gemfile.lock
@@ -48,3 +49,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - my_documents/
+  - scripts/
