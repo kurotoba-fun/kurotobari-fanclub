@@ -1,6 +1,13 @@
 # kurotobari-site Guide
 
-このプロジェクトは、黒帳のキャラクターと世界観をまとめる Jekyll / GitHub Pages サイトです。作者公認のファン活動として運営されているため、文章や導線を変更する時はファンサイトとしての立場が伝わる表現を保ってください。
+このプロジェクトは、黒帳のキャラクターと世界観をまとめる Jekyll サイトです。現在の公開先は Cloudflare Pages です。作者公認のファン活動として運営されているため、文章や導線を変更する時はファンサイトとしての立場が伝わる表現を保ってください。
+
+## 公開情報
+
+- 最新URL: `https://kurotobari-fanclub.pages.dev/`
+- 最新リポジトリ: `kurotoba-fun/kurotobari-fanclub`
+- 旧URL: `https://kurotoba-fun.github.io/mainworld/`
+- 旧リポジトリ: `kurotoba-fun/mainworld`
 
 ## イベント更新
 
