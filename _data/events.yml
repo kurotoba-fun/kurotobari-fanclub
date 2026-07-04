@@ -16,6 +16,13 @@
   type: organization
   description: 薬学・物理・戦術・心理の筆記と口頭試験。成績不振者には一週間の補講への参加が義務付けられる。
 
+- title: ヒバリの誕生日
+  date: "02-03"
+  type: birthday
+  character: hibari
+  character_name: ヒバリ
+  description: ヒバリの誕生日。
+
 - title: 尋問耐性試験（模擬）
   date: "02-10"
   type: organization
@@ -38,6 +45,13 @@
   date: "03-15"
   type: organization
   description: 過去のミスを徹底分析する会議。通称「黒歴史発表会」。
+
+- title: 巫馬梓睿の誕生日
+  date: "03-19"
+  type: birthday
+  character: wuma-zirui
+  character_name: 巫馬 梓睿
+  description: 巫馬梓睿の誕生日。
 
 - title: 他部署実習日
   date: "04-14"
@@ -70,6 +84,13 @@
   type: organization
   description: 素手・トレーニング用ナイフによる制圧術の総合戦。順位は評価に直結する。
 
+- title: 影戸肇の誕生日
+  date: "05-18"
+  type: birthday
+  character: kageto
+  character_name: 影戸 肇
+  description: 影戸肇の誕生日。
+
 - title: 健康診断・適性検査
   date: "06-06"
   type: organization
@@ -92,24 +113,39 @@
   type: organization
   description: 3F訓練場C区画で、最低限の装備のみで一定時間生存する訓練。
 
+- title: 安達哩の誕生日
+  date: "07-04"
+  type: birthday
+  character: mairu
+  character_name: 安達 哩
+  url: /academy/characters/mairu/
+  description: 安達哩の誕生日。
+
 - title: 遠泳試験（基礎）
   date: "07-20"
   type: organization
   description: 湾岸に移動し、沖合まで10km遠泳する試験。制限時間あり。
 
-- title: 橘の誕生日（仮）
+- title: 橘の誕生日
   date: "08-12"
   type: birthday
   character: tachibana
   character_name: 橘 縁
   url: /characters/tachibana/
-  description: 橘縁の誕生日。人物ファイルでは仮日付として記載されている。
+  description: 橘縁の誕生日。
 
 - title: 慰安旅行
   date: "08-24"
   end_date: "08-26"
   type: organization
   description: 黒帳構成員に年一度だけ与えられる完全オフ扱いの行事。二泊三日。
+
+- title: 榛葉稔の誕生日
+  date: "08-27"
+  type: birthday
+  character: shinba-minoru
+  character_name: 榛葉 稔
+  description: 榛葉稔の誕生日。
 
 - title: 狙撃技術試験
   date: "09-03"
@@ -129,6 +165,13 @@
   url: /characters/kairi/
   description: 通常任務日。この日に治療を頼むと、手間賃がいつもより割高に請求される。
 
+- title: 安達良太の誕生日
+  date: "09-20"
+  type: birthday
+  character: adachi-ryota
+  character_name: 安達 良太
+  description: 安達良太の誕生日。
+
 - title: 黒帳結成記念日
   date: "10-10"
   type: organization
@@ -147,6 +190,13 @@
   type: organization
   description: 対話のみで相手を追い詰める勝負。ディベート大会や口喧嘩大会に発展することも多い。
 
+- title: 王逸翔の誕生日
+  date: "11-15"
+  type: birthday
+  character: wang-yixiang
+  character_name: 王 逸翔
+  description: 王逸翔の誕生日。
+
 - title: 再教育判定日
   date: "11-29"
   type: organization
@@ -156,6 +206,14 @@
   date: "12-12"
   type: organization
   description: 昇格・降格・配置決定が行われる。
+
+- title: 帳守の誕生日
+  date: "12-12"
+  type: birthday
+  character: tobarimori
+  character_name: 帳守
+  url: /characters/tobarimori/
+  description: 帳守の誕生日。
 
 - title: 忘年会
   date: "12-28"
