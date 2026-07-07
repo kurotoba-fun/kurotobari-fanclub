@@ -138,6 +138,9 @@ function buildOriginalImageUrl(rawUrl) {
   const url = new URL(rawUrl);
   const format = url.searchParams.get("format");
   if (format) {
+    if (format === "webp") {
+      url.searchParams.set("format", "jpg");
+    }
     url.searchParams.set("name", "orig");
     return url.toString();
   }
