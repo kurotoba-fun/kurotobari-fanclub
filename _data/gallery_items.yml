@@ -1,4 +1,13 @@
 ---
+- src: "/assets/images/gallery/kageto/HME4G1BbsAADacG.jpg"
+  title: 子カゲ
+  tags:
+  - 影戸
+  - 子ども
+  date: '2026-07-01T01:47:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2071998998861545827?s=20"
+  sensitive: true
 - src: "/assets/images/gallery/shirabe/HMDNL7pWUAElYIZ.jpg"
   title: 子べべ
   tags:
