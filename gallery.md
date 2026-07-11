@@ -29,9 +29,15 @@ permalink: /gallery/
 <div class="gallery-filter">
   <span class="gallery-toolbar-label">タグ</span>
   <div class="gallery-filter-tags" role="group" aria-label="ギャラリーのタグ絞り込み">
-    <button class="gallery-filter-button" type="button" data-gallery-filter="all" aria-pressed="true">すべて</button>
+    <button class="gallery-filter-button" type="button" data-gallery-filter="all" aria-pressed="true">すべて <span class="gallery-filter-count">{{ gallery_items.size }}</span></button>
     {% for tag in gallery_tags %}
-      <button class="gallery-filter-button" type="button" data-gallery-filter="{{ tag }}" aria-pressed="false">{{ tag }}</button>
+      {% assign tag_count = 0 %}
+      {% for item in gallery_items %}
+        {% if item.tags contains tag %}
+          {% assign tag_count = tag_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      <button class="gallery-filter-button" type="button" data-gallery-filter="{{ tag }}" aria-pressed="false">{{ tag }} <span class="gallery-filter-count">{{ tag_count }}</span></button>
     {% endfor %}
   </div>
 </div>
