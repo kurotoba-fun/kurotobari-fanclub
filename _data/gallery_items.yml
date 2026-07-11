@@ -1,4 +1,92 @@
 ---
+- src: "/assets/images/gallery/kageto/HMNVZA0akAAY-nE.jpg"
+  title: 風をひいた影戸
+  tags:
+  - 影戸
+  date: '2026-07-02T17:12:00+09:00'
+  thumb_position: '40% 48%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072594148939739556?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/kageto/HMNVZA3bUAA8KG3.jpg"
+  title: 風をひいた影戸
+  tags:
+  - 影戸
+  date: '2026-07-02T17:12:00+09:00'
+  thumb_position: '65% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072594148939739556?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/kageto/HMNVZAzaoAAQnzf.jpg"
+  title: 風をひいた影戸
+  tags:
+  - 影戸
+  date: '2026-07-02T17:12:00+09:00'
+  thumb_position: '50% 48%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072594148939739556?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/kageto/HMNVZAzbUAAZ5WX.jpg"
+  title: 風をひいた影戸
+  tags:
+  - 影戸
+  date: '2026-07-02T17:12:00+09:00'
+  thumb_position: '62% 48%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072594148939739556?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/minori/HMNVKY7a4AAJuxv.jpg"
+  title: 風をひいた稔
+  tags:
+  - 稔
+  date: '2026-07-02T17:11:00+09:00'
+  thumb_position: '70% 48%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072593897956774309?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/minori/HMNVKY7aIAAxX-P.jpg"
+  title: 風をひいた稔
+  tags:
+  - 稔
+  date: '2026-07-02T17:11:00+09:00'
+  thumb_position: '65% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072593897956774309?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/minori/HMNVKY8bwAArkks.jpg"
+  title: 風をひいた稔
+  tags:
+  - 稔
+  date: '2026-07-02T17:11:00+09:00'
+  thumb_position: '38% 48%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072593897956774309?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/shirose/HMNVRbYbEAA1oxy.jpg"
+  title: 風をひいた白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-02T00:46:00+09:00'
+  thumb_position: '58% 48%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072594040747598272?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/shirose/HMNVRbcaUAEY7MV.jpg"
+  title: 風をひいた白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-02T00:46:00+09:00'
+  thumb_position: '62% 50%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072594040747598272?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/shirose/HMNVRbhaQAAH5xD.jpg"
+  title: 風をひいた白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-02T00:46:00+09:00'
+  thumb_position: '43% 48%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072594040747598272?s=20"
+  sensitive: true
+- src: "/assets/images/gallery/shirose/HMNVRbkbIAAxD7l.jpg"
+  title: 風をひいた白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-02T00:46:00+09:00'
+  thumb_position: '62% 48%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072594040747598272?s=20"
+  sensitive: true
 - src: "/assets/images/gallery/susugaya/HMMQoWNbwAA8PbP.jpg"
   title: 煤ヶ谷
   tags:
