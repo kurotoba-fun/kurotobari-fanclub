@@ -1,4 +1,32 @@
 ---
+- src: "/assets/images/gallery/tobarimori/HMOeM2kbMAAtPtG.jpg"
+  title: 浴衣の帳守
+  tags:
+  - 帳守
+  date: '2026-07-02T22:30:00+09:00'
+  thumb_position: '43% 34%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072674208321306984?s=20"
+- src: "/assets/images/gallery/hibari/HMOeM2la4AA6-nl.jpg"
+  title: 浴衣のヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-07-02T22:30:00+09:00'
+  thumb_position: '45% 34%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072674208321306984?s=20"
+- src: "/assets/images/gallery/tsukishiro/HMOeM2qbQAAaklV.jpg"
+  title: 浴衣の月城
+  tags:
+  - 月城
+  date: '2026-07-02T22:30:00+09:00'
+  thumb_position: '48% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072674208321306984?s=20"
+- src: "/assets/images/gallery/kageto/HMOeM2mbkAIWUwg.jpg"
+  title: 浴衣の影戸
+  tags:
+  - 影戸
+  date: '2026-07-02T22:30:00+09:00'
+  thumb_position: '50% 25%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072674208321306984?s=20"
 - src: "/assets/images/gallery/kageto/HMNVZA0akAAY-nE.jpg"
   title: 風をひいた影戸
   tags:
