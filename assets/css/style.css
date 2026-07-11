@@ -658,7 +658,7 @@ img { max-width: 100%; display: block; }
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.1rem;
 }
 
 .gallery-filter-button[aria-pressed="true"] {
@@ -667,8 +667,8 @@ img { max-width: 100%; display: block; }
 }
 
 .gallery-filter-count {
-  color: rgba(255,255,255,0.62);
-  font-size: 0.72rem;
+  color: rgba(255,255,255,0.48);
+  font-size: 0.68rem;
   line-height: 1;
 }
 
