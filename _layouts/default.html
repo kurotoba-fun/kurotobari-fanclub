@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090909">
+  <meta name="apple-mobile-web-app-title" content="黒帳">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 120 }}{% else %}{{ site.description }}{% endif %}">
   {% assign og_description = page.summary | default: site.description | strip_html | strip_newlines | truncate: 120 %}
@@ -15,6 +17,8 @@
   <meta property="og:image" content="{{ og_image | absolute_url }}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="{{ og_image | absolute_url }}">
+  <link rel="icon" href="{{ '/assets/images/site/icons/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/site/icons/apple-touch-icon.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body class="theme-{{ page.theme | default: 'mainworld' }}">

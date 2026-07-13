@@ -1020,10 +1020,149 @@ body.theme-mainworld {
   background: #151413;
 }
 
+.home-world,
+.home-about {
+  margin: 18px 0 72px;
+}
+.home-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+.home-section-number {
+  color: var(--accent-soft);
+  font: 700 0.7rem/1 sans-serif;
+  letter-spacing: 0.14em;
+}
+.prose .home-section-heading p {
+  margin: 0 0 3px;
+  color: #716c66;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  line-height: 1.2;
+}
+.prose .home-section-heading h2 {
+  margin: 0;
+  font-size: clamp(1.25rem, 2.4vw, 1.75rem);
+}
+.home-world-body {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  min-height: clamp(390px, 54vw, 520px);
+  padding: clamp(30px, 5vw, 52px);
+  border-left: 3px solid var(--accent);
+  background:
+    linear-gradient(90deg, rgba(7,7,7,0.96) 0%, rgba(7,7,7,0.78) 48%, rgba(7,7,7,0.28) 100%),
+    linear-gradient(0deg, rgba(7,7,7,0.92), transparent 62%),
+    url('../images/site/background.png') center 48% / cover no-repeat,
+    #131211;
+}
+.home-world-body::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(115deg, rgba(167,31,39,0.2), transparent 34%);
+  content: "";
+  pointer-events: none;
+}
+.home-world-copy {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+.home-world-emblem {
+  position: absolute;
+  top: 24px;
+  right: clamp(20px, 5vw, 46px);
+  z-index: 1;
+  width: clamp(92px, 17vw, 145px);
+  max-height: 42%;
+  opacity: 0.38;
+  filter: invert(1) grayscale(1) contrast(1.5);
+  mix-blend-mode: screen;
+}
+.prose .home-world-name {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 12px;
+  color: var(--accent-soft);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+.home-world-name span {
+  margin-left: 8px;
+  color: #77716a;
+  font-size: 0.62rem;
+}
+.prose .home-world-lead {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 20px;
+  color: #f4f0e8;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: clamp(1.45rem, 4vw, 2.25rem);
+  font-weight: 700;
+  line-height: 1.55;
+  letter-spacing: 0.05em;
+}
+.home-world-lead > span {
+  display: block;
+  white-space: nowrap;
+}
+.home-world-mobile-line { display: inline; }
+.prose .home-world-copy > p:last-child {
+  position: relative;
+  z-index: 1;
+  max-width: 42em;
+  margin: 0;
+  color: #aaa49b;
+  font-size: 0.9rem;
+}
+.home-about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.12);
+}
+.home-about-card {
+  min-width: 0;
+  padding: 26px 24px 28px;
+  background: #131211;
+}
+.home-about-card > span {
+  color: var(--accent-soft);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+.prose .home-about-card h3 {
+  margin: 8px 0 16px;
+  color: #f4f0e8;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.1rem;
+}
+.prose .home-about-card p {
+  margin: 0;
+  color: #99938b;
+  font-size: 0.82rem;
+  line-height: 1.85;
+}
+.home-about-card-fan {
+  background: linear-gradient(145deg, rgba(167,31,39,0.13), transparent 70%), #131211;
+}
+
 @media (max-width: 900px) {
   .home-hero-inner { grid-template-columns: 1fr; }
   .home-hero-copy { max-width: 620px; }
   .hero-portraits { grid-template-rows: repeat(2, minmax(180px, 32vw)); }
+  .home-about-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 640px) {
@@ -1054,6 +1193,25 @@ body.theme-mainworld {
     height: auto;
   }
   .hero-portrait span { right: 10px; bottom: 9px; left: 10px; }
+  .home-world,
+  .home-about { margin-bottom: 56px; }
+  .home-world-body {
+    min-height: 440px;
+    padding: 28px 22px;
+    background-position: 62% center;
+  }
+  .home-world-emblem { top: 20px; right: 16px; width: 92px; opacity: 0.34; }
+  .prose .home-world-lead {
+    font-size: clamp(1rem, 4.7vw, 1.18rem);
+    letter-spacing: 0.03em;
+  }
+  .home-world-lead > span { white-space: normal; }
+  .home-world-mobile-line {
+    display: block;
+    white-space: nowrap;
+  }
+  .home-world-lead > span:last-child { white-space: nowrap; }
+  .home-world-lead > span:last-child .home-world-mobile-line { display: inline; }
 }
 
 .gallery-grid[data-gallery-view="photos"] .gallery-link img {
