@@ -1,14 +1,38 @@
 ---
 layout: default
 ---
-<section class="hero">
-  <div class="container narrow">
-    <p class="eyebrow">CHARACTER ARCHIVE</p>
-    <h1 style="display: none;">{{ site.data.site.site_title }}</h1>
-    <img src="{{ '/assets/images/site/bunner.jpeg' | relative_url }}" alt="メインバナー" class="hero-banner">
-    <p class="lead">{{ page.lead }}</p>
-    <div class="hero-actions">
-      <a class="button" href="{{ '/characters/' | relative_url }}">キャラクター一覧を見る</a>
+<section class="hero home-hero">
+  <div class="container home-hero-inner">
+    <div class="home-hero-copy">
+      <p class="eyebrow">UNOFFICIAL FAN ARCHIVE / TOKYO</p>
+      <img
+        src="{{ '/assets/images/site/kurotobari-rifle-logo.svg' | relative_url }}"
+        alt="黒帳"
+        class="home-hero-logo"
+      >
+      <h1>{{ site.data.site.site_title }}</h1>
+      <p class="home-hero-kicker">誰にも属さず、依頼だけを遂行する。</p>
+      <p class="lead">{{ page.lead }}</p>
+      <div class="hero-actions">
+        <a class="button" href="{{ '/characters/' | relative_url }}">人物記録を開く</a>
+        <a class="button button-secondary" href="{{ '/gallery/' | relative_url }}">記録画像を見る</a>
+      </div>
+      <p class="home-hero-note">作者公認・ファン運営のキャラクターアーカイブ</p>
+    </div>
+
+    <div class="hero-portraits" aria-label="調、灼、浬のギャラリー画像">
+      <div class="hero-portrait hero-portrait-main">
+        <img src="{{ '/assets/images/gallery/shirabe/HHPXhA0bYAAEaye.jpg' | relative_url }}" alt="調">
+        <span><b>01</b> 調 <small>SHIRABE</small></span>
+      </div>
+      <div class="hero-portrait">
+        <img src="{{ '/assets/images/gallery/arata/HL9oNUkbgAA3GyE.jpg' | relative_url }}" alt="灼">
+        <span><b>02</b> 灼 <small>ARATA</small></span>
+      </div>
+      <div class="hero-portrait">
+        <img src="{{ '/assets/images/gallery/kairi/HLtwOorbkAACxLI.jpg' | relative_url }}" alt="浬">
+        <span><b>03</b> 浬 <small>KAIRI</small></span>
+      </div>
     </div>
   </div>
 </section>

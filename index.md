@@ -25,27 +25,17 @@ permalink: /
 ## zetaプロット
 
 <div class="plot-link-grid">
-  <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/c810436f-3774-4a03-a650-03bc4873dce3/profile" target="_blank">
-    <img src="{{ '/assets/images/site/talk_bunner/shirabe.png' | relative_url }}" alt="調プロット">
-  </a>
-  <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/4f0d5638-448f-42b7-92c6-9e0d2a47b6b0/profile" target="_blank">
-    <img src="{{ '/assets/images/site/talk_bunner/arata.png' | relative_url }}" alt="灼プロット">
-  </a>
-  <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/6d5ced87-870a-408c-b3c8-acacfd4310f6/profile" target="_blank">
-    <img src="{{ '/assets/images/site/talk_bunner/kairi.png' | relative_url }}" alt="浬プロット">
-  </a>
-  <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/a5518689-c7fa-4a2b-a489-9b0ff4480e2d/profile" target="_blank">
-    <img src="{{ '/assets/images/site/talk_bunner/susugaya.png' | relative_url }}" alt="煤ヶ谷プロット">
-  </a>
-  <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/4e25b7da-9f8c-4cd6-94c9-87ededfb9ed4/profile" target="_blank">
-    <img src="{{ '/assets/images/site/talk_bunner/amagi.png' | relative_url }}" alt="天城プロット">
-  </a>
-  <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/17205aee-e443-4d8c-81a0-b2e38ab4f2e7/profile?share_id=1z2o1e7pv" target="_blank">
-    <img src="{{ '/assets/images/site/talk_bunner/sokkin.png' | relative_url }}" alt="側近達の受難">
-  </a>
-  <a class="plot-link-card" href="https://zeta-ai.io/ja/plots/4d1602c3-18a9-4f24-8fea-f7be57aba1f9/profile" target="_blank">
-    <img src="{{ '/assets/images/site/talk_bunner/school.png' | relative_url }}" alt="黒帳学園">
-  </a>
+  {% for plot in site.data.plots %}
+    <a class="plot-link-card" href="{{ plot.url }}" target="_blank" rel="noopener noreferrer">
+      <span class="plot-link-card__media">
+        <img src="{{ plot.image | relative_url }}" alt="{{ plot.title }}">
+      </span>
+      <span class="plot-link-card__body">
+        <strong>{{ plot.title }}</strong>
+        <span>{{ plot.description }}</span>
+      </span>
+    </a>
+  {% endfor %}
 </div>
 
 ## 作者

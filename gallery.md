@@ -100,6 +100,23 @@ permalink: /gallery/
 
 <p class="gallery-empty" hidden>このタグの画像はまだありません。</p>
 
+<div class="gallery-welcome-modal" id="gallery-welcome-modal" aria-hidden="true">
+  <div class="gallery-welcome-backdrop" data-gallery-welcome-close></div>
+  <div class="gallery-welcome-dialog" role="dialog" aria-modal="true" aria-labelledby="gallery-welcome-message">
+    <button class="gallery-welcome-close" type="button" aria-label="閉じる" data-gallery-welcome-close>×</button>
+    <img
+      class="gallery-welcome-image"
+      src="{{ '/assets/images/gallery/shirabe/HIIega9aUAM-7yH.jpg' | relative_url }}"
+      alt="フードを被った調"
+    >
+    <div class="gallery-welcome-copy">
+      <p class="gallery-welcome-name">SHIRABE</p>
+      <p class="gallery-welcome-message" id="gallery-welcome-message"><span>また来てくれたんすね、</span><span>先輩。</span></p>
+      <button class="gallery-welcome-enter" type="button" data-gallery-welcome-close>ギャラリーを見る</button>
+    </div>
+  </div>
+</div>
+
 <div class="gallery-modal" id="gallery-modal" aria-hidden="true">
   <div class="gallery-modal-backdrop" data-gallery-close></div>
   <div class="gallery-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="gallery-modal-title">
@@ -117,6 +134,49 @@ permalink: /gallery/
     <p class="gallery-modal-title" id="gallery-modal-title"></p>
   </div>
 </div>
+
+<script>
+  (function () {
+    var modal = document.getElementById('gallery-welcome-modal');
+    if (!modal) return;
+
+    var storageKey = 'galleryWelcomeShirabe20260714Dismissed';
+    var expiresAt = Date.parse('2026-07-15T00:00:00+09:00');
+    var isDismissed = false;
+    try {
+      isDismissed = window.localStorage.getItem(storageKey) === 'true';
+    } catch (e) {}
+    if (Date.now() >= expiresAt || isDismissed) return;
+
+    var closeButton = modal.querySelector('.gallery-welcome-close');
+    var closeModal = function () {
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('is-gallery-welcome-open');
+      try {
+        window.localStorage.setItem(storageKey, 'true');
+      } catch (e) {}
+    };
+
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('is-gallery-welcome-open');
+
+    modal.addEventListener('click', function (event) {
+      if (event.target.closest('[data-gallery-welcome-close]')) {
+        closeModal();
+      }
+    });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && modal.getAttribute('aria-hidden') === 'false') {
+        closeModal();
+      }
+    });
+
+    window.requestAnimationFrame(function () {
+      if (closeButton) closeButton.focus();
+    });
+  })();
+</script>
 
 <script>
   (function () {

@@ -5,12 +5,16 @@
         <div class="site-title-row">
           <a class="site-title" href="{{ '/' | relative_url }}">
             <span class="site-logo-text">黒帳</span>
-            <img
-              class="site-logo"
-              src="{{ '/assets/images/site/logo_07261104.webp' | relative_url }}"
-              alt="{{ site.data.site.site_title }}"
-            >
-            <span class="site-title-text">ファンクラブ</span>
+            {% if page.theme == 'academy' %}
+              <img
+                class="site-logo"
+                src="{{ '/assets/images/site/logo_07261104.webp' | relative_url }}"
+                alt="{{ site.data.site.site_title }}"
+              >
+              <span class="site-title-text">ファンクラブ</span>
+            {% else %}
+              <span class="site-title-text">黒帳 <small>KUROTOBARI FANCLUB</small></span>
+            {% endif %}
           </a>
           <span class="site-badge">公認</span>
         </div>
