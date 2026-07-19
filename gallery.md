@@ -106,12 +106,12 @@ permalink: /gallery/
     <button class="gallery-welcome-close" type="button" aria-label="閉じる" data-gallery-welcome-close>×</button>
     <img
       class="gallery-welcome-image"
-      src="{{ '/assets/images/gallery/shirabe/HIIega9aUAM-7yH.jpg' | relative_url }}"
-      alt="フードを被った調"
+      src="{{ '/assets/images/gallery/susugaya/HG32GMwawAAAmrC.jpg' | relative_url }}"
+      alt="指でハートを作る煤ヶ谷"
     >
     <div class="gallery-welcome-copy">
-      <p class="gallery-welcome-name">SHIRABE</p>
-      <p class="gallery-welcome-message" id="gallery-welcome-message"><span>また来てくれたんすね、</span><span>先輩。</span></p>
+      <p class="gallery-welcome-name">SUSUGAYA</p>
+      <p class="gallery-welcome-message" id="gallery-welcome-message">よ・う・お・こ・し♡</p>
       <button class="gallery-welcome-enter" type="button" data-gallery-welcome-close>ギャラリーを見る</button>
     </div>
   </div>
@@ -140,8 +140,8 @@ permalink: /gallery/
     var modal = document.getElementById('gallery-welcome-modal');
     if (!modal) return;
 
-    var storageKey = 'galleryWelcomeShirabe20260714Dismissed';
-    var expiresAt = Date.parse('2026-07-15T00:00:00+09:00');
+    var storageKey = 'galleryWelcomeSusugaya20260721Dismissed';
+    var expiresAt = Date.parse('2026-07-22T00:00:00+09:00');
     var isDismissed = false;
     try {
       isDismissed = window.localStorage.getItem(storageKey) === 'true';

@@ -130,6 +130,72 @@ find assets/images/gallery -type f
 rg 'src: "/assets/images/gallery/' _data/gallery_items.yml
 ```
 
+## ギャラリーのウェルカムモーダル
+
+ギャラリーページ `/gallery/` では、期間限定のウェルカムモーダルを表示できます。実装は `gallery.md` のモーダルHTMLとインラインJavaScript、見た目は `assets/css/style.css` の `.gallery-welcome-*` で管理しています。
+
+### 現在の仕様
+
+- 表示対象はギャラリーページのみ。
+- 現在時刻が設定した終了日時より前で、かつ同じモーダルを閉じた記録が `localStorage` にない場合だけ表示する。
+- 閉じるボタン、背景、「ギャラリーを見る」ボタン、Escapeキーのいずれかで閉じられる。
+- 一度閉じると、同じ `storageKey` のモーダルは同じブラウザで再表示しない。
+- 終了日時を過ぎると、閉じた記録がなくても表示しない。
+- モーダルを開いている間は `body.is-gallery-welcome-open` でページのスクロールを止める。
+- 画像には内容が分かる `alt` を付け、ダイアログは `aria-modal` とメッセージの `aria-labelledby` を維持する。
+
+### 更新する箇所
+
+`gallery.md` の `#gallery-welcome-modal` 内で、次を更新します。
+
+- `.gallery-welcome-image` の `src` と `alt`
+- `.gallery-welcome-name` の英字キャラクター名
+- `#gallery-welcome-message` のセリフ
+- インラインJavaScriptの `storageKey`
+- インラインJavaScriptの `expiresAt`
+
+例:
+
+```html
+<img
+  class="gallery-welcome-image"
+  src="{{ '/assets/images/gallery/susugaya/HG32GMwawAAAmrC.jpg' | relative_url }}"
+  alt="指でハートを作る煤ヶ谷"
+>
+<p class="gallery-welcome-name">SUSUGAYA</p>
+<p class="gallery-welcome-message" id="gallery-welcome-message">よ・う・お・こ・し♡</p>
+```
+
+```javascript
+var storageKey = 'galleryWelcomeSusugaya20260721Dismissed';
+var expiresAt = Date.parse('2026-07-22T00:00:00+09:00');
+```
+
+### 期限と保存キーの決め方
+
+- 期限は必ずタイムゾーン付きのISO 8601形式で指定する。日本時間なら `+09:00` を付ける。
+- 「2026/07/21 23:59まで」のように最終分を含める場合、終了判定は翌日の `2026-07-22T00:00:00+09:00` にする。コードは `Date.now() >= expiresAt` で非表示にするため、`expiresAt` 自体は表示されない最初の時刻になる。
+- `storageKey` はモーダルごとに必ず新しくする。以前のキーを再利用すると、過去に閉じた利用者へ新しいモーダルが表示されない。
+- キーは `galleryWelcome<Character><EndDate>Dismissed` の形を基本とし、英数字だけで内容と期間を判別できる名前にする。
+
+### 画像と表示の調整
+
+- 画像は外部URLを直接参照せず、`assets/images/gallery/` 配下の実在するローカル画像を `relative_url` フィルター経由で指定する。
+- 更新前に画像を目視し、PCとスマートフォンのトリミングで顔が見えるか確認する。
+- 調整が必要な場合は、`assets/css/style.css` の `.gallery-welcome-image` と `@media (max-width: 640px)` 内の `object-position` を変更する。
+- 既存のレイアウト、閉じる操作、アクセシビリティ属性は、明示的な依頼がない限り維持する。
+
+### 更新後の確認
+
+ページ構造とJavaScriptに関わるため、更新後はフルビルドを実行します。
+
+```bash
+bundle exec jekyll build
+git diff --check
+```
+
+あわせて、生成された `_site/gallery/index.html` に新しい画像パス、名前、セリフ、`storageKey`、`expiresAt` が含まれることを確認してください。ブラウザで再表示を試す時は、開発者ツールで該当する `localStorage` のキーだけを削除します。他の保存データは消さないでください。
+
 ## ローカル確認
 
 Jekyll サイトの表示確認が必要な時は、プロジェクトルートで以下を使います。
