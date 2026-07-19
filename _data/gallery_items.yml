@@ -1,4 +1,32 @@
 ---
+- src: "/assets/images/gallery/tobarimori/HMOn96lbQAA68Ue.jpg"
+  title: 浴衣の帳守
+  tags:
+  - 帳守
+  date: '2026-07-02T23:12:00+09:00'
+  thumb_position: '50% 24%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072684949443162389?s=20"
+- src: "/assets/images/gallery/hibari/HMOn96mawAAZCKt.jpg"
+  title: 浴衣のヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-07-02T23:12:00+09:00'
+  thumb_position: '50% 27%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072684949443162389?s=20"
+- src: "/assets/images/gallery/kageto/HMOn96oaUAAq6Ao.jpg"
+  title: 浴衣の影戸
+  tags:
+  - 影戸
+  date: '2026-07-02T23:12:00+09:00'
+  thumb_position: '50% 28%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072684949443162389?s=20"
+- src: "/assets/images/gallery/tsukishiro/HMOn96rbsAA4hSk.jpg"
+  title: 浴衣の月城
+  tags:
+  - 月城
+  date: '2026-07-02T23:12:00+09:00'
+  thumb_position: '50% 27%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2072684949443162389?s=20"
 - src: "/assets/images/gallery/minori/HMOjIDuaAAESfLF.jpg"
   title: 稔
   tags:
