@@ -93,6 +93,8 @@
 - `tachibana` -> `橘`
 - `tobarimori` -> `帳守`
 - `tsukishiro` -> `月城`
+- `wang-yixiang` -> `王 逸翔`
+- `wuma-zirui` -> `巫馬 梓睿`
 
 判断に迷うディレクトリや新しいキャラクターのディレクトリがある場合は、`_characters/` や既存の `_data/gallery_items.yml` を確認し、それでも不明ならユーザーに確認してください。
 
