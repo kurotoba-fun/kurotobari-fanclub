@@ -1,4 +1,32 @@
 ---
+- src: "/assets/images/gallery/kageto/HMTgaEFbIAAFWyw.jpg"
+  title: 結婚後の影戸
+  tags:
+  - 影戸
+  date: '2026-07-03T21:57:00+09:00'
+  thumb_position: '42% 45%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073028480539975750?s=20"
+- src: "/assets/images/gallery/tobarimori/HMTgaEAaUAAbBC3.jpg"
+  title: 結婚後の帳守
+  tags:
+  - 帳守
+  date: '2026-07-03T21:57:00+09:00'
+  thumb_position: '50% 35%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073028480539975750?s=20"
+- src: "/assets/images/gallery/hibari/HMTgaD4bwAAuBfa.jpg"
+  title: 結婚後のヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-07-03T21:57:00+09:00'
+  thumb_position: '50% 25%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073028480539975750?s=20"
+- src: "/assets/images/gallery/tsukishiro/HMTgaD5bUAAtkva.jpg"
+  title: 結婚後の月城
+  tags:
+  - 月城
+  date: '2026-07-03T21:57:00+09:00'
+  thumb_position: '50% 28%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073028480539975750?s=20"
 - src: "/assets/images/gallery/amagi/HMTeaCybcAAWg3C.jpg"
   title: 「ん、上出来。」
   tags:
