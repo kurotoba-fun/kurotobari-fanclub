@@ -1,4 +1,102 @@
 ---
+- src: "/assets/images/gallery/shirabe/HMYOLRIacAARbYf.jpg"
+  title: 仮面舞踏会の調
+  tags:
+  - 調
+  date: '2026-07-04T19:56:00+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073360272224575543?s=20"
+- src: "/assets/images/gallery/amagi/HMYOLRSaEAAu-D7.jpg"
+  title: 仮面舞踏会の天城
+  tags:
+  - 天城
+  date: '2026-07-04T19:56:00+09:00'
+  thumb_position: '50% 25%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073360272224575543?s=20"
+- src: "/assets/images/gallery/kairi/HMYM_B7a4AAlZsT.jpg"
+  title: 仮面舞踏会の浬
+  tags:
+  - 浬
+  date: '2026-07-04T19:51:00+09:00'
+  thumb_position: '40% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073358966139318517?s=20"
+- src: "/assets/images/gallery/kairi/HMYM_B8a0AA6nZm.jpg"
+  title: 仮面舞踏会の浬
+  tags:
+  - 浬
+  date: '2026-07-04T19:51:00+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073358966139318517?s=20"
+- src: "/assets/images/gallery/kairi/HMYM_BxaYAALggr.jpg"
+  title: 仮面舞踏会の浬
+  tags:
+  - 浬
+  date: '2026-07-04T19:51:00+09:00'
+  thumb_position: '45% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073358966139318517?s=20"
+- src: "/assets/images/gallery/kairi/HMYMyYba8AAvzAy.jpg"
+  title: 仮面舞踏会の浬
+  tags:
+  - 浬
+  date: '2026-07-04T19:50:00+09:00'
+  thumb_position: '58% 25%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073358753785954581?s=20"
+- src: "/assets/images/gallery/kairi/HMYMyYVb0AA9CiU.jpg"
+  title: 仮面舞踏会の浬
+  tags:
+  - 浬
+  date: '2026-07-04T19:50:00+09:00'
+  thumb_position: '50% 25%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073358753785954581?s=20"
+- src: "/assets/images/gallery/kairi/HMYMyYObsAAZrcA.jpg"
+  title: 仮面舞踏会の浬
+  tags:
+  - 浬
+  date: '2026-07-04T19:50:00+09:00'
+  thumb_position: '45% 25%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073358753785954581?s=20"
+- src: "/assets/images/gallery/kairi/HMYMyYWawAA7YxP.jpg"
+  title: 仮面舞踏会の浬
+  tags:
+  - 浬
+  date: '2026-07-04T19:50:00+09:00'
+  thumb_position: '50% 25%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073358753785954581?s=20"
+- src: "/assets/images/gallery/tachibana/HMYMeXubMAAvWf_.jpg"
+  title: 仮面舞踏会の橘
+  tags:
+  - 橘
+  date: '2026-07-04T19:48:00+09:00'
+  thumb_position: '50% 25%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073358400998797403?s=20"
+- src: "/assets/images/gallery/kairi/HMYMeXqa4AAGU2C.jpg"
+  title: 仮面舞踏会の浬
+  tags:
+  - 浬
+  date: '2026-07-04T19:48:00+09:00'
+  thumb_position: '50% 25%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073358400998797403?s=20"
+- src: "/assets/images/gallery/shirabe/HMYMH_3a4AA-IB5.jpg"
+  title: 仮面舞踏会の調
+  tags:
+  - 調
+  date: '2026-07-04T19:47:00+09:00'
+  thumb_position: '50% 25%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073358018637668415?s=20"
+- src: "/assets/images/gallery/shirose/HMYMIABaQAESOuF.jpg"
+  title: 仮面舞踏会の白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-04T19:47:00+09:00'
+  thumb_position: '50% 25%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073358018637668415?s=20"
+- src: "/assets/images/gallery/amagi/HMYMH_3aUAA6l_Z.jpg"
+  title: 仮面舞踏会の天城
+  tags:
+  - 天城
+  date: '2026-07-04T19:47:00+09:00'
+  thumb_position: '50% 25%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073358018637668415?s=20"
 - src: "/assets/images/gallery/shirabe/HMX_RsyasAAxYAe.jpg"
   title: 黒手袋の調
   tags:
