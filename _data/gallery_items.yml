@@ -1,4 +1,25 @@
 ---
+- src: "/assets/images/gallery/shirose/HMXltVkbIAAlcW5.jpg"
+  title: 軍服の白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-04T16:59:00+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073315786811416608?s=20"
+- src: "/assets/images/gallery/kujo/HMXltVlakAEtmXS.jpg"
+  title: 軍服の九条
+  tags:
+  - 九条
+  date: '2026-07-04T16:59:00+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073315786811416608?s=20"
+- src: "/assets/images/gallery/tachibana/HMXltVZaIAAhMwC.jpg"
+  title: 軍服の橘
+  tags:
+  - 橘
+  date: '2026-07-04T16:59:00+09:00'
+  thumb_position: '50% 25%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073315786811416608?s=20"
 - src: "/assets/images/gallery/shirabe/HMXgQH0bUAAkAYa.jpg"
   title: 烏丸調(25)みたいなの
   tags:
