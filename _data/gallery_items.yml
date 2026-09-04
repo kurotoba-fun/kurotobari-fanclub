@@ -1,4 +1,396 @@
 ---
+- src: "/assets/images/gallery/amagi/HMiTlEXa8AAeVC2.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-06T18:56:13+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074069899958456657?s=20"
+- src: "/assets/images/gallery/amagi/HMiTlEWa4AAMnGA.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-06T18:56:13+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074069899958456657?s=20"
+- src: "/assets/images/gallery/amagi/HMiTlEWaEAAerm0.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-06T18:56:13+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074069899958456657?s=20"
+- src: "/assets/images/gallery/amagi/HMiTlEMbQAAmGbG.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-06T18:56:13+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074069899958456657?s=20"
+- src: "/assets/images/gallery/kujo/HMh__HybEAAoJnG.jpg"
+  title: 九条
+  tags:
+  - 九条
+  date: '2026-07-06T17:30:36+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074048357329477739?s=20"
+- src: "/assets/images/gallery/wuma-zirui/HMh__HlbgAAAXo_.jpg"
+  title: 巫馬 梓睿
+  tags:
+  - 巫馬 梓睿
+  date: '2026-07-06T17:30:36+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074048357329477739?s=20"
+- src: "/assets/images/gallery/shirose/HMh7s_nakAAFIuy.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-06T17:11:54+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074043647830671427?s=20"
+- src: "/assets/images/gallery/shirose/HMh7s_rbQAABT37.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-06T17:11:54+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074043647830671427?s=20"
+- src: "/assets/images/gallery/shirose/HMh7s_oakAA2FfC.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-06T17:11:54+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074043647830671427?s=20"
+- src: "/assets/images/gallery/shirose/HMh7s_sbUAAjZdS.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-06T17:11:54+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074043647830671427?s=20"
+- src: "/assets/images/gallery/kairi/HMh1cmFaQAA6Cwm.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-06T16:44:34+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074036771202166903?s=20"
+- src: "/assets/images/gallery/kairi/HMh1cmCakAA1ga8.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-06T16:44:34+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074036771202166903?s=20"
+- src: "/assets/images/gallery/kairi/HMh1cmBbgAAa-zj.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-06T16:44:34+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074036771202166903?s=20"
+- src: "/assets/images/gallery/kairi/HMh1cmQboAAC15a.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-06T16:44:34+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074036771202166903?s=20"
+- src: "/assets/images/gallery/kairi/HMh0-n4aUAA0qGZ.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-06T16:42:31+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074036254505873649?s=20"
+- src: "/assets/images/gallery/kairi/HMh0-n5bgAAwV9c.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-06T16:42:31+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074036254505873649?s=20"
+- src: "/assets/images/gallery/kairi/HMh0-n4bcAASL0a.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-06T16:42:31+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074036254505873649?s=20"
+- src: "/assets/images/gallery/kairi/HMh0-n4awAERaG4.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-06T16:42:31+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074036254505873649?s=20"
+- src: "/assets/images/gallery/amagi/HMhwWLXakAAZya2.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-06T16:22:16+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074031160599163225?s=20"
+- src: "/assets/images/gallery/amagi/HMhwWLWaMAAN9aC.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-06T16:22:16+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074031160599163225?s=20"
+- src: "/assets/images/gallery/amagi/HMhuFwxboAArETZ.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-06T16:12:25+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074028680494596443?s=20"
+- src: "/assets/images/gallery/amagi/HMhuFwbacAEyXOm.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-06T16:12:25+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074028680494596443?s=20"
+- src: "/assets/images/gallery/amagi/HMhuFwabIAAqasg.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-06T16:12:25+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074028680494596443?s=20"
+- src: "/assets/images/gallery/amagi/HMhuFwgbMAAuS8g.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-06T16:12:25+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074028680494596443?s=20"
+- src: "/assets/images/gallery/shirose/HMhpE-2aEAEQRPy.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-06T15:50:31+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074023167585341797?s=20"
+- src: "/assets/images/gallery/shirose/HMhpE-4a8AAItKI.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-06T15:50:31+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074023167585341797?s=20"
+- src: "/assets/images/gallery/shirose/HMhm9CCbIAA1okf.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-06T15:41:14+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074020833820119179?s=20"
+- src: "/assets/images/gallery/shirose/HMhm9B-bIAAg2Pi.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-06T15:41:14+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074020833820119179?s=20"
+- src: "/assets/images/gallery/shirose/HMhm9B5awAALeEM.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-06T15:41:14+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2074020833820119179?s=20"
+- src: "/assets/images/gallery/arata/HMgWe_Ea8AAts9K.jpg"
+  title: 灼
+  tags:
+  - 灼
+  date: '2026-07-06T09:51:58+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073932934470672889?s=20"
+- src: "/assets/images/gallery/arata/HMgWe_Ta4AAcD3Z.jpg"
+  title: 灼
+  tags:
+  - 灼
+  date: '2026-07-06T09:51:58+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073932934470672889?s=20"
+- src: "/assets/images/gallery/arata/HMgXAN6aYAAWoE5.jpg"
+  title: 灼
+  tags:
+  - 灼
+  date: '2026-07-06T09:51:58+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073932934470672889?s=20"
+- src: "/assets/images/gallery/arata/HMgXAN3bUAAkqqp.jpg"
+  title: 灼
+  tags:
+  - 灼
+  date: '2026-07-06T09:51:58+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073932934470672889?s=20"
+- src: "/assets/images/gallery/shirabe/HMgVwTHbsAAqKUk.jpg"
+  title: 調
+  tags:
+  - 調
+  date: '2026-07-06T09:46:28+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073931552711721071?s=20"
+- src: "/assets/images/gallery/tsukishiro/HMgEd50aQAAxo9E.jpg"
+  title: 月城
+  tags:
+  - 月城
+  date: '2026-07-06T08:30:56+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073912544650268675?s=20"
+- src: "/assets/images/gallery/tsukishiro/HMgEPbib0AI5hbD.jpg"
+  title: 月城
+  tags:
+  - 月城
+  date: '2026-07-06T08:29:58+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073912299606438245?s=20"
+- src: "/assets/images/gallery/tsukishiro/HMgEPbha0AAFgWd.jpg"
+  title: 月城
+  tags:
+  - 月城
+  date: '2026-07-06T08:29:58+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073912299606438245?s=20"
+- src: "/assets/images/gallery/tsukishiro/HMgEPbtaUAAoOzt.jpg"
+  title: 月城
+  tags:
+  - 月城
+  date: '2026-07-06T08:29:58+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073912299606438245?s=20"
+- src: "/assets/images/gallery/shirose/HMd-9B7bgAAhV0L.jpg"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-05T22:50:08+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073766380898549908?s=20"
+- src: "/assets/images/gallery/kujo/HMd-9CObkAAUWWA.jpg"
+  title: 九条
+  tags:
+  - 九条
+  date: '2026-07-05T22:50:08+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073766380898549908?s=20"
+- src: "/assets/images/gallery/tachibana/HMd-9CNbMAAWlBg.jpg"
+  title: 橘
+  tags:
+  - 橘
+  date: '2026-07-05T22:50:08+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073766380898549908?s=20"
+- src: "/assets/images/gallery/shirabe/HMd3zPdaYAAS3rj.jpg"
+  title: 調
+  tags:
+  - 調
+  date: '2026-07-05T22:16:22+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073757883049951667?s=20"
+- src: "/assets/images/gallery/shirabe/HMd3zPmbIAAnjcy.jpg"
+  title: 調
+  tags:
+  - 調
+  date: '2026-07-05T22:16:22+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073757883049951667?s=20"
+- src: "/assets/images/gallery/kairi/HMd1wVbbMAAYsIH.jpg"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-05T22:07:26+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073755633204252875?s=20"
+- src: "/assets/images/gallery/tsukishiro/HMd1wVaasAArdtJ.jpg"
+  title: 月城
+  tags:
+  - 月城
+  date: '2026-07-05T22:07:26+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073755633204252875?s=20"
+- src: "/assets/images/gallery/amagi/HMd0MBObAAA9C0m.jpg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-05T22:00:36+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073753913443119474?s=20"
+- src: "/assets/images/gallery/susugaya/HMd0MA8bAAAxJeO.jpg"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-07-05T22:00:36+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073753913443119474?s=20"
+- src: "/assets/images/gallery/hibari/HMd0MBdbMAA4J5v.jpg"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-07-05T22:00:36+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073753913443119474?s=20"
+- src: "/assets/images/gallery/wang-yixiang/HMbSft3akAAY69e.jpg"
+  title: 王 逸翔
+  tags:
+  - 王 逸翔
+  date: '2026-07-05T10:14:08+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073576127495545034?s=20"
+- src: "/assets/images/gallery/wang-yixiang/HMbSftsbkAAUpwa.jpg"
+  title: 王 逸翔
+  tags:
+  - 王 逸翔
+  date: '2026-07-05T10:14:08+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073576127495545034?s=20"
+- src: "/assets/images/gallery/wang-yixiang/HMbSftrbAAAAumW.jpg"
+  title: 王 逸翔
+  tags:
+  - 王 逸翔
+  date: '2026-07-05T10:14:08+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073576127495545034?s=20"
+- src: "/assets/images/gallery/wang-yixiang/HMbSftuasAAKIB-.jpg"
+  title: 王 逸翔
+  tags:
+  - 王 逸翔
+  date: '2026-07-05T10:14:08+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073576127495545034?s=20"
+- src: "/assets/images/gallery/wang-yixiang/HMbRmoWaMAA8A9d.jpg"
+  title: 王 逸翔
+  tags:
+  - 王 逸翔
+  date: '2026-07-05T10:10:14+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073575146544373947?s=20"
+- src: "/assets/images/gallery/wang-yixiang/HMbRmoJbEAAxtNv.jpg"
+  title: 王 逸翔
+  tags:
+  - 王 逸翔
+  date: '2026-07-05T10:10:14+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073575146544373947?s=20"
+- src: "/assets/images/gallery/wang-yixiang/HMbRmoWbEAAKHzR.jpg"
+  title: 王 逸翔
+  tags:
+  - 王 逸翔
+  date: '2026-07-05T10:10:14+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073575146544373947?s=20"
+- src: "/assets/images/gallery/wang-yixiang/HMbRmoKa4AA2xDP.jpg"
+  title: 王 逸翔
+  tags:
+  - 王 逸翔
+  date: '2026-07-05T10:10:14+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2073575146544373947?s=20"
 - src: "/assets/images/gallery/kairi/HMa9iVRaUAAYPB1.jpg"
   title: 浬
   tags:
