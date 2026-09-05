@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X画像ポストURL収集ブックマークレット</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { max-width: 760px; margin: 48px auto; padding: 0 24px; font-family: sans-serif; line-height: 1.75; }
+    h1 { line-height: 1.35; }
+    .bookmarklet, button { display: inline-block; margin: 8px 8px 16px 0; padding: 11px 18px; border: 0; border-radius: 999px; background: #1677ff; color: #fff; font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; }
+    textarea { width: 100%; height: 90px; box-sizing: border-box; font: 11px/1.4 monospace; }
+    code { padding: 0.15em 0.35em; border-radius: 4px; background: color-mix(in srgb, CanvasText 10%, Canvas); }
+    .note { padding: 12px 16px; border-left: 4px solid #1677ff; background: color-mix(in srgb, #1677ff 10%, Canvas); }
+  </style>
+</head>
+<body>
+  <h1>X画像ポストURL収集ブックマークレット</h1>
+
+  <h2>おすすめの登録方法</h2>
+  <ol>
+    <li>Chromeで適当なページをブックマークします。</li>
+    <li>そのブックマークを右クリックして「編集」を開きます。</li>
+    <li>名前を「X画像URLを収集」にします。</li>
+    <li>下の「ブックマークレットをコピー」を押し、URL欄へ貼り付けて保存します。</li>
+  </ol>
+  <p><button id="copy-bookmarklet" type="button">ブックマークレットをコピー</button><span id="copy-status" aria-live="polite"></span></p>
+
+  <details>
+    <summary>コピーする文字列を表示</summary>
+    <textarea id="bookmarklet-text" readonly></textarea>
+  </details>
+
+  <h2>ドラッグで登録する場合</h2>
+  <p>次のボタンをブックマークバーへドラッグしても登録できます。動かない場合は上のコピー方式を使用してください。</p>
+  <p><a class="bookmarklet" id="bookmarklet" href="#">X画像URLを収集</a></p>
+
+  <h2>使い方</h2>
+  <ol>
+    <li>普段使っているChromeでXへログインします。</li>
+    <li><code>from:KUROTOBA_KGM filter:images -is:retweet since:YYYY-MM-DD until:YYYY-MM-DD</code> を「最新」タブで検索します。</li>
+    <li>登録した「X画像URLを収集」を押します。</li>
+    <li>自動スクロールが止まったら、右上のパネルからURLをコピーします。</li>
+  </ol>
+  <p class="note">URL欄の先頭が必ず <code>javascript:</code> になっていることを確認してください。<code>(()=%3E</code> から始まる場合は正しく保存されていません。</p>
+
+  <script type="text/plain" id="bookmarklet-source">
+(()=>{let k="__xuc",q=new URL(location).searchParams.get("q")||"",a=(q.match(/from:([\w_]+)/i)||[])[1]||"KUROTOBA_KGM",m=new Map,r=1,n=0,c=0,t,d=document.createElement("div");if(window[k])return window[k]();d.style="position:fixed;z-index:2147483647;top:12px;right:12px;width:330px;padding:12px;border:1px solid #666;border-radius:12px;background:#000;color:#fff;font:13px sans-serif";d.innerHTML='<b>X URL収集</b> <span id="xu-n">0件</span><textarea id="xu-o" readonly style="width:100%;height:130px;margin-top:8px;background:#222;color:#fff"></textarea><button id="xu-s">停止</button><button id="xu-c">コピー</button><button id="xu-x">×</button>';document.body.append(d);let o=d.querySelector("#xu-o"),z=d.querySelector("#xu-n"),b=d.querySelector("#xu-s"),m0=()=>[...m.values()],v=()=>{o.value=m0().join("\n");z.textContent=m.size+"件";b.textContent=r?"停止":"再開"},s=()=>{let x=m.size;document.querySelectorAll('article a[href*="/status/"]').forEach(e=>{let u=new URL(e.href),p=u.pathname.match(/^\/([^/]+)\/status\/(\d+)/);if(p&&p[1].toLowerCase()==a.toLowerCase())m.set(p[2],`https://x.com/${a}/status/${p[2]}?s=20`)});return m.size-x},l=()=>{if(!r)return;let x=s();c++;n=x?0:n+1;v();if(n>=10||c>=160){r=0;return v()}scrollBy({top:Math.max(innerHeight*.85,700),behavior:"smooth"});t=setTimeout(l,1500)};b.onclick=()=>{r=!r;clearTimeout(t);n=0;v();if(r)l()};d.querySelector("#xu-c").onclick=()=>{o.select();Promise.resolve(navigator.clipboard?.writeText(o.value+"\n")).catch(()=>document.execCommand("copy"))};d.querySelector("#xu-x").onclick=()=>{r=0;clearTimeout(t);d.remove();delete window[k]};window[k]=()=>{d.style.display="block";v()};v();l()})()
+  </script>
+  <script>
+    const source = document.getElementById("bookmarklet-source").textContent.trim();
+    const bookmarklet = `javascript:${source}`;
+    const textarea = document.getElementById("bookmarklet-text");
+    const status = document.getElementById("copy-status");
+    textarea.value = bookmarklet;
+    document.getElementById("bookmarklet").href = bookmarklet;
+    document.getElementById("copy-bookmarklet").addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(bookmarklet);
+      } catch {
+        textarea.focus();
+        textarea.select();
+        document.execCommand("copy");
+      }
+      status.textContent = "コピーしました";
+    });
+  </script>
+</body>
+</html>

@@ -29,6 +29,11 @@ const CHARACTER_DIRS = new Map([
   ["王 逸翔", "wang-yixiang"],
   ["巫馬 梓睿", "wuma-zirui"],
   ["俊哲", "junze"],
+  ["エリオット", "elliott"],
+  ["ボス", "boss"],
+  ["帳守", "tobarimori"],
+  ["淵", "hayase"],
+  ["霈", "pei"],
 ]);
 
 function parseArgs(argv) {
@@ -83,9 +88,12 @@ function parseClassification(markdown) {
     const cells = line.split("|").slice(1, -1).map((cell) => cell.trim());
     if (!/^\d+$/.test(cells[0] ?? "") || cells.at(-1) !== "掲載候補") continue;
     const [order, filename, character] = cells;
+    const tags = cells.length >= 6 && cells[4]
+      ? cells[4].split(/[、,]/).map((tag) => tag.trim()).filter(Boolean)
+      : [];
     const characterDir = CHARACTER_DIRS.get(character);
     if (!characterDir) throw new Error(`保存先未定義のキャラクターです: ${character}`);
-    rows.push({ tweetId, order: Number(order), filename, character, characterDir });
+    rows.push({ tweetId, order: Number(order), filename, character, characterDir, tags });
   }
   return rows;
 }
@@ -97,6 +105,7 @@ function yamlItem(item) {
     `  title: ${item.character}`,
     "  tags:",
     `  - ${item.character}`,
+    ...item.tags.filter((tag) => tag !== item.character).map((tag) => `  - ${tag}`),
     `  date: '${item.postedAt}'`,
     "  thumb_position: '50% 30%'",
     `  x_url: ${yamlQuote(item.xUrl)}`,
