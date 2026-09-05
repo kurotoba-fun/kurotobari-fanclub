@@ -44,13 +44,13 @@ node scripts/batch-import-x-posts.mjs
 `キャラクター判定.md` の各画像を `掲載候補` または対象外として整理してから実行します。
 
 ```bash
-node scripts/finalize-gallery-import.mjs
-node scripts/finalize-gallery-import.mjs --apply
+node scripts/finalize-gallery-import.mjs --expected-count <掲載候補数>
+node scripts/finalize-gallery-import.mjs --expected-count <掲載候補数> --apply
 ```
 
 引数なしでは事前検証だけを行います。`--apply` を付けると掲載候補画像を `assets/images/gallery/` のキャラクターフォルダへコピーし、`_data/gallery_items.yml` の先頭へ項目を追加します。
 
-`finalize-gallery-import.mjs` の掲載候補56枚チェックと標準作業パスは2026年9月4日の一括更新用です。別の更新で再利用する場合は、対象件数または入力パスを更新してください。
+`--expected-count` を指定すると、判定表から読み取った掲載候補数が想定と異なる場合に反映を中止できます。標準作業パス以外を使う場合は `--classification`、`--downloaded` などで入力先を指定してください。
 
 ## 反映後の確認
 
@@ -60,3 +60,14 @@ git diff --check
 ```
 
 さらに、追加した `src` の画像が存在することと、`date`、`x_url`、`tags`、`sensitive`、`thumb_position` が既存形式に合っていることを確認します。
+
+## ギャラリーIDの補完
+
+既存データに `id` がない場合は、次のコマンドでキャラクターフォルダ名と画像名から一意なIDを補完できます。引数なしは確認のみです。
+
+```bash
+node scripts/ensure-gallery-ids.mjs
+node scripts/ensure-gallery-ids.mjs --apply
+```
+
+同じ画像名が複数ある場合だけ、ID末尾に `-2` 以降の連番が付きます。

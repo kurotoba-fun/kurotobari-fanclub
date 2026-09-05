@@ -16,15 +16,19 @@ const CHARACTER_DIRS = new Map([
   ["天城", "amagi"],
   ["灼", "arata"],
   ["ヒバリ", "hibari"],
+  ["哩", "mairu"],
   ["浬", "kairi"],
   ["九条", "kujo"],
   ["調", "shirabe"],
   ["白瀬", "shirose"],
   ["煤ヶ谷", "susugaya"],
   ["橘", "tachibana"],
+  ["稔", "minori"],
+  ["影戸", "kageto"],
   ["月城", "tsukishiro"],
   ["王 逸翔", "wang-yixiang"],
   ["巫馬 梓睿", "wuma-zirui"],
+  ["俊哲", "junze"],
 ]);
 
 function parseArgs(argv) {
@@ -34,6 +38,7 @@ function parseArgs(argv) {
     downloaded: DEFAULT_DOWNLOADED,
     galleryData: DEFAULT_GALLERY_DATA,
     galleryRoot: DEFAULT_GALLERY_ROOT,
+    expectedCount: 0,
   };
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
@@ -46,8 +51,15 @@ function parseArgs(argv) {
       options.galleryData = path.resolve(argv[++index]);
     } else if (arg === "--gallery-root" && argv[index + 1]) {
       options.galleryRoot = path.resolve(argv[++index]);
+    } else if (arg === "--expected-count" && argv[index + 1]) {
+      options.expectedCount = Number(argv[++index]);
+      if (!Number.isInteger(options.expectedCount) || options.expectedCount < 1) {
+        throw new Error("--expected-countには1以上の整数を指定してください");
+      }
     } else if (arg === "--help" || arg === "-h") {
-      process.stdout.write("Usage: node scripts/finalize-gallery-import.mjs [--apply]\n");
+      process.stdout.write(
+        "Usage: node scripts/finalize-gallery-import.mjs [--apply] [--expected-count <number>]\n",
+      );
       process.exit(0);
     } else throw new Error(`Unknown argument: ${arg}`);
   }
@@ -81,6 +93,7 @@ function parseClassification(markdown) {
 function yamlItem(item) {
   return [
     `- src: ${yamlQuote(item.src)}`,
+    `  id: ${yamlQuote(item.id)}`,
     `  title: ${item.character}`,
     "  tags:",
     `  - ${item.character}`,
@@ -116,6 +129,7 @@ async function main() {
       source,
       destination,
       src,
+      id: `${row.characterDir}-${path.basename(row.filename, path.extname(row.filename))}`,
       postedAt: metadata.postedAt,
       xUrl: metadata.xUrl,
     });
@@ -127,7 +141,9 @@ async function main() {
   for (const destination of new Set(duplicateDestinations)) {
     problems.push(`取り込み内で保存先重複: ${destination}`);
   }
-  if (items.length !== 56) problems.push(`掲載候補は56枚の想定ですが${items.length}枚です`);
+  if (options.expectedCount && items.length !== options.expectedCount) {
+    problems.push(`掲載候補は${options.expectedCount}枚の想定ですが${items.length}枚です`);
+  }
 
   const summary = {
     mode: options.apply ? "apply" : "dry-run",
