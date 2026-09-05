@@ -1,4 +1,513 @@
 ---
+- src: "/assets/images/gallery/shirabe/HNBWComaEAIKmlD.jpg"
+  id: "shirabe-HNBWComaEAIKmlD"
+  title: 調
+  tags:
+  - 調
+  date: '2026-07-12T19:35:12+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2076254037176148430?s=20"
+- src: "/assets/images/gallery/kairi/HM9on-DboAERY3L.jpg"
+  id: "kairi-HM9on-DboAERY3L"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-12T02:17:54+09:00'
+  sensitive: true
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075992994780742014?s=20"
+- src: "/assets/images/gallery/kairi/HM9on9_bIAAmgUr.jpg"
+  id: "kairi-HM9on9_bIAAmgUr"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-12T02:17:54+09:00'
+  sensitive: true
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075992994780742014?s=20"
+- src: "/assets/images/gallery/kairi/HM9jMX5boAA0fEs.jpg"
+  id: "kairi-HM9jMX5boAA0fEs"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-12T01:54:12+09:00'
+  sensitive: true
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075987028131614825?s=20"
+- src: "/assets/images/gallery/kairi/HM9jMX8bcAAb_Ft.jpg"
+  id: "kairi-HM9jMX8bcAAb_Ft"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-12T01:54:12+09:00'
+  sensitive: true
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075987028131614825?s=20"
+- src: "/assets/images/gallery/kairi/HM9jMXvboAEnHO9.jpg"
+  id: "kairi-HM9jMXvboAEnHO9"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-12T01:54:12+09:00'
+  sensitive: true
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075987028131614825?s=20"
+- src: "/assets/images/gallery/shirose/HM9ikKMbUAA0Uuv.jpg"
+  id: "shirose-HM9ikKMbUAA0Uuv"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-12T01:51:28+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075986341532443101?s=20"
+- src: "/assets/images/gallery/amagi/HM9ikKTacAAFDHU.jpg"
+  id: "amagi-HM9ikKTacAAFDHU"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-12T01:51:28+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075986341532443101?s=20"
+- src: "/assets/images/gallery/shirabe/HM9ikKUbcAA7qw3.jpg"
+  id: "shirabe-HM9ikKUbcAA7qw3"
+  title: 調
+  tags:
+  - 調
+  date: '2026-07-12T01:51:28+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075986341532443101?s=20"
+- src: "/assets/images/gallery/susugaya/HM9Vuawa0AA6FIJ.jpg"
+  id: "susugaya-HM9Vuawa0AA6FIJ"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-07-12T00:55:20+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075972215632535947?s=20"
+- src: "/assets/images/gallery/amagi/HM9VuayasAATdPE.jpg"
+  id: "amagi-HM9VuayasAATdPE"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-12T00:55:20+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075972215632535947?s=20"
+- src: "/assets/images/gallery/shirose/HM9VDY_aMAAxgdv.jpg"
+  id: "shirose-HM9VDY_aMAAxgdv"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-12T00:52:24+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075971477472706751?s=20"
+- src: "/assets/images/gallery/amagi/HM9VDY_bAAAfx1V.jpg"
+  id: "amagi-HM9VDY_bAAAfx1V"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-12T00:52:24+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075971477472706751?s=20"
+- src: "/assets/images/gallery/arata/HM9VDYzbQAA0QZL.jpg"
+  id: "arata-HM9VDYzbQAA0QZL"
+  title: 灼
+  tags:
+  - 灼
+  date: '2026-07-12T00:52:24+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075971477472706751?s=20"
+- src: "/assets/images/gallery/shirabe/HM8bRhWacAAaP_s.jpg"
+  id: "shirabe-HM8bRhWacAAaP_s"
+  title: 調
+  tags:
+  - 調
+  date: '2026-07-11T20:39:57+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075907946127716533?s=20"
+- src: "/assets/images/gallery/kujo/HM8bGdoa4AE61GM.jpg"
+  id: "kujo-HM8bGdoa4AE61GM"
+  title: 九条
+  tags:
+  - 九条
+  date: '2026-07-11T20:39:13+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075907761649664002?s=20"
+- src: "/assets/images/gallery/kujo/HM8bGdbbcAAzNBx.jpg"
+  id: "kujo-HM8bGdbbcAAzNBx"
+  title: 九条
+  tags:
+  - 九条
+  date: '2026-07-11T20:39:13+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075907761649664002?s=20"
+- src: "/assets/images/gallery/amagi/HM8LzfeboAAVhCg.jpg"
+  id: "amagi-HM8LzfeboAAVhCg"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T19:32:23+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075890941471404273?s=20"
+- src: "/assets/images/gallery/amagi/HM8LzfSbsAAThNX.jpg"
+  id: "amagi-HM8LzfSbsAAThNX"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T19:32:23+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075890941471404273?s=20"
+- src: "/assets/images/gallery/wang-yixiang/HM4ytGub0AAVlah.jpg"
+  id: "wang-yixiang-HM4ytGub0AAVlah"
+  title: 王 逸翔
+  tags:
+  - 王 逸翔
+  date: '2026-07-11T03:43:51+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075652235846193633?s=20"
+- src: "/assets/images/gallery/wang-yixiang/HM4ytGxawAAsNYw.jpg"
+  id: "wang-yixiang-HM4ytGxawAAsNYw"
+  title: 王 逸翔
+  tags:
+  - 王 逸翔
+  date: '2026-07-11T03:43:51+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075652235846193633?s=20"
+- src: "/assets/images/gallery/wang-yixiang/HM4ytGobcAAR185.jpg"
+  id: "wang-yixiang-HM4ytGobcAAR185"
+  title: 王 逸翔
+  tags:
+  - 王 逸翔
+  date: '2026-07-11T03:43:51+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075652235846193633?s=20"
+- src: "/assets/images/gallery/wang-yixiang/HM4ytGwa0AAB23c.jpg"
+  id: "wang-yixiang-HM4ytGwa0AAB23c"
+  title: 王 逸翔
+  tags:
+  - 王 逸翔
+  date: '2026-07-11T03:43:51+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075652235846193633?s=20"
+- src: "/assets/images/gallery/hibari/HM4t7LRagAEh6HL.jpg"
+  id: "hibari-HM4t7LRagAEh6HL"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-07-11T03:22:59+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075646984497905978?s=20"
+- src: "/assets/images/gallery/hibari/HM4t7LIaMAAp2Nu.jpg"
+  id: "hibari-HM4t7LIaMAAp2Nu"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-07-11T03:22:59+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075646984497905978?s=20"
+- src: "/assets/images/gallery/hibari/HM4t7LHbQAAGuse.jpg"
+  id: "hibari-HM4t7LHbQAAGuse"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-07-11T03:22:59+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075646984497905978?s=20"
+- src: "/assets/images/gallery/hibari/HM4t7LJboAA-3AK.jpg"
+  id: "hibari-HM4t7LJboAA-3AK"
+  title: ヒバリ
+  tags:
+  - ヒバリ
+  date: '2026-07-11T03:22:59+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075646984497905978?s=20"
+- src: "/assets/images/gallery/amagi/HM4sfy3bAAAUx6D.jpg"
+  id: "amagi-HM4sfy3bAAAUx6D"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T03:16:44+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075645410828566969?s=20"
+- src: "/assets/images/gallery/amagi/HM4sfyxa0AAVoB7.jpg"
+  id: "amagi-HM4sfyxa0AAVoB7"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T03:16:44+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075645410828566969?s=20"
+- src: "/assets/images/gallery/amagi/HM4sfy2bgAAZFwp.jpg"
+  id: "amagi-HM4sfy2bgAAZFwp"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T03:16:44+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075645410828566969?s=20"
+- src: "/assets/images/gallery/amagi/HM4sfy1bMAAvYrc.jpg"
+  id: "amagi-HM4sfy1bMAAvYrc"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T03:16:44+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075645410828566969?s=20"
+- src: "/assets/images/gallery/minori/HM4p1SJaAAAJJa5.jpg"
+  id: "minori-HM4p1SJaAAAJJa5"
+  title: 稔
+  tags:
+  - 稔
+  date: '2026-07-11T03:05:06+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075642482294194246?s=20"
+- src: "/assets/images/gallery/minori/HM4p1SJbwAAYjeO.jpg"
+  id: "minori-HM4p1SJbwAAYjeO"
+  title: 稔
+  tags:
+  - 稔
+  date: '2026-07-11T03:05:06+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075642482294194246?s=20"
+- src: "/assets/images/gallery/minori/HM4p1SGagAA98Ml.jpg"
+  id: "minori-HM4p1SGagAA98Ml"
+  title: 稔
+  tags:
+  - 稔
+  date: '2026-07-11T03:05:06+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075642482294194246?s=20"
+- src: "/assets/images/gallery/minori/HM4p1SJbQAAVdWR.jpg"
+  id: "minori-HM4p1SJbQAAVdWR"
+  title: 稔
+  tags:
+  - 稔
+  date: '2026-07-11T03:05:06+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075642482294194246?s=20"
+- src: "/assets/images/gallery/shirabe/HM4nE8GaoAAURtj.jpg"
+  id: "shirabe-HM4nE8GaoAAURtj"
+  title: 調
+  tags:
+  - 調
+  date: '2026-07-11T02:53:03+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075639451808924073?s=20"
+- src: "/assets/images/gallery/shirabe/HM4nE9DaMAAvgbA.jpg"
+  id: "shirabe-HM4nE9DaMAAvgbA"
+  title: 調
+  tags:
+  - 調
+  date: '2026-07-11T02:53:03+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075639451808924073?s=20"
+- src: "/assets/images/gallery/shirabe/HM4nE8Ca8AAPEMw.jpg"
+  id: "shirabe-HM4nE8Ca8AAPEMw"
+  title: 調
+  tags:
+  - 調
+  date: '2026-07-11T02:53:03+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075639451808924073?s=20"
+- src: "/assets/images/gallery/shirabe/HM4nE9NbcAAjXI1.jpg"
+  id: "shirabe-HM4nE9NbcAAjXI1"
+  title: 調
+  tags:
+  - 調
+  date: '2026-07-11T02:53:03+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075639451808924073?s=20"
+- src: "/assets/images/gallery/susugaya/HM4cBq4aUAAOWBs.jpg"
+  id: "susugaya-HM4cBq4aUAAOWBs"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-07-11T02:04:46+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075627301510021246?s=20"
+- src: "/assets/images/gallery/susugaya/HM4cBq5a0AACQ18.jpg"
+  id: "susugaya-HM4cBq5a0AACQ18"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-07-11T02:04:46+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075627301510021246?s=20"
+- src: "/assets/images/gallery/susugaya/HM4cBq5a4AEhrHO.jpg"
+  id: "susugaya-HM4cBq5a4AEhrHO"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-07-11T02:04:46+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075627301510021246?s=20"
+- src: "/assets/images/gallery/arata/HM4bdCQbsAAHbnv.jpg"
+  id: "arata-HM4bdCQbsAAHbnv"
+  title: 灼
+  tags:
+  - 灼
+  date: '2026-07-11T02:02:16+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075626670141387236?s=20"
+- src: "/assets/images/gallery/amagi/HM4T88JacAE_YWi.jpg"
+  id: "amagi-HM4T88JacAE_YWi"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T01:29:29+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075618423724531836?s=20"
+- src: "/assets/images/gallery/amagi/HM4T88Ia4AAfhy3.jpg"
+  id: "amagi-HM4T88Ia4AAfhy3"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T01:29:29+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075618423724531836?s=20"
+- src: "/assets/images/gallery/amagi/HM4T88LbYAATSK6.jpg"
+  id: "amagi-HM4T88LbYAATSK6"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T01:29:29+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075618423724531836?s=20"
+- src: "/assets/images/gallery/amagi/HM4T88RbYAAE70X.jpg"
+  id: "amagi-HM4T88RbYAAE70X"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T01:29:29+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075618423724531836?s=20"
+- src: "/assets/images/gallery/amagi/HM4TUQwbYAEOmaI.jpg"
+  id: "amagi-HM4TUQwbYAEOmaI"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T01:26:43+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075617726991937539?s=20"
+- src: "/assets/images/gallery/shirose/HM4TUQubYAII_ka.jpg"
+  id: "shirose-HM4TUQubYAII_ka"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-11T01:26:43+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075617726991937539?s=20"
+- src: "/assets/images/gallery/kairi/HM4TURFaUAAAd_h.jpg"
+  id: "kairi-HM4TURFaUAAAd_h"
+  title: 浬
+  tags:
+  - 浬
+  date: '2026-07-11T01:26:43+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075617726991937539?s=20"
+- src: "/assets/images/gallery/amagi/HM4QH4Ma4AAasbe.jpg"
+  id: "amagi-HM4QH4Ma4AAasbe"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T01:13:00+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075614272282120197?s=20"
+- src: "/assets/images/gallery/arata/HM4Eg6ca4AAu7eO.jpg"
+  id: "arata-HM4Eg6ca4AAu7eO"
+  title: 灼
+  tags:
+  - 灼
+  date: '2026-07-11T00:22:03+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075601450722631989?s=20"
+- src: "/assets/images/gallery/arata/HM4EhKda4AAbZbg.jpg"
+  id: "arata-HM4EhKda4AAbZbg"
+  title: 灼
+  tags:
+  - 灼
+  date: '2026-07-11T00:22:03+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075601450722631989?s=20"
+- src: "/assets/images/gallery/shirose/HM4DYcra0AAHHDY.jpg"
+  id: "shirose-HM4DYcra0AAHHDY"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-11T00:17:05+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075600202753581097?s=20"
+- src: "/assets/images/gallery/shirose/HM4DYccbgAAUn2t.jpg"
+  id: "shirose-HM4DYccbgAAUn2t"
+  title: 白瀬
+  tags:
+  - 白瀬
+  date: '2026-07-11T00:17:05+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075600202753581097?s=20"
+- src: "/assets/images/gallery/amagi/HM4DTnbbsAAvANA.jpg"
+  id: "amagi-HM4DTnbbsAAvANA"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T00:16:46+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075600119811256365?s=20"
+- src: "/assets/images/gallery/amagi/HM4DTnya4AAh5QI.jpg"
+  id: "amagi-HM4DTnya4AAh5QI"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T00:16:46+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075600119811256365?s=20"
+- src: "/assets/images/gallery/amagi/HM4DTnbagAAritT.jpg"
+  id: "amagi-HM4DTnbagAAritT"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T00:16:46+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075600119811256365?s=20"
+- src: "/assets/images/gallery/amagi/HM4C_cobcAAEvJR.jpg"
+  id: "amagi-HM4C_cobcAAEvJR"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T00:15:23+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075599774078865711?s=20"
+- src: "/assets/images/gallery/susugaya/HM4C_cgbYAAyvR9.jpg"
+  id: "susugaya-HM4C_cgbYAAyvR9"
+  title: 煤ヶ谷
+  tags:
+  - 煤ヶ谷
+  date: '2026-07-11T00:15:23+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075599774078865711?s=20"
+- src: "/assets/images/gallery/shirabe/HM4CuhBbMAA1lez.jpg"
+  id: "shirabe-HM4CuhBbMAA1lez"
+  title: 調
+  tags:
+  - 調
+  date: '2026-07-11T00:14:15+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075599488807534723?s=20"
+- src: "/assets/images/gallery/arata/HM4CuhDawAA4l-1.jpg"
+  id: "arata-HM4CuhDawAA4l-1"
+  title: 灼
+  tags:
+  - 灼
+  date: '2026-07-11T00:14:15+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075599488807534723?s=20"
+- src: "/assets/images/gallery/amagi/HM4CuhFbYAAeM1K.jpg"
+  id: "amagi-HM4CuhFbYAAeM1K"
+  title: 天城
+  tags:
+  - 天城
+  date: '2026-07-11T00:14:15+09:00'
+  thumb_position: '50% 30%'
+  x_url: "https://x.com/KUROTOBA_KGM/status/2075599488807534723?s=20"
 - src: "/assets/images/gallery/amagi/HM3BMhtboAA3aQP.jpg"
   id: "amagi-HM3BMhtboAA3aQP"
   title: 天城
