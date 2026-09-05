@@ -15,6 +15,14 @@ permalink: /gallery/
   <button class="gallery-sensitive-toggle" type="button" data-gallery-sensitive-toggle aria-pressed="true">センシティブ非表示</button>
 </div>
 
+<div class="gallery-maintenance" data-gallery-maintenance hidden>
+  <strong>ローカル管理モード</strong>
+  <span><span data-gallery-ng-count>0</span>件選択</span>
+  <button type="button" data-gallery-ng-copy disabled>選択したIDをコピー</button>
+  <button type="button" data-gallery-ng-clear disabled>選択解除</button>
+  <span class="gallery-maintenance-status" data-gallery-ng-status aria-live="polite"></span>
+</div>
+
 {% assign gallery_items = site.data.gallery_items | sort: "date" | reverse %}
 {% assign gallery_tags = "" | split: "" %}
 {% for item in gallery_items %}
@@ -60,7 +68,11 @@ permalink: /gallery/
     {% endif %}
     {% assign webp_match = site.static_files | where: "relative_path", thumb_src %}
     {% assign thumb_position = item.thumb_position | default: "50% 50%" %}
-    <figure class="gallery-card{% if item.sensitive %} sensitive{% endif %}" data-gallery-tags="{% if item.tags %}{{ item.tags | join: '|' }}{% endif %}" data-gallery-sensitive="{% if item.sensitive %}true{% else %}false{% endif %}">
+    <figure class="gallery-card{% if item.sensitive %} sensitive{% endif %}" data-gallery-id="{{ item['id'] | escape }}" data-gallery-tags="{% if item.tags %}{{ item.tags | join: '|' }}{% endif %}" data-gallery-sensitive="{% if item.sensitive %}true{% else %}false{% endif %}">
+      <label class="gallery-ng-selector" title="NG候補として選択">
+        <input type="checkbox" value="{{ item['id'] | escape }}" data-gallery-ng-checkbox>
+        <span>NG</span>
+      </label>
       <button class="gallery-link" type="button" data-gallery-src="{{ item.src | relative_url }}" data-gallery-title="{{ item.title }}" data-gallery-description="{{ item.description | default: '' | escape }}" data-gallery-x-url="{{ item.x_url | default: '' | escape }}" data-gallery-index="{{ forloop.index0 }}">
         <picture>
           {% if webp_match and webp_match.size > 0 %}
@@ -106,12 +118,12 @@ permalink: /gallery/
     <button class="gallery-welcome-close" type="button" aria-label="閉じる" data-gallery-welcome-close>×</button>
     <img
       class="gallery-welcome-image"
-      src="{{ '/assets/images/gallery/susugaya/HG32GMwawAAAmrC.jpg' | relative_url }}"
-      alt="指でハートを作る煤ヶ谷"
+      src="{{ '/assets/images/gallery/shirabe/HKPbMJ2bMAAGKOR.jpg' | relative_url }}"
+      alt="頬杖をつく調"
     >
     <div class="gallery-welcome-copy">
-      <p class="gallery-welcome-name">SUSUGAYA</p>
-      <p class="gallery-welcome-message" id="gallery-welcome-message">よ・う・お・こ・し♡</p>
+      <p class="gallery-welcome-name">SHIRABE</p>
+      <p class="gallery-welcome-message" id="gallery-welcome-message">また来たんすか？</p>
       <button class="gallery-welcome-enter" type="button" data-gallery-welcome-close>ギャラリーを見る</button>
     </div>
   </div>
@@ -140,8 +152,8 @@ permalink: /gallery/
     var modal = document.getElementById('gallery-welcome-modal');
     if (!modal) return;
 
-    var storageKey = 'galleryWelcomeSusugaya20260721Dismissed';
-    var expiresAt = Date.parse('2026-07-22T00:00:00+09:00');
+    var storageKey = 'galleryWelcomeShirabe20260727Dismissed';
+    var expiresAt = Date.parse('2026-07-27T00:00:00+09:00');
     var isDismissed = false;
     try {
       isDismissed = window.localStorage.getItem(storageKey) === 'true';
@@ -175,6 +187,73 @@ permalink: /gallery/
     window.requestAnimationFrame(function () {
       if (closeButton) closeButton.focus();
     });
+  })();
+</script>
+
+<script>
+  (function () {
+    var localHosts = ['localhost', '127.0.0.1', '::1'];
+    if (localHosts.indexOf(window.location.hostname) === -1) return;
+
+    var maintenance = document.querySelector('[data-gallery-maintenance]');
+    var checkboxes = Array.prototype.slice.call(document.querySelectorAll('[data-gallery-ng-checkbox]'));
+    if (!maintenance || !checkboxes.length) return;
+
+    var count = maintenance.querySelector('[data-gallery-ng-count]');
+    var copyButton = maintenance.querySelector('[data-gallery-ng-copy]');
+    var clearButton = maintenance.querySelector('[data-gallery-ng-clear]');
+    var status = maintenance.querySelector('[data-gallery-ng-status]');
+    document.body.classList.add('is-gallery-maintenance');
+    maintenance.hidden = false;
+
+    var selectedIds = function () {
+      return checkboxes.filter(function (checkbox) { return checkbox.checked; })
+        .map(function (checkbox) { return checkbox.value; });
+    };
+
+    var updateState = function () {
+      var selected = selectedIds();
+      count.textContent = String(selected.length);
+      copyButton.disabled = selected.length === 0;
+      clearButton.disabled = selected.length === 0;
+      checkboxes.forEach(function (checkbox) {
+        var card = checkbox.closest('.gallery-card');
+        if (card) card.classList.toggle('is-ng-selected', checkbox.checked);
+      });
+      status.textContent = '';
+    };
+
+    var copyText = function (text) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        return navigator.clipboard.writeText(text);
+      }
+      var textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.select();
+      var copied = document.execCommand('copy');
+      textarea.remove();
+      return copied ? Promise.resolve() : Promise.reject(new Error('copy failed'));
+    };
+
+    checkboxes.forEach(function (checkbox) {
+      checkbox.addEventListener('change', updateState);
+    });
+    copyButton.addEventListener('click', function () {
+      var ids = selectedIds();
+      copyText(ids.join('\n')).then(function () {
+        status.textContent = ids.length + '件のIDをコピーしました';
+      }).catch(function () {
+        status.textContent = 'コピーできませんでした';
+      });
+    });
+    clearButton.addEventListener('click', function () {
+      checkboxes.forEach(function (checkbox) { checkbox.checked = false; });
+      updateState();
+    });
+    updateState();
   })();
 </script>
 
