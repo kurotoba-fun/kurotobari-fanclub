@@ -50,19 +50,39 @@ permalink: /
   </div>
 </section>
 
-## zetaプロット
+## zetaプロット（黒帳シリーズ）
 
 <div class="plot-link-grid">
   {% for plot in site.data.plots %}
+    {% unless plot.category == 'other' %}
     <a class="plot-link-card" href="{{ plot.url }}" target="_blank" rel="noopener noreferrer">
       <span class="plot-link-card__media">
-        <img src="{{ plot.image | relative_url }}" alt="{{ plot.title }}">
+        <img src="{% if plot.image contains '://' %}{{ plot.image }}{% else %}{{ plot.image | relative_url }}{% endif %}" alt="{{ plot.title }}">
       </span>
       <span class="plot-link-card__body">
         <strong>{{ plot.title }}</strong>
         <span>{{ plot.description }}</span>
       </span>
     </a>
+    {% endunless %}
+  {% endfor %}
+</div>
+
+## その他のプロット
+
+<div class="plot-link-grid">
+  {% for plot in site.data.plots %}
+    {% if plot.category == 'other' %}
+    <a class="plot-link-card" href="{{ plot.url }}" target="_blank" rel="noopener noreferrer">
+      <span class="plot-link-card__media">
+        <img src="{% if plot.image contains '://' %}{{ plot.image }}{% else %}{{ plot.image | relative_url }}{% endif %}" alt="{{ plot.title }}">
+      </span>
+      <span class="plot-link-card__body">
+        <strong>{{ plot.title }}</strong>
+        <span>{{ plot.description }}</span>
+      </span>
+    </a>
+    {% endif %}
   {% endfor %}
 </div>
 
