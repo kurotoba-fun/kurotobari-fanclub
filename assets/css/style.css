@@ -906,6 +906,22 @@ body.theme-mainworld {
     linear-gradient(180deg, #090909 0%, #12100f 100%);
 }
 
+/* Keep the gallery artwork subtle and fixed on desktop without affecting mobile. */
+@media (min-width: 769px) {
+  body.theme-mainworld.gallery-page {
+    background-image:
+      linear-gradient(90deg, rgba(9, 9, 9, 0.08) 0%, rgba(9, 9, 9, 0.9) 24%, rgba(9, 9, 9, 0.9) 76%, transparent 100%),
+      url('../images/site/senga_background02.png'),
+      url('../images/site/senga_background01.png'),
+      radial-gradient(circle at 8% 5%, rgba(167, 31, 39, 0.13), transparent 27rem),
+      linear-gradient(180deg, #090909 0%, #12100f 100%);
+    background-attachment: fixed, fixed, fixed, fixed, fixed;
+    background-position: center, left center, right center, 8% 5%, center;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: cover, auto 92vh, auto 92vh, auto, cover;
+  }
+}
+
 .theme-mainworld .site-header {
   background: rgba(8, 8, 8, 0.9);
   border-bottom-color: rgba(211, 83, 86, 0.26);

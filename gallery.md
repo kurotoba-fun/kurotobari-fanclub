@@ -2,6 +2,7 @@
 layout: page
 title: ギャラリー
 permalink: /gallery/
+body_class: gallery-page
 ---
 
 <p class="lead">画像をクリックするとモーダルで拡大表示されます。</p>
