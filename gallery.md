@@ -16,6 +16,17 @@ body_class: gallery-page
   <button class="gallery-sensitive-toggle" type="button" data-gallery-sensitive-toggle aria-pressed="true">センシティブ非表示</button>
 </div>
 
+<aside class="gallery-correction-builder" data-gallery-correction-builder hidden aria-label="キャラクター振り分け修正">
+  <strong>振り分け修正</strong>
+  <p>画像の「IDコピー」をキャラクターへドロップ</p>
+  <div class="gallery-character-drop-list" data-gallery-character-drop-list></div>
+  <div class="gallery-correction-builder-actions">
+    <button type="button" data-gallery-correction-copy disabled>修正依頼文をコピー</button>
+    <button type="button" data-gallery-correction-clear disabled>クリア</button>
+  </div>
+  <span data-gallery-correction-status aria-live="polite"></span>
+</aside>
+
 <div class="gallery-maintenance" data-gallery-maintenance hidden>
   <strong>ローカル管理モード</strong>
   <span><span data-gallery-ng-count>0</span>件選択</span>
@@ -70,10 +81,12 @@ body_class: gallery-page
     {% assign webp_match = site.static_files | where: "relative_path", thumb_src %}
     {% assign thumb_position = item.thumb_position | default: "50% 50%" %}
     <figure class="gallery-card{% if item.sensitive %} sensitive{% endif %}" data-gallery-id="{{ item['id'] | escape }}" data-gallery-tags="{% if item.tags %}{{ item.tags | join: '|' }}{% endif %}" data-gallery-sensitive="{% if item.sensitive %}true{% else %}false{% endif %}">
-      <label class="gallery-ng-selector" title="NG候補として選択">
-        <input type="checkbox" value="{{ item['id'] | escape }}" data-gallery-ng-checkbox>
-        <span>NG</span>
-      </label>
+      <div class="gallery-maintenance-actions">
+        <label class="gallery-ng-selector" title="NG候補として選択">
+          <input type="checkbox" value="{{ item['id'] | escape }}" data-gallery-ng-checkbox aria-label="NG候補として選択">
+        </label>
+        <button class="gallery-id-copy" type="button" data-gallery-id-copy="{{ item['id'] | escape }}" title="この画像のIDをコピー">IDコピー</button>
+      </div>
       <button class="gallery-link" type="button" data-gallery-src="{{ item.src | relative_url }}" data-gallery-title="{{ item.title }}" data-gallery-description="{{ item.description | default: '' | escape }}" data-gallery-x-url="{{ item.x_url | default: '' | escape }}" data-gallery-index="{{ forloop.index0 }}">
         <picture>
           {% if webp_match and webp_match.size > 0 %}
@@ -141,8 +154,40 @@ body_class: gallery-page
       <div class="gallery-modal-actions">
         <button class="gallery-modal-alt-button" type="button" aria-label="説明文を表示" aria-pressed="false" data-gallery-alt-toggle hidden>ALT</button>
         <a class="gallery-modal-x-link" href="" target="_blank" rel="noopener noreferrer" aria-label="Xの投稿を開く" data-gallery-x-link hidden>X</a>
+        <button class="gallery-modal-report-button" type="button" aria-expanded="false" data-gallery-report-open>
+          <img src="{{ '/assets/images/site/icon/report-warning.svg' | relative_url }}" alt="">
+          <span>誤判定を報告</span>
+        </button>
       </div>
       <div class="gallery-modal-description" id="gallery-modal-description" aria-hidden="true"></div>
+      <section class="gallery-report-panel" data-gallery-report-panel hidden aria-labelledby="gallery-report-title">
+        <div class="gallery-report-heading">
+          <div>
+            <p class="gallery-report-eyebrow">CHARACTER REPORT</p>
+            <h3 id="gallery-report-title">キャラクターの誤判定を報告</h3>
+          </div>
+          <button type="button" class="gallery-report-close" aria-label="報告画面を閉じる" data-gallery-report-close>×</button>
+        </div>
+        <p class="gallery-report-guide">正しいキャラクターを選ぶと、Xへの報告文を自動で作成します。</p>
+        <dl class="gallery-report-current">
+          <div><dt>画像ID</dt><dd data-gallery-report-id></dd></div>
+          <div><dt>現在のキャラ</dt><dd data-gallery-report-current></dd></div>
+        </dl>
+        <label class="gallery-report-select-label" for="gallery-report-character">正しいキャラクター</label>
+        <select id="gallery-report-character" data-gallery-report-character>
+          <option value="">選択してください</option>
+          <option>天城</option><option>灼</option><option>ヒバリ</option><option>ふみ</option><option>哩</option><option>浬</option>
+          <option>九条</option><option>黒調</option><option>調</option><option>白瀬</option><option>煤ヶ谷</option><option>橘</option>
+          <option>ボス</option><option>エリオット</option><option>影戸</option><option>稔</option><option>月城</option><option>帳守</option>
+          <option>霈</option><option>棗</option><option>ルキ</option><option>湍</option><option>王 逸翔</option><option>巫馬 梓睿</option><option>俊哲</option>
+          <option>掲載対象外</option>
+        </select>
+        <pre class="gallery-report-preview" data-gallery-report-preview>正しいキャラクターを選択してください。</pre>
+        <a class="gallery-report-submit" href="#" target="_blank" rel="noopener noreferrer" data-gallery-report-submit aria-disabled="true">
+          Xで報告する
+        </a>
+        <p class="gallery-report-note">投稿前にXの画面で内容を確認・編集できます。</p>
+      </section>
     </div>
     <p class="gallery-modal-title" id="gallery-modal-title"></p>
   </div>
@@ -197,7 +242,9 @@ body_class: gallery-page
     if (localHosts.indexOf(window.location.hostname) === -1) return;
 
     var maintenance = document.querySelector('[data-gallery-maintenance]');
+    var correctionBuilder = document.querySelector('[data-gallery-correction-builder]');
     var checkboxes = Array.prototype.slice.call(document.querySelectorAll('[data-gallery-ng-checkbox]'));
+    var idCopyButtons = Array.prototype.slice.call(document.querySelectorAll('[data-gallery-id-copy]'));
     if (!maintenance || !checkboxes.length) return;
 
     var count = maintenance.querySelector('[data-gallery-ng-count]');
@@ -206,6 +253,23 @@ body_class: gallery-page
     var status = maintenance.querySelector('[data-gallery-ng-status]');
     document.body.classList.add('is-gallery-maintenance');
     maintenance.hidden = false;
+
+    var correctionCharacters = ['天城', '灼', 'ヒバリ', 'ふみ', '哩', '浬', '九条', '黒調', '調', '白瀬', '煤ヶ谷', '橘', 'ボス', 'エリオット', '影戸', '稔', '月城', '王 逸翔', '巫馬 梓睿', '俊哲', '帳守', '霈', '棗', 'ルキ', '湍', '掲載対象外'];
+    var correctionAssignments = new Map();
+    var dropList = correctionBuilder.querySelector('[data-gallery-character-drop-list]');
+    var correctionCopy = correctionBuilder.querySelector('[data-gallery-correction-copy]');
+    var correctionClear = correctionBuilder.querySelector('[data-gallery-correction-clear]');
+    var correctionStatus = correctionBuilder.querySelector('[data-gallery-correction-status]');
+    correctionCharacters.forEach(function (character) {
+      var box = document.createElement('button');
+      box.type = 'button';
+      box.className = 'gallery-character-drop-box';
+      box.setAttribute('data-gallery-character-drop', character);
+      box.innerHTML = '<span></span><small>0</small>';
+      box.querySelector('span').textContent = character;
+      dropList.appendChild(box);
+    });
+    correctionBuilder.hidden = false;
 
     var selectedIds = function () {
       return checkboxes.filter(function (checkbox) { return checkbox.checked; })
@@ -239,8 +303,84 @@ body_class: gallery-page
       return copied ? Promise.resolve() : Promise.reject(new Error('copy failed'));
     };
 
+    var correctionText = function () {
+      return correctionCharacters.map(function (character) {
+        var ids = Array.from(correctionAssignments.entries())
+          .filter(function (entry) { return entry[1] === character; })
+          .map(function (entry) { return entry[0]; });
+        return ids.length ? character + '\n' + ids.join('\n') : '';
+      }).filter(Boolean).join('\n\n');
+    };
+
+    var updateCorrectionState = function () {
+      var hasAssignments = correctionAssignments.size > 0;
+      correctionCopy.disabled = !hasAssignments;
+      correctionClear.disabled = !hasAssignments;
+      dropList.querySelectorAll('[data-gallery-character-drop]').forEach(function (box) {
+        var character = box.getAttribute('data-gallery-character-drop');
+        var total = Array.from(correctionAssignments.values()).filter(function (value) { return value === character; }).length;
+        box.querySelector('small').textContent = String(total);
+        box.classList.toggle('has-items', total > 0);
+      });
+    };
+
     checkboxes.forEach(function (checkbox) {
       checkbox.addEventListener('change', updateState);
+    });
+    idCopyButtons.forEach(function (button) {
+      button.draggable = true;
+      button.addEventListener('dragstart', function (event) {
+        var id = button.getAttribute('data-gallery-id-copy');
+        event.dataTransfer.effectAllowed = 'copy';
+        event.dataTransfer.setData('text/plain', id);
+        button.classList.add('is-dragging');
+      });
+      button.addEventListener('dragend', function () {
+        button.classList.remove('is-dragging');
+      });
+      button.addEventListener('click', function () {
+        var id = button.getAttribute('data-gallery-id-copy');
+        copyText(id).then(function () {
+          status.textContent = id + ' をコピーしました';
+        }).catch(function () {
+          status.textContent = 'コピーできませんでした';
+        });
+      });
+    });
+    dropList.addEventListener('dragover', function (event) {
+      var box = event.target.closest('[data-gallery-character-drop]');
+      if (!box) return;
+      event.preventDefault();
+      event.dataTransfer.dropEffect = 'copy';
+      box.classList.add('is-drag-over');
+    });
+    dropList.addEventListener('dragleave', function (event) {
+      var box = event.target.closest('[data-gallery-character-drop]');
+      if (box) box.classList.remove('is-drag-over');
+    });
+    dropList.addEventListener('drop', function (event) {
+      var box = event.target.closest('[data-gallery-character-drop]');
+      if (!box) return;
+      event.preventDefault();
+      box.classList.remove('is-drag-over');
+      var id = event.dataTransfer.getData('text/plain');
+      if (!id || !idCopyButtons.some(function (button) { return button.getAttribute('data-gallery-id-copy') === id; })) return;
+      var character = box.getAttribute('data-gallery-character-drop');
+      correctionAssignments.set(id, character);
+      correctionStatus.textContent = id + ' → ' + character;
+      updateCorrectionState();
+    });
+    correctionCopy.addEventListener('click', function () {
+      copyText(correctionText()).then(function () {
+        correctionStatus.textContent = correctionAssignments.size + '件の修正依頼文をコピーしました';
+      }).catch(function () {
+        correctionStatus.textContent = 'コピーできませんでした';
+      });
+    });
+    correctionClear.addEventListener('click', function () {
+      correctionAssignments.clear();
+      correctionStatus.textContent = '';
+      updateCorrectionState();
     });
     copyButton.addEventListener('click', function () {
       var ids = selectedIds();
@@ -255,6 +395,7 @@ body_class: gallery-page
       updateState();
     });
     updateState();
+    updateCorrectionState();
   })();
 </script>
 
@@ -269,7 +410,15 @@ body_class: gallery-page
     var modalDescription = document.getElementById('gallery-modal-description');
     var modalAltButton = modal ? modal.querySelector('[data-gallery-alt-toggle]') : null;
     var modalXLink = modal ? modal.querySelector('[data-gallery-x-link]') : null;
-    if (!gallery || !modal || !modalImage || !modalDialog || !modalMedia || !modalDescription || !modalAltButton || !modalXLink) return;
+    var reportOpenButton = modal ? modal.querySelector('[data-gallery-report-open]') : null;
+    var reportPanel = modal ? modal.querySelector('[data-gallery-report-panel]') : null;
+    var reportCloseButton = modal ? modal.querySelector('[data-gallery-report-close]') : null;
+    var reportId = modal ? modal.querySelector('[data-gallery-report-id]') : null;
+    var reportCurrent = modal ? modal.querySelector('[data-gallery-report-current]') : null;
+    var reportCharacter = modal ? modal.querySelector('[data-gallery-report-character]') : null;
+    var reportPreview = modal ? modal.querySelector('[data-gallery-report-preview]') : null;
+    var reportSubmit = modal ? modal.querySelector('[data-gallery-report-submit]') : null;
+    if (!gallery || !modal || !modalImage || !modalDialog || !modalMedia || !modalDescription || !modalAltButton || !modalXLink || !reportOpenButton || !reportPanel || !reportCharacter || !reportSubmit) return;
 
     var siteHeader = document.querySelector('.site-header');
     var updateHeaderHeight = function () {
@@ -295,6 +444,33 @@ body_class: gallery-page
     var hideSensitive = true;
     var touchStartX = null;
     var swipeThreshold = 40;
+    var currentGalleryId = '';
+    var currentCharacter = '';
+
+    var reportText = function () {
+      return '@Mimmyzeta000\nキャラクターID「' + currentGalleryId + '」\n現在キャラ「' + currentCharacter + '」→修正「' + reportCharacter.value + '」';
+    };
+
+    var updateReport = function () {
+      var correction = reportCharacter.value;
+      var isValid = Boolean(correction) && correction !== currentCharacter;
+      reportPreview.textContent = correction ? reportText() : '正しいキャラクターを選択してください。';
+      reportSubmit.setAttribute('aria-disabled', String(!isValid));
+      reportSubmit.href = isValid ? 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(reportText()) : '#';
+    };
+
+    var closeReport = function () {
+      reportPanel.hidden = true;
+      reportOpenButton.setAttribute('aria-expanded', 'false');
+      modalMedia.classList.remove('is-report-open');
+    };
+
+    var openReport = function () {
+      reportPanel.hidden = false;
+      reportOpenButton.setAttribute('aria-expanded', 'true');
+      modalMedia.classList.add('is-report-open');
+      reportCharacter.focus();
+    };
 
     var getVisibleTriggers = function () {
       return triggers.filter(function (trigger) {
@@ -312,6 +488,10 @@ body_class: gallery-page
       var title = trigger.getAttribute('data-gallery-title');
       var description = trigger.getAttribute('data-gallery-description') || '';
       var xUrl = trigger.getAttribute('data-gallery-x-url') || '';
+      var card = trigger.closest('.gallery-card');
+      var tags = card ? (card.getAttribute('data-gallery-tags') || '').split('|') : [];
+      currentGalleryId = card ? card.getAttribute('data-gallery-id') || '' : '';
+      currentCharacter = tags[0] || title || '不明';
       modalImage.src = src;
       modalImage.alt = title || 'gallery image';
       modalTitle.textContent = title || '';
@@ -325,6 +505,11 @@ body_class: gallery-page
       modalAltButton.setAttribute('aria-label', '説明文を表示');
       modalXLink.hidden = !xUrl;
       modalXLink.href = xUrl || '';
+      reportId.textContent = currentGalleryId;
+      reportCurrent.textContent = currentCharacter;
+      reportCharacter.value = '';
+      closeReport();
+      updateReport();
     };
 
     var openModal = function (index) {
@@ -345,6 +530,7 @@ body_class: gallery-page
       modalAltButton.setAttribute('aria-label', '説明文を表示');
       modalXLink.hidden = true;
       modalXLink.href = '';
+      closeReport();
       document.body.classList.remove('is-gallery-modal-open');
     };
 
@@ -397,12 +583,30 @@ body_class: gallery-page
       }
       if (event.target.closest('[data-gallery-alt-toggle]')) {
         toggleDescription();
+        return;
       }
+      if (event.target.closest('[data-gallery-report-open]')) {
+        openReport();
+        return;
+      }
+      if (event.target.closest('[data-gallery-report-close]')) {
+        closeReport();
+      }
+    });
+
+    reportCharacter.addEventListener('change', updateReport);
+    reportSubmit.addEventListener('click', function (event) {
+      if (reportSubmit.getAttribute('aria-disabled') === 'true') event.preventDefault();
     });
 
     document.addEventListener('keydown', function (event) {
       if (modal.getAttribute('aria-hidden') === 'true') return;
       if (event.key === 'Escape') {
+        if (!reportPanel.hidden) {
+          closeReport();
+          reportOpenButton.focus();
+          return;
+        }
         closeModal();
       } else if (event.key === 'ArrowLeft') {
         showRelativeImage(-1);

@@ -32,8 +32,10 @@ const CHARACTER_DIRS = new Map([
   ["エリオット", "elliott"],
   ["ボス", "boss"],
   ["帳守", "tobarimori"],
-  ["淵", "hayase"],
+  ["湍", "hayase"],
   ["霈", "pei"],
+  ["棗", "natsume"],
+  ["ルキ", "luki"],
 ]);
 
 function parseArgs(argv) {

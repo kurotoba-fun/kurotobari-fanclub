@@ -5,3 +5,15 @@
 ## 報告先
 サイトに関する不具合、苦情などはこちら
 - https://forms.gle/7VjhFz6nc6awQBBA9
+
+## 自動テスト
+
+ギャラリーの誤判定報告UIはPlaywrightでPC・スマートフォン相当の表示を検証できます。
+
+```bash
+npm install
+npx playwright install chromium
+npm run test:e2e
+```
+
+詳しい対象規格、確認項目、失敗時の調査方法は[ギャラリー誤判定報告UI Playwright検証](docs/GALLERY_REPORT_TESTING.md)を参照してください。

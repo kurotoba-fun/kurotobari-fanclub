@@ -51,3 +51,10 @@ exclude:
   - vendor/ruby/
   - my_documents/
   - scripts/
+  - tests/
+  - docs/
+  - package.json
+  - package-lock.json
+  - playwright.config.mjs
+  - playwright-report/
+  - test-results/

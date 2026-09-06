@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="title">
+  <title id="title">誤判定を報告</title>
+  <path d="M12 2.4 22 20H2L12 2.4Z" fill="#f2b84b" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M12 8v6" fill="none" stroke="#241806" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="12" cy="17.2" r="1.2" fill="#241806"/>
+</svg>

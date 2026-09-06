@@ -1,12 +1,7 @@
 <article class="character-card">
   <a class="character-card-link" href="{{ character.url | relative_url }}">
     {% assign card_image = character.list_image | default: character.image %}
-    {% assign slug = character.path | split: '/' | last | remove: '.md' | slugify | capitalize %}
-    {% if character.title == slug %}
-      {% assign display_name = character.name %}
-    {% else %}
-      {% assign display_name = character.title %}
-    {% endif %}
+    {% assign display_name = character.name | default: character.title %}
     {% if card_image %}
       <img class="character-card-image" src="{{ card_image | relative_url }}" alt="{{ display_name }}">
     {% else %}
