@@ -172,7 +172,7 @@ async function getPostArticle(page, tweetId) {
 
 async function extractPost(page, candidate) {
   await page.goto(candidate.url, { waitUntil: "domcontentloaded" });
-  await page.waitForLoadState("networkidle", { timeout: 20_000 }).catch(() => {});
+  await page.waitForLoadState("networkidle", { timeout: 3_000 }).catch(() => {});
   await page.waitForTimeout(1_500);
   await page.locator("article").first().waitFor({ state: "attached", timeout: 10_000 }).catch(() => {});
 
@@ -197,10 +197,15 @@ async function extractPost(page, candidate) {
 
   const extracted = await article.evaluate((element, tweetId) => {
     const time = element.querySelector("time[datetime]");
-    const tweetText = element.querySelector('[data-testid="tweetText"]')?.textContent?.trim() || "";
-    const images = [...element.querySelectorAll(`a[href*="/status/${tweetId}/photo/"]`)]
-      .map((anchor) => {
-        const image = anchor.querySelector('img[src*="pbs.twimg.com/media/"]');
+    const tweetText = element.querySelector('[data-testid="tweetText"]')?.textContent?.trim() || element.innerText.trim();
+    const photoLinks = [...element.querySelectorAll(`a[href*="/status/${tweetId}/photo/"]`)];
+    const images = photoLinks.map((anchor) => {
+        let container = anchor;
+        let image = null;
+        while (container && container !== element && !image) {
+          image = container.querySelector('img[src*="pbs.twimg.com/media/"]');
+          container = container.parentElement;
+        }
         return {
           src: image?.currentSrc || image?.src || "",
           alt: image?.alt || "",
@@ -263,6 +268,20 @@ async function savePost(context, post, downloadsDir) {
   return metadata;
 }
 
+async function loadSavedPost(downloadsDir, candidate) {
+  const postDir = path.join(downloadsDir, candidate.tweetId);
+  try {
+    const metadata = JSON.parse(await fs.readFile(path.join(postDir, "metadata.json"), "utf8"));
+    if (metadata.tweetId !== candidate.tweetId || !metadata.images?.length) return null;
+    const filesExist = await Promise.all(
+      metadata.images.map((image) => fs.access(path.join(downloadsDir, image.file)).then(() => true, () => false)),
+    );
+    return filesExist.every(Boolean) ? metadata : null;
+  } catch {
+    return null;
+  }
+}
+
 async function writeReports(outputDir, report) {
   await fs.mkdir(outputDir, { recursive: true });
   await fs.writeFile(path.join(outputDir, "batch-result.json"), `${JSON.stringify(report, null, 2)}\n`);
@@ -318,6 +337,14 @@ async function main() {
     const page = context.pages()[0] ?? (await context.newPage());
     page.setDefaultTimeout(20_000);
     for (const candidate of pending) {
+      const savedPost = await loadSavedPost(downloadsDir, candidate);
+      if (savedPost) {
+        process.stdout.write(`[保存済み] ${candidate.url}\n`);
+        report.downloaded.push(savedPost);
+        report.summary.downloaded = report.downloaded.length;
+        await writeReports(outputDir, report);
+        continue;
+      }
       process.stdout.write(`[取得中] ${candidate.url}\n`);
       try {
         const post = await extractPost(page, candidate);
