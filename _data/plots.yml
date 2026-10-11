@@ -1,54 +1,113 @@
 - title: "先輩、退けっす。"
   description: "暗殺組織の後輩と、時々先輩（闇医者もいるよ）"
-  image: /assets/img/plots/shirabe.png
+  image: /assets/img/plots/bcd247db-eaec-4a1c-b105-f40754c4e935.webp
   url: https://zeta-ai.io/ja/plots/c810436f-3774-4a03-a650-03bc4873dce3/profile
 
 - title: "せいぜい励めよ、ひよっこ。"
   description: "暗殺組織の先輩と、時々後輩"
-  image: /assets/img/plots/arata.png
+  image: /assets/img/plots/a7848694-4458-4661-8db2-23bb0de2c40f.webp
   url: https://zeta-ai.io/ja/plots/4f0d5638-448f-42b7-92c6-9e0d2a47b6b0/profile
 
 - title: "で、いくら出せんの？"
   description: "守銭奴な闇医者と愉快な暗殺者たち"
-  image: /assets/img/plots/kairi.png
+  image: /assets/img/plots/0b44ff8d-9c3a-4fde-93e1-5d3cb8002a43.webp
   url: https://zeta-ai.io/ja/plots/6d5ced87-870a-408c-b3c8-acacfd4310f6/profile
 
 - title: "あんじょうよろしゅうに♡"
   description: "暗殺組織・黒帳お抱えの正体不明の情報屋 何者かは攻略してからのお楽しみ🕶️"
-  image: /assets/img/plots/kujo.jpeg
+  image: /assets/img/plots/b38dc7ac-7245-47a4-bfa5-35334fe1f1e2.webp
   url: https://zeta-ai.io/ja/plots/a5518689-c7fa-4a2b-a489-9b0ff4480e2d/profile
 
 - title: "……。"
   description: "暗殺組織、黒帳所属 管制室の有能ハッカー"
-  image: /assets/img/plots/amagi.png
+  image: /assets/img/plots/b8ed8d98-dad8-4946-a98c-03f4c18a3ad2.webp
   url: https://zeta-ai.io/ja/plots/4e25b7da-9f8c-4cd6-94c9-87ededfb9ed4/profile
 
 - title: "側近達の受難"
-  description: "稀血の星零を守るボスの側近達の話"
-  image: /assets/img/plots/sokkin.png
+  description: "稀血の持ち主を守るボスの側近達の話"
+  image: /assets/img/plots/87fba98d-17a2-40e0-8c53-307db0d4c63b.webp
   url: https://zeta-ai.io/ja/plots/17205aee-e443-4d8c-81a0-b2e38ab4f2e7/profile
 
 - title: "まだまだいけるだろ！"
   description: "ワンコ系暗殺者とバディになって振り回されよう！"
-  image: /assets/img/plots/tachibana.png
+  image: /assets/img/plots/tachibana.webp
   url: https://zeta-ai.io/ja/plots/40b78557-f681-428a-bd19-4cfe702167e8/profile
 
 - title: "《黒帳学園＠特務活動部》"
   description: "黒帳（くろとばり）学園の安寧を守る陰の部活 『特務活動部』の一年間🏫"
-  image: /assets/img/plots/academy.png
+  image: /assets/img/plots/a8f35835-68f7-4014-8900-033e8cfdc14e.webp
   url: https://zeta-ai.io/ja/plots/4d1602c3-18a9-4f24-8fea-f7be57aba1f9/profile
 
 - title: "黒帳-クロトバリ-"
   description: "暗殺組織黒帳の世界を自由に動き回ってみよう"
-  image: /assets/img/plots/kurotobari.png
+  image: /assets/img/plots/20e72085-ae5e-41d7-b82d-5d915fff1b9a.webp
   url: https://zeta-ai.io/ja/plots/bc9b6a0b-c3fd-405f-8763-b07b93729f02/profile
 
 - title: "安達家"
   description: "連れ子の星零を温かく迎え入れてくれる兄妹の話"
-  image: /assets/img/plots/adachi.png
+  image: /assets/img/plots/adachi.webp
   url: https://zeta-ai.io/ja/plots/8d379599-8473-425b-80d7-b28b2c067c37/profile
 
 - title: "義安會-ギアンカイ-"
   description: "「頼む…アイツを見守ってやってくれ。」"
-  image: /assets/img/plots/giankai.png
+  image: /assets/img/plots/giankai.webp
   url: https://zeta-ai.io/ja/plots/dd03d482-46b7-4edb-bc48-1339a666b697/profile
+
+- title: "きみと居ると、ぼくは…"
+  description: "塩対応な腹黒バディを隣で支える話。"
+  image: https://image.zeta-ai.io/profile-image/b41ad08a-c9f1-4d74-92b4-8d7184d2ccef/81b9eb00-12d3-4586-b348-7b99cff404b3.png
+  url: https://zeta-ai.io/ja/plots/b41ad08a-c9f1-4d74-92b4-8d7184d2ccef/profile
+
+- title: "ガキ同士で仲良くやんな。"
+  description: "闇医者おじさん達と恋愛初心者後輩ボーイに挟まれる話。"
+  image: https://image.zeta-ai.io/profile-image/d9e57efb-69d7-4364-8cd3-2e650440b8d2/4b6497d0-84ae-4f31-9482-264550b39858.png
+  url: https://zeta-ai.io/ja/plots/d9e57efb-69d7-4364-8cd3-2e650440b8d2/profile
+
+- title: "お前、ツチノコとか興味ある？"
+  description: "暗殺組織の管制室長とツチノコを探す話。"
+  image: https://image.zeta-ai.io/profile-image/eeefffa6-e63e-4208-a808-cbe42b2c113d/343e4ed2-6e0d-4aae-8bdf-e34c7c3fe894.png
+  url: https://zeta-ai.io/ja/plots/eeefffa6-e63e-4208-a808-cbe42b2c113d/profile
+
+- title: "アンタだけは、誰にも"
+  description: "片思い歴10年の後輩vsぽっと出のクズ後輩の攻防戦。"
+  image: /assets/img/plots/2da77310-59a1-4337-bc10-70d3500c3376.webp
+  url: https://zeta-ai.io/ja/plots/838e40ad-eb92-40fd-a2fb-0fe106973ef7/profile
+
+- title: "仰せのままに、ボス。"
+  description: "スパイに大切な形見を狙われる話。"
+  image: https://image.zeta-ai.io/profile-image/55817ae2-20ea-4714-832e-d497ef8a5b38/02d0cbf2-8b39-46c1-9896-f660158faacb.png
+  url: https://zeta-ai.io/ja/plots/55817ae2-20ea-4714-832e-d497ef8a5b38/profile
+
+- title: "貴様に俺の目を託す。"
+  description: "相棒の左目の代わりになったら子犬に睨まれた話。"
+  image: /assets/img/plots/kujo-eye.png
+  url: https://zeta-ai.io/ja/plots/98d304b8-9b4b-4540-af91-bc53f04f44ac/profile
+
+- title: "イイ子にしてな、ひよっこ。"
+  description: "暗殺組織二代目ボスのユーザーを攫おうとする敵から守られる話。"
+  image: https://image.zeta-ai.io/profile-image/09d8d15d-de38-4106-99ba-1468a16129d7/3984fc2e-5cbe-43b6-9063-ca6fbad4e42f.png
+  url: https://zeta-ai.io/ja/plots/09d8d15d-de38-4106-99ba-1468a16129d7/profile
+
+- title: "王家に仕える復讐者"
+  description: "忠誠心0%・殺意100%の執事"
+  image: /assets/img/plots/31e84c3c-fad4-4fce-a867-49d23b1819f2.webp
+  url: https://zeta-ai.io/ja/plots/65b69059-8659-4771-a897-2b2459725d70/profile
+  category: other
+
+- title: "やる気のない魔王様"
+  description: "もういいや…魔王なんかクソ喰らえ。"
+  image: https://image.zeta-ai.io/profile-image-generation/579372ae-72ea-44d4-a640-26e2e83f8928/fe5e3cef-3d4f-4958-a6d8-74c1f6b04ed1.jpeg
+  url: https://zeta-ai.io/ja/plots/357738a0-f5ef-4e27-b6f0-915b9e121c13/profile
+  category: other
+
+- title: "👑嘘つき王子と護衛くん🛡️"
+  description: "クズを本気にさせるか一途さに絆されるか。"
+  image: https://image.zeta-ai.io/profile-image/d8bd6edf-90da-4554-a209-d3d8944d6df3/cf3efa37-b407-4abb-abb6-34fa4c4ee0fd.jpeg
+  url: https://zeta-ai.io/ja/plots/d8bd6edf-90da-4554-a209-d3d8944d6df3/profile
+  category: other
+
+- title: "🍂ポンコツ狐の恩返し🦊"
+  description: "味が無い？では塩を足そう（ドバァ）。"
+  image: https://image.zeta-ai.io/profile-image/68620a5b-9af4-4b5c-b42e-b1a40a975e21/f5d95636-d47b-489f-aac3-b0dc00af10bb.png
+  url: https://zeta-ai.io/ja/plots/68620a5b-9af4-4b5c-b42e-b1a40a975e21/profile
+  category: other
