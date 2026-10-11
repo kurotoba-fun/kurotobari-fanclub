@@ -82,7 +82,8 @@ function parseClassification(markdown) {
     if (!tweetId || !line.startsWith("|")) continue;
     const cells = line.split("|").slice(1, -1).map((cell) => cell.trim());
     if (!/^\d+$/.test(cells[0] ?? "") || cells.at(-1) !== "掲載候補") continue;
-    const [order, filename, character] = cells;
+    const [order, filename, originalCharacter] = cells;
+    const character = originalCharacter === "ルキ" ? "ルーカス" : originalCharacter;
     const characterDir = CHARACTER_DIRS.get(character);
     if (!characterDir) throw new Error(`保存先未定義のキャラクターです: ${character}`);
     rows.push({ tweetId, order: Number(order), filename, character, characterDir });
